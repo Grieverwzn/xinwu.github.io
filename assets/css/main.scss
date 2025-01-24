@@ -8,9 +8,3 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.author__location {
-  word-wrap: break-word; /* 允许长单词换行 */
-  white-space: normal;   /* 允许文本自动换行 */
-  max-width: 100%;       /* 确保不会溢出容器 */
-  overflow-wrap: break-word;
-}
