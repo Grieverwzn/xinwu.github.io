@@ -115,7 +115,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xin Wu 武鑫"
+  name             : "Xin Wu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
