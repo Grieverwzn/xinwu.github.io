@@ -8,13 +8,24 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// 减小网站整体宽度
-.page {
-  max-width: 700px;  /* 你可以调整此值，例如 800px 或 900px */
-  margin: 0 auto;
+// 全站默认字体大小
+body {
+  font-size: 14px;  /* 你可以调整到12px或13px，根据需求 */
 }
 
-// 调整正文内容的大小
-body {
-  font-size: 12px; /* 减小整个页面的文字大小，默认一般为16px */
+// 个人资料部分字体调整
+.author__bio,
+.author__name,
+.author__content {
+  font-size: 13px;  /* 个人简介的字体 */
+}
+
+// 地址字体大小调整
+.author__location {
+  font-size: 12px;  /* 地址部分字体 */
+}
+
+// 标题字体大小调整
+h1, h2, h3 {
+  font-size: 18px;  /* 标题调整 */
 }
