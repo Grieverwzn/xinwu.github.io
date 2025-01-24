@@ -8,3 +8,13 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+// 减小网站整体宽度
+.page {
+  max-width: 960px;  /* 你可以调整此值，例如 800px 或 900px */
+  margin: 0 auto;
+}
+
+// 调整正文内容的大小
+body {
+  font-size: 14px; /* 减小整个页面的文字大小，默认一般为16px */
+}
