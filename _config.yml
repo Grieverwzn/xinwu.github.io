@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Xin Wu"
+title                    : "Xin (Bruce) Wu 武鑫"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Xin Wu"
+name                     : "Xin (Bruce) Wu"
 
 description              : "I am a researcher specializing in transportation modeling and logistics management. My work focuses on developing innovative OR models, advanced analytical methods, and optimization algorithms to address complex challenges in transportation systems, mobility services, supply chain networks, and logistics operations."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -116,9 +116,9 @@ analytics:
 author:
   name             : "Xin Wu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            : "xwu03@villanova.edu; xinwu8592@gmail.com"
+  bio              : "Research Associate at Department of Civil and Environmental Engineering, Villanova University"
+  location         : "800 Lancaster Ave, Villanova, PA 19085"
+  email            : "xwu03@villanova.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
