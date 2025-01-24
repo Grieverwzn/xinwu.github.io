@@ -21,7 +21,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Xin (Bruce) Wu's Academic Portfolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Xin Wu 武鑫"
+name                     : "Xin Wu"
 
 description              : "I am a researcher specializing in transportation modeling and logistics management. My work focuses on developing innovative OR models, advanced analytical methods, and optimization algorithms to address complex challenges in transportation systems, mobility services, supply chain networks, and logistics operations."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
