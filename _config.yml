@@ -116,8 +116,10 @@ analytics:
 author:
   name             : "Xin Wu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Research Associate at Department of Civil and Environmental Engineering, Villanova University"
-  location         : "800 Lancaster Ave, Villanova, PA 19085"
+  bio              : "Research Associate from 
+                      Department of Civil and Environmental Engineering, Villanova University"
+  location         : "800 Lancaster Ave, Villanova, 
+                      PA 19085"
   email            : "xwu03@villanova.edu"
   links:
     - label: "Email"
