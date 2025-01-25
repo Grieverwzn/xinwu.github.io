@@ -3,6 +3,8 @@ layout: single
 title: "About Me"
 permalink: /about/
 author_profile: true
+sidebar:
+  nav: "about-sidebar"
 ---
 
 I am **Xin (Bruce) Wu**, a Research Associate working at the Department of Civil and Environmental Engineering, Villanova University.
