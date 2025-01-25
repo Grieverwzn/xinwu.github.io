@@ -5,8 +5,6 @@ permalink: /about/
 author_profile: true
 ---
 
-# About Me
-
 I am **Xin Wu**, a Research Associate at the Department of Civil and Environmental Engineering, Villanova University.
 
 ## Research Interests
