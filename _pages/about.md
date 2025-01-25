@@ -9,8 +9,6 @@ I am **Xin (Bruce) Wu**, a Research Associate working at the Department of Civil
 I am a researcher specializing in transportation modeling and logistics management.
 My work focuses on developing innovative OR models, advanced analytical methods, and optimization algorithms to address complex challenges in transportation systems, mobility services, supply chain networks, and logistics operations.
 
-**GENDER**:  Male
-**DATE OF BIRTH**: August 2nd, 1986
 
 ## CONTACT
 * 📧 Email: xwu03@villanova.edu; xinwu8592@gmail.com
