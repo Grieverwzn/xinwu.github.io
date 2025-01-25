@@ -1,21 +1,20 @@
-### 欢迎使用Markdown
+---
+layout: single
+title: "About Me"
+permalink: /about/
+author_profile: true
+---
 
-##### 新增图片上传功能
+# About Me
 
-现在可以在文章中插入图片！
+I am **Xin Wu**, a Research Associate at the Department of Civil and Environmental Engineering, Villanova University.
 
-- 您可以插入外链图片，或上传本地图片到文档中。
-- 可上传的单张图片最大20M，支持PNG、JPG格式。
-- 若有其他疑问，欢迎咨询官网在线客服。
+## Research Interests
+- Transportation engineering
+- Data analysis and modeling
+- GIS and urban mobility
 
- 
-
-### Welcome to the Markdown
-
-##### New feature! Insert pictures in your articles now!
-
-You can insert pictures from external links, or upload ones.
-
-The maximum size of the picture to upload is 20M. PNG and JPG are better.
-
-Have any other questions, please contact our official customer service.
+## Contact
+- 📧 Email: example@domain.com
+- 📍 Address: 800 Lancaster Ave, Villanova, PA 19085
+- 🌐 [My GitHub](https://github.com/yourusername)
