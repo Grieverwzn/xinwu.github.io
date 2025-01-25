@@ -120,8 +120,8 @@ collections:
 
 # Site Author
 author:
-  name             : "Xin Wu"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Xin (Bruce) Wu"
+  avatar           : "/assets/images/portrait.jpg"
   bio              : "Research Associate from 
                       Department of Civil and Environmental Engineering, Villanova University"
   location         : "800 Lancaster Ave, Villanova, 
