@@ -23,8 +23,8 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Xin (Bruce) Wu"
 
 description              : "I am a researcher specializing in transportation modeling and logistics management. My work focuses on developing innovative OR models, advanced analytical methods, and optimization algorithms to address complex challenges in transportation systems, mobility services, supply chain networks, and logistics operations."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://grieverwzn.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/xinwu.github.io" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
