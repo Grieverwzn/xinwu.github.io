@@ -7,8 +7,8 @@ main:
     url: /about/
   - title: "Sample Posts"
     url: /year-archive/
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/ 
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/ 
 
   # - title: "Sample Posts"
   #   url: /year-archive/
