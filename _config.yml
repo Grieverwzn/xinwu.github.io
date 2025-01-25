@@ -132,7 +132,7 @@ author:
       url: "mailto:xwu03@villanova.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-       url: "https://grieverwzn.github.io/xinwu.github.io/"
+      url: "https://grieverwzn.github.io/xinwu.github.io/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/xin-wu-147a05202/"
