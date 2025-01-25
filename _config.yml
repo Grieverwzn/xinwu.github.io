@@ -111,6 +111,12 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
 
 # Site Author
 author:
