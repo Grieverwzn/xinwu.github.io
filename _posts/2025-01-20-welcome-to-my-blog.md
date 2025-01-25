@@ -8,7 +8,3 @@ author: Xin (Bruce) Wu
 ---
 
 This is my first blog post about transportation engineering and data analysis.
-
-## Key Topics
-- Urban Mobility
-- Public Transportation Optimization
