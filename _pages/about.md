@@ -14,7 +14,6 @@ My work focuses on developing innovative OR models, advanced analytical methods,
 
 ## CONTACT
 * 📧 Email: xwu03@villanova.edu; xinwu8592@gmail.com
-* 📍 Address: 800 Lancaster Ave, Villanova, PA 19085
 * 🌐 [My GitHub](https://github.com/Grieverwzn)
 * 📞 Phone：+1 480-410-5902
 * 🎓 [Google Scholar](https://scholar.google.com/citations?user=Mr9DVhsAAAAJ&hl=en)
