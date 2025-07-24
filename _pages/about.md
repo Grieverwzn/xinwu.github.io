@@ -12,7 +12,13 @@ I am a researcher specializing in transportation modeling and logistics manageme
 My work focuses on developing innovative OR models, advanced analytical methods, and optimization algorithms to address complex challenges in transportation systems, mobility services, supply chain networks, and logistics operations.
 
 I received my Ph.D. in Transportation Engineering from **Beijing Jiaotong University**, where I was recognized as an outstanding doctoral graduate. I have held research positions in both academia and industry. I served as research scholars at Villanova University, the University of Maryland and Arizona State University, where I contributed extensively to projects funded by government agencies such as the Fedral Transit Administration (FTA), Federal Highway Administration (FHWA), the Arizona Department of Transportation (ADOT), the Maricopa Association of Governments (MAG), the Maryland Department of Transportation (MDOT), and the Northern Virginia Transportation Authority (NVTA). Before my research experience in the United States, Dr. Wu worked at the Beijing Transport Institute, where he participated in large-scale transportation modeling and policy analysis projects. My research interests include transportation management and planning, travel demand modeling, transportation system optimization, supply chain management, logistics system design, and railway operations. He has extensive experience developing computational models and applying optimization methods to solve complex challenges in multimodal transportation and logistics systems.
+## AREAS OF RESEARCH AND TEACHING EXPERIENCES
 
+* Transportation system design and management
+* Railway and public transit systems design and management
+* Logistics, food supply chain, and intermodal transportation systems&#x20;
+* Machine Learning and its applications in transportation fields.
+* 
 ## CONTACT
 * 📧 Email: xwu03@villanova.edu; xinwu8592@gmail.com
 * 🌐 [My GitHub](https://github.com/Grieverwzn)
@@ -23,16 +29,9 @@ I received my Ph.D. in Transportation Engineering from **Beijing Jiaotong Univer
 - Ph.D., Transportation Engineering (Transportation planning and management), Beijing Jiaotong University, Beijing, China, 2018
 - B.S., Transportation Engineering (International shipment), Dalian Maritime University, Dalian, China, 2009
 
-## Publication Highlights
+## PUBLICATIONS
+
 He has authored more than 35 peer-reviewed articles in leading journals, including the Transportation Research Part B (TRB), Transportation Research Part C (TRC), Transportation Research Part E (TRE), and the European Journal of Operational Research (EJOR). He has also received several best paper awards, including recognition from Multimodal Transportation. 
-
-
-## AREAS OF RESEARCH AND TEACHING EXPERIENCES
-
-* Transportation system design and management
-* Railway and public transit systems design and management
-* Logistics, food supply chain, and intermodal transportation systems&#x20;
-* Machine Learning and its applications in transportation fields.
 
 ### Published papers (First author or corresponding author)
 1. **Wu, X.**, Guo, J., Xian, K., and Zhou, X., 2018. Hierarchical travel demand estimation using multiple data sources: A forward and backward propagation algorithmic framework on a layered computational graph. Transportation Research Part C: Emerging Technologies, 96, pp.321-346.
@@ -48,7 +47,7 @@ He has authored more than 35 peer-reviewed articles in leading journals, includi
 11. Sun, J., Guo, J., **Wu, X.**, Zhu, Q., Wu, D., Xian, K., and Zhou, X., 2019. Analyzing the impact of traffic congestion mitigation: from an explainable neural network learning framework to marginal effect analyses. Sensors, 19(10), p.2254. (corresponding author). 
 12. Simon X.Z., Cheng, Q., **Wu, X.**, Li, P., Belezamo, B., Lu, J. and Abbasi, M., 2022. A meso-to-macro cross-resolution performance approach for connecting polynomial arrival queue model to volume-delay function with inflow demand-to-capacity ratio. Multimodal Transportation, 1(2), p.100017 (corresponding author and 2022 Best Article Award).
 
-### Highlighted research as a collaborator
+### Highlighted studies as a collaborator
 12. Hu, S., Xiong, C., Ji, Y., **Wu, X.**, Liu, K. and Schonfeld, P., 2024. Understanding factors influencing user engagement in incentive-based travel demand management program. Transportation Research Part A: Policy and Practice, 186, p.104145
 13. Lu, J., Li, C., **Wu, X.B.** and Zhou, X.S., 2023. Physics-informed neural networks for integrated traffic state and queue profile estimation: A differentiable programming approach on layered computational graphs. Transportation Research Part C: Emerging Technologies, 153, p.104224.
 14. Cheng, Q., Liu, Z., Guo, J., **Wu, X.**, Pendyala, R., Belezamo, B. and Zhou, X.S., 2022. Estimating key traffic state parameters through parsimonious spatial queue models. Transportation Research Part C: Emerging Technologies, 137, p.103596.
@@ -67,7 +66,7 @@ He has authored more than 35 peer-reviewed articles in leading journals, includi
 4. Zhang, L., **Wu, X.**, Liu, K. and Xiong, C., 2024, October. Evaluating the Spatial-Temporal Impact of Urban Flooding on Mobility Patterns and Point of Interest. In 2024 IEEE Global Humanitarian Technology Conference (GHTC) (pp. 424-430). IEEE.
 5. Liu, K., **Wu, X.**, Zhang, L. and Xiong, C., 2024, October. Characterize Human Mobility in Nigeria During Flooding Season and Its Impact in Shaping the Spread of Covid-19. In 2024 IEEE Global Humanitarian Technology Conference (GHTC) (pp. 56-63). IEEE.
 
-### Research activities
+### Participated projects 
 
 #### Villanova University: 
 1. Enhancing Mobility Innovation with Software-Based Solutions for Smart and Equitable Travel Demand Management (USDOT Federal Transit Administration), 2023-2025
