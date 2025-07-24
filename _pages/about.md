@@ -61,7 +61,7 @@ He has authored more than 35 peer-reviewed articles in leading journals, includi
 
 
 ### Papers in Conference Proceedings:
-1. Wu, X, Dutta, A., Zhang, W., Zhu, H., Livshits, V. and Zhou, X.S., 2021. Characterization and Calibration of Volume-to-Capacity Ratio in Volume-Delay Functions on 2 Freeways Based on a Queue Analysis Approach. Transportation Research Record: Journal of the Transportation Research Board, No. TRBAM-21-04304 (Cited by FHWA handbook).
+1. **Wu, X.**, Dutta, A., Zhang, W., Zhu, H., Livshits, V. and Zhou, X.S., 2021. Characterization and Calibration of Volume-to-Capacity Ratio in Volume-Delay Functions on 2 Freeways Based on a Queue Analysis Approach. Transportation Research Record: Journal of the Transportation Research Board, No. TRBAM-21-04304 (Cited by FHWA handbook).
 2. Belezamo, B., **Wu, X.**, Avcı, C., & Zhou, X. (2019, October). Kinematic wave-oriented Markov Chain model to capture the spatiotemporal correlations of coupled traffic states. In 2019 IEEE Intelligent Transportation Systems Conference (ITSC)(pp. 2343-2348). IEEE (Corresponding Author).
 3. **Wu, X.**, Guo, J., Lin, R., Qu, Y., Xian, K., and Zhou, X., 2018. Enabling Transportation System Intelligence: Hierarchical Estimation of Traffic Network State and Behavior Coefficients Using a Computational Graph Approach Modeling Framework (No. 18-06749).
 4. Zhang, L., **Wu, X.**, Liu, K. and Xiong, C., 2024, October. Evaluating the Spatial-Temporal Impact of Urban Flooding on Mobility Patterns and Point of Interest. In 2024 IEEE Global Humanitarian Technology Conference (GHTC) (pp. 424-430). IEEE.
