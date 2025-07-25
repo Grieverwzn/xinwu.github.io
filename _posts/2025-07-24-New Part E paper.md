@@ -7,9 +7,9 @@ tags: [transportation, big data]
 author: Xin (Bruce) Wu
 ---
 
-##  [News] **Simultaneous Estimation of Induced, Diverted, and Ex-Post Demand for Railway Passengers: An Interpretable Machine Learning Framework Based on Constrained Computational Graphs**
+##  [News] Excited to share our latest publication on Transportation Research Part E
 
-Our paper titled “*Simultaneous Estimation of Induced, Diverted, and Ex-Post Demand for Railway Passengers: An Interpretable Machine Learning Framework Based on Constrained Computational Graphs*” is now officially published and available online:
+Our paper titled “***Simultaneous Estimation of Induced, Diverted, and Ex-Post Demand for Railway Passengers: An Interpretable Machine Learning Framework Based on Constrained Computational Graphs***” is now officially published and available online:
 
  🔗 https://lnkd.in/ehF7ZhE4
 
