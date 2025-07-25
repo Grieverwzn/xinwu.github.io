@@ -7,18 +7,10 @@ sidebar:
   nav: "about-sidebar"
 ---
 
-I am **Xin (Bruce) Wu**, a Research Associate working at the Department of Civil and Environmental Engineering, Villanova University.
+I am **Xin (Bruce) Wu**, a Research Associate working at the **Department of Civil and Environmental Engineering, Villanova University**.
 I am a researcher specializing in transportation modeling and logistics management.
-My work focuses on developing innovative OR models, advanced analytical methods, and optimization algorithms to address complex challenges in transportation systems, mobility services, supply chain networks, and logistics operations.
+My work focuses on developing innovative OR models, advanced analytical methods, and optimization algorithms to address complex challenges in transportation systems, mobility services, supply chain networks, and logistics operations. I received my Ph.D. in Transportation Engineering from Beijing Jiaotong University, where I was recognized as an outstanding doctoral graduate. I have held research positions in both academia and industry. I served as research scholars at Villanova University, the University of Maryland and Arizona State University, where I contributed extensively to projects funded by government agencies such as the Fedral Transit Administration (FTA), Federal Highway Administration (FHWA), the Arizona Department of Transportation (ADOT), the Maricopa Association of Governments (MAG), the Maryland Department of Transportation (MDOT), and the Northern Virginia Transportation Authority (NVTA). Before my research experience in the United States, Dr. Wu worked at the Beijing Transport Institute, where he participated in large-scale transportation modeling and policy analysis projects. My research interests include transportation management and planning, travel demand modeling, transportation system optimization, supply chain management, logistics system design, and railway operations. He has extensive experience developing computational models and applying optimization methods to solve complex challenges in multimodal transportation and logistics systems.
 
-I received my Ph.D. in Transportation Engineering from **Beijing Jiaotong University**, where I was recognized as an outstanding doctoral graduate. I have held research positions in both academia and industry. I served as research scholars at Villanova University, the University of Maryland and Arizona State University, where I contributed extensively to projects funded by government agencies such as the Fedral Transit Administration (FTA), Federal Highway Administration (FHWA), the Arizona Department of Transportation (ADOT), the Maricopa Association of Governments (MAG), the Maryland Department of Transportation (MDOT), and the Northern Virginia Transportation Authority (NVTA). Before my research experience in the United States, Dr. Wu worked at the Beijing Transport Institute, where he participated in large-scale transportation modeling and policy analysis projects. My research interests include transportation management and planning, travel demand modeling, transportation system optimization, supply chain management, logistics system design, and railway operations. He has extensive experience developing computational models and applying optimization methods to solve complex challenges in multimodal transportation and logistics systems.
-## AREAS OF RESEARCH AND TEACHING EXPERIENCES
-
-* Transportation system design and management
-* Railway and public transit systems design and management
-* Logistics, food supply chain, and intermodal transportation systems&#x20;
-* Machine Learning and its applications in transportation fields.
-* 
 ## CONTACT
 * 📧 Email: xwu03@villanova.edu; xinwu8592@gmail.com
 * 🌐 [My GitHub](https://github.com/Grieverwzn)
@@ -45,11 +37,11 @@ He has authored more than 35 peer-reviewed articles in leading journals, includi
 9. **Wu, X.**, Nie, L., Xu, M. and Fu, H., 2016. Fuzzy QFD for Distribution Center Location Evaluation in Catering Service of High-Speed Railway. Management & Engineering, (22), p.83. 
 10. Wang, X., Fu, H., **Wu, X.**, Liu, Y. and Kim, T., 2025. Multilayered Railway Passenger Demand Estimation Considering Nested Choices: A Computational Graph-based Learning Framework. Urban Rail Transit, pp.1-17(corresponding author). 
 11. Sun, J., Guo, J., **Wu, X.**, Zhu, Q., Wu, D., Xian, K., and Zhou, X., 2019. Analyzing the impact of traffic congestion mitigation: from an explainable neural network learning framework to marginal effect analyses. Sensors, 19(10), p.2254. (corresponding author). 
-12. Simon X.Z., Cheng, Q., **Wu, X.**, Li, P., Belezamo, B., Lu, J. and Abbasi, M., 2022. A meso-to-macro cross-resolution performance approach for connecting polynomial arrival queue model to volume-delay function with inflow demand-to-capacity ratio. Multimodal Transportation, 1(2), p.100017 (corresponding author and 2022 Best Article Award).
+12. Zhou, X.S., Cheng, Q., **Wu, X.**, Li, P., Belezamo, B., Lu, J. and Abbasi, M., 2022. A meso-to-macro cross-resolution performance approach for connecting polynomial arrival queue model to volume-delay function with inflow demand-to-capacity ratio. Multimodal Transportation, 1(2), p.100017. (corresponding author and 2022 Best Article Award).
 
 ### Highlighted studies as a collaborator
 12. Hu, S., Xiong, C., Ji, Y., **Wu, X.**, Liu, K. and Schonfeld, P., 2024. Understanding factors influencing user engagement in incentive-based travel demand management program. Transportation Research Part A: Policy and Practice, 186, p.104145
-13. Lu, J., Li, C., **Wu, X.B.** and Zhou, X.S., 2023. Physics-informed neural networks for integrated traffic state and queue profile estimation: A differentiable programming approach on layered computational graphs. Transportation Research Part C: Emerging Technologies, 153, p.104224.
+13. Lu, J., Li, C., **Wu, X.** and Zhou, X.S., 2023. Physics-informed neural networks for integrated traffic state and queue profile estimation: A differentiable programming approach on layered computational graphs. Transportation Research Part C: Emerging Technologies, 153, p.104224.
 14. Cheng, Q., Liu, Z., Guo, J., **Wu, X.**, Pendyala, R., Belezamo, B. and Zhou, X.S., 2022. Estimating key traffic state parameters through parsimonious spatial queue models. Transportation Research Part C: Emerging Technologies, 137, p.103596.
 15. Wang, W., Cai, K., Du, W., **Wu, X.**, Tong, L.C., Zhu, X., and Cao, X., 2020. Analysis of the Chinese railway system as a complex network. Chaos, Solitons & Fractals, 130, p.109408.
 16. Ke, Y., Nie, L., Liebchen, C., Yuan, W. and **Wu, X.**, 2020. Improving synchronization in air and high-speed rail integration service via adjusting a rail timetable: A real-world case study in China. Journal of Advanced Transportation, 2020.
