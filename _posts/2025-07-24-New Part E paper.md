@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Excited to share our latest publication on Transportation Research Part E
+title: [News] Excited to share our latest publication on Transportation Research Part E
 date: 2025-01-20 12:00:00 +0000
 categories: research updates
 tags: [transportation, big data]
 author: Xin (Bruce) Wu
 ---
 
-##  Excited to share our latest publication on Transportation Research Part E：*Simultaneous Estimation of Induced, Diverted, and Ex-Post Demand for Railway Passengers: An Interpretable Machine Learning Framework Based on Constrained Computational Graphs*
+##  [News] **Simultaneous Estimation of Induced, Diverted, and Ex-Post Demand for Railway Passengers: An Interpretable Machine Learning Framework Based on Constrained Computational Graphs**
 
 Our paper titled “*Simultaneous Estimation of Induced, Diverted, and Ex-Post Demand for Railway Passengers: An Interpretable Machine Learning Framework Based on Constrained Computational Graphs*” is now officially published and available online:
 
