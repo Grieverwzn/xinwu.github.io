@@ -3,8 +3,8 @@ main:
     url: /
   - title: "About"
     url: /about/
-  - title: "Traffic System & Network Modeling"
-    url: /traffic-network-modeling/
+  - title: "Mobility Data & Traffic System Modeling"
+    url: /data-traffic-modeling/
   - title: "Public Transit & Railway Management"
     url: /public-transit-railway/
   - title: "Supply Chain & Logistics Optimization"
