@@ -9,9 +9,5 @@ main:
     url: /public-transit-railway/
   - title: "Supply Chain & Logistics Optimization"
     url: /supply-chain-logistics/
-  - title: "Publications"
-    url: /publications/
   - title: "Teaching"
     url: /teaching/
-  - title: "Contact"
-    url: /contact/
