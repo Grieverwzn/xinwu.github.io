@@ -1,18 +1,17 @@
-# main links
 main:
-
   - title: "Home"
     url: /
   - title: "About"
     url: /about/
-  #- title: "Sample Posts"
-  #  url: /year-archive/
-  #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/ 
-
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Traffic System & Network Modeling"
+    url: /traffic-network-modeling/
+  - title: "Public Transit & Railway Management"
+    url: /public-transit-railway/
+  - title: "Supply Chain & Logistics Optimization"
+    url: /supply-chain-logistics/
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Contact"
+    url: /contact/
