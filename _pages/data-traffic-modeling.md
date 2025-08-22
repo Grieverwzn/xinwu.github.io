@@ -1,6 +1,6 @@
 ---
-title: "Traffic System & Network Modeling"
-permalink: /traffic-network-modeling/
+title: "Mobility Data & Traffic Network Modeling"
+permalink: /data-traffic-modeling/
 layout: single
 author_profile: true
 ---
