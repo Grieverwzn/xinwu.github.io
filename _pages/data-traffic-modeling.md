@@ -24,6 +24,3 @@ The researcher has developed a tensor- and computational graph-based learning fr
 
 * **Ongoing Research: Physics-Informed Short-Term Prediction**
   Extending the approach to short-term traffic speed and flow prediction by embedding traffic flow theory into a physics-informed computational graph for robust forecasting.
-
-
-
