@@ -144,6 +144,20 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
 
+# Navigation links
+navigation:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Contact"
+    url: /contact/
 
 # Reading Files
 include:
