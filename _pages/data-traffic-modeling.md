@@ -4,7 +4,7 @@ layout: single
 author_profile: true
 --------------------
 
-### Computational graph-based travel demand modeling&#x20;
+### Computational graph-based travel demand modeling;
 
 The researcher has developed a tensor- and computational graph-based learning framework to advance physics-informed machine learning in travel demand modeling. This line of work leverages forward and backward propagation to unify classical transportation models with modern machine learning techniques. Key contributions include:
 
