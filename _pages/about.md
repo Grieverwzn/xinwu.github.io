@@ -31,8 +31,8 @@ I received my doctoral degree from the School of Traffic and Transportation, Bei
 ## Education
 
 <figure class="figure-stack campus-strip">
-  <img src="{{ '/assets/images/cv/bjtu_siyuan.jpg' | relative_url }}" alt="Siyuan Building, Beijing Jiaotong University">
-  <figcaption>Siyuan Building, Beijing Jiaotong University, where I completed my doctoral training. Photo: Walter Grassroot, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Bjtu_siyuan_building.JPG">Wikimedia Commons</a>.</figcaption>
+  <img src="{{ '/assets/images/cv/bjtu_ming_lake.jpg' | relative_url }}" alt="Ming Lake, Beijing Jiaotong University">
+  <figcaption>Ming Lake (明湖), Beijing Jiaotong University, where I completed my doctoral training.</figcaption>
 </figure>
 - D.Eng./M.Eng., School of Traffic and Transportation, Beijing Jiaotong University, Beijing, China, 2018
 - B.Eng., Dalian Maritime University, Liaoning, China, 2009
