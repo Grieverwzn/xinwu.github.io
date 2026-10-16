@@ -1,11 +1,11 @@
 main:
+  - title: '<span class="nav-long">Mobility &amp; Traffic Modeling</span><span class="nav-short">Mobility &amp; Traffic</span>'
+    url: /data-traffic-modeling/
+  - title: "Transit &amp; Railway"
+    url: /public-transit-railway/
+  - title: '<span class="nav-long">Supply Chain &amp; Logistics</span><span class="nav-short">Supply Chain</span>'
+    url: /supply-chain-logistics/
   - title: "About"
     url: /about/
-  - title: "Mobility & Traffic Modeling"
-    url: /data-traffic-modeling/
-  - title: "Transit & Railway"
-    url: /public-transit-railway/
-  - title: "Supply Chain & Logistics"
-    url: /supply-chain-logistics/
   - title: "Teaching"
     url: /teaching/

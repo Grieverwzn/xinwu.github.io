@@ -311,3 +311,23 @@ $navy-text: #c9d4e3;
 
 .page__footer { background: $navy; color: $navy-text; border-top: 0;
   a { color: #fff; } .page__footer-follow .social-icons .svg-inline--fa, .fas, .fab { color: #fff; } }
+
+/* Keep the three research areas visible: short labels on smaller screens */
+.nav-short { display: none; }
+@media (max-width: 1000px) {
+  .nav-long { display: none; }
+  .nav-short { display: inline; }
+  .greedy-nav .visible-links a { margin: 0 0.55rem; font-size: 0.95em; }
+  .masthead .site-title { font-size: 0.95em; }
+}
+@media (max-width: 600px) {
+  .greedy-nav .visible-links a { margin: 0 0.4rem; font-size: 0.85em; }
+  .masthead .site-title { font-size: 0.85em; }
+}
+.greedy-nav__toggle { background: transparent !important; }
+.greedy-nav__toggle .navicon, .greedy-nav__toggle .navicon::before, .greedy-nav__toggle .navicon::after { background: #fff !important; }
+
+/* Smaller photo in the poster intro (user preferred the earlier, more modest size) */
+.poster { grid-template-columns: 1.9fr 1fr; min-height: 340px; padding-top: 2em; }
+.poster__photo { justify-self: end; max-width: 330px; width: 100%; }
+.poster__name { font-size: 3.3em; }
