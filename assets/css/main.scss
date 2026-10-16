@@ -406,3 +406,5 @@ table { border-radius: 2px; box-shadow: none; border: 1px solid $hair; }
 .author__avatar img { box-shadow: none; border: 2px solid #fff; outline: 2px solid $teal; outline-offset: 0; }
 .sidebar, .author__avatar, .sidebar__right { overflow: visible; }
 @media (min-width: 64em) { .author__avatar { margin-left: 12px; } }
+/* Sidebar bio: readable size */
+.author__bio, .author__content .author__bio p { font-size: 0.95rem !important; line-height: 1.55; color: #3c4658; }
