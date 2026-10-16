@@ -145,7 +145,7 @@ Sparse, heterogeneous sensors (loop detectors, probe vehicles, Bluetooth, video)
 
 **Insight:** the physics layer recovers congestion shockwaves that pure data smoothing misses, and keeps predicted speed–flow pairs on a calibrated fundamental diagram.
 
-- Shao, F., Shao, H., **Wu, X.**, Cheng, Q., Lam, W.H.K. (2025). A physics-informed machine learning framework for speed-flow prediction: Integrating an S-shaped traffic stream model with deep learning models. *Transportation Research Part C*, 180, 105362. [DOI](https://doi.org/10.1016/j.trc.2025.105362)
+- Shao, F., Shao, H., **Wu, X.** (corresponding), Cheng, Q., Lam, W.H.K. (2025). A physics-informed machine learning framework for speed-flow prediction: Integrating an S-shaped traffic stream model with deep learning models. *Transportation Research Part C*, 180, 105362. [DOI](https://doi.org/10.1016/j.trc.2025.105362)
 - Lu, J., Li, C., **Wu, X.**, Zhou, X.S. (2023). Physics-informed neural networks for integrated traffic state and queue profile estimation: A differentiable programming approach on layered computational graphs. *Transportation Research Part C*, 153, 104224. [DOI](https://doi.org/10.1016/j.trc.2023.104224)
 
 ## 2. Emerging Data: LBS, Climate & Health {#emerging-data}
