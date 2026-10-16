@@ -6,7 +6,7 @@ author_profile: true
 toc: true
 toc_sticky: true
 toc_label: "Research Threads"
-excerpt: "Time-critical supply chains, variational inequalities, synchronized service network design via the quadratic assignment problem, and large-scale decomposition algorithms."
+excerpt: "Supply chain research: synchronized service network design and decomposition algorithms, perishable supply chains and multi-echelon location, and service design with QFD."
 header:
   overlay_image: /assets/images/research/banner_logistics.jpg
   overlay_filter: 0.5
@@ -59,15 +59,6 @@ gallery_qap:
     image_path: /assets/images/research/logistics/qap_bounds.jpg
     alt: "Subgradient and lower-bound evolution"
     title: "Lagrangian lower/upper bounds under different step sizes"
-gallery_decomp:
-  - url: /assets/images/research/logistics/admm_decomp.jpg
-    image_path: /assets/images/research/logistics/admm_decomp.jpg
-    alt: "Cross-system and cross-agent ADMM decomposition"
-    title: "ADMM: cross-system and cross-agent decomposition of an intermodal timetabling problem"
-  - url: /assets/images/research/logistics/qap_physical.jpg
-    image_path: /assets/images/research/logistics/qap_physical.jpg
-    alt: "Physical network with pick-up stations, DCs and warehouses"
-    title: "Large-scale case: 20 pick-up stations, 12 DCs, 16 warehouses"
 gallery_qfd:
   - url: /assets/images/research/logistics/qfd_framework.jpg
     image_path: /assets/images/research/logistics/qfd_framework.jpg
@@ -82,20 +73,36 @@ gallery_qfd:
 > **Goal:** design supply chains and logistics services that are *on time, synchronized and solvable at real-world scale*, by pairing rigorous formulations (VI, QAP, MINLP) with decomposition algorithms that exploit network structure.
 
 <div class="notice--primary" markdown="1">
-**At a glance:** time-critical catering supply chains for high-speed rail · variational-inequality supply chain equilibrium · lot-sizing under congestion · synchronized service network design via the quadratic assignment problem (QAP) · Lagrangian, ADMM and branch-and-bound decomposition · robust fuzzy QFD.
+**At a glance:** (1) synchronized service network design and large-scale decomposition algorithms · (2) perishable supply chains and multi-echelon distribution location · (3) service design with robust fuzzy QFD.
 </div>
 
-## 1. Time-Critical Supply Chains for High-Speed Rail Catering
+## 1. Supply Chain
+
+### 1.1 Synchronized service network design & decomposition algorithms
+
+In a transshipment hub, **inbound and outbound services must be scheduled together** so that goods are sorted and forwarded without long waits. I developed a **network-based QAP (NET-QAP)** that linearizes the classic Koopmans–Beckmann QAP and generalizes it, then solves it with an **Extended Gilmore–Lawler Bound (EGLB)** inside branch-and-bound.
+
+{% include gallery id="gallery_qap" layout="half" caption="**Wu**, Lu, Wu & Zhou (2021), *Transportation Research Part B*." %}
+
+**Insight:** viewing synchronization as an *assignment of services to timeslots* turns a hard scheduling problem into a QAP with a network structure, and that structure yields tight bounds and an efficient exact search.
+
+Where should each food product be produced, which DC should serve which train, and how much should be replenished at each stop, when **pedestrian congestion** in stations slows handling? A nonlinear MIP on a lot-sizing network is decomposed by **Lagrangian substitution**.
+
+{% include gallery id="gallery_lot" layout="third" caption="**Wu**, Nie, Xu & Zhao (2019), *Transportation Research Part E*." %}
+
+{% include figure image_path="/assets/images/research/logistics/qap_physical.jpg" alt="Physical network with pick-up stations, DCs and warehouses" caption="Large-scale synchronized network: 20 pick-up stations, 12 distribution centers and 16 warehouses (**Wu** et al., 2021, *TR-B*)." popup=true %}
+
+- **Wu, X.**, Lu, J., Wu, S., Zhou, X.S. (2021). Synchronizing time-dependent transportation services: Reformulation and solution algorithm using quadratic assignment problem. *Transportation Research Part B*, 152, 140–179. [DOI](https://doi.org/10.1016/j.trb.2021.08.008)
+- **Wu, X.**, Nie, L., Xu, M., Zhao, L. (2019). Distribution planning problem for a high-speed rail catering service considering time-varying demands and pedestrian congestion: A lot-sizing-based model and decomposition algorithm. *Transportation Research Part E*, 123, 61–89. [DOI](https://doi.org/10.1016/j.tre.2019.01.003)
+- Jiang, Y., He, T., Xiong, J., **Wu, X.**, Chen, Y. (2020). Parallel machine production and transportation operations' scheduling with tight time windows. *Complexity*, 2020, 1381340. [DOI](https://doi.org/10.1155/2020/1381340)
+
+### 1.2 Perishable supply chains & multi-echelon distribution location
 
 Every day, meals must move from suppliers to distribution centers (DCs), to rail stations, and onto **thousands of trains with tight time windows and deadlines**. A three-echelon location-routing model builds the distribution network directly from the train timetable.
 
 {% include gallery id="gallery_catering" layout="half" caption="**Wu**, Nie & Xu (2017), *Transportation Research Part C*." %}
 
 {% include figure image_path="/assets/images/research/logistics/catering_network_map.jpg" alt="Distribution network on the Beijing–Shanghai corridor" caption="Candidate DCs and rail stations along the Beijing–Shanghai high-speed line." popup=true %}
-
-- **Wu, X.**, Nie, L., Xu, M. (2017). Designing an integrated distribution system for catering services for high-speed railways: A three-echelon location routing model with tight time windows and time deadlines. *Transportation Research Part C*, 74, 212–244. [DOI](https://doi.org/10.1016/j.trc.2016.11.006)
-
-## 2. Perishable Food Supply Chains & Variational Inequalities
 
 A **variational inequality (VI)** model captures the equilibrium of a perishable food supply chain with **uncertain on-train demand** (newsvendor) and **path time-deadline constraints** under flow-dependent lead times. Deadlines are reformulated with the Dirac delta function so they can be dualized, and the model is solved by an **Euler algorithm with an augmented Lagrangian dual**. The case study covers 246 trains on the Beijing–Shanghai corridor.
 
@@ -104,37 +111,12 @@ A **variational inequality (VI)** model captures the equilibrium of a perishable
 **Insight:** freshness is a *path* constraint, not an arc constraint. Writing it in VI form shows how deadlines reshape equilibrium flows and profits.
 
 - **Wu, X.**, Nie, L., Xu, M., Yan, F. (2018). A perishable food supply chain problem considering demand uncertainty and time deadline constraints: Modeling and application to a high-speed railway catering service. *Transportation Research Part E*, 111, 186–209. [DOI](https://doi.org/10.1016/j.tre.2018.01.002)
-
-## 3. Lot-Sizing under In-Station Congestion
-
-Where should each food product be produced, which DC should serve which train, and how much should be replenished at each stop, when **pedestrian congestion** in stations slows handling? A nonlinear MIP on a lot-sizing network is decomposed by **Lagrangian substitution**.
-
-{% include gallery id="gallery_lot" layout="third" caption="**Wu**, Nie, Xu & Zhao (2019), *Transportation Research Part E*." %}
-
-- **Wu, X.**, Nie, L., Xu, M., Zhao, L. (2019). Distribution planning problem for a high-speed rail catering service considering time-varying demands and pedestrian congestion: A lot-sizing-based model and decomposition algorithm. *Transportation Research Part E*, 123, 61–89. [DOI](https://doi.org/10.1016/j.tre.2019.01.003)
-
-## 4. Synchronized Service Network Design & the Quadratic Assignment Problem
-
-In a transshipment hub, **inbound and outbound services must be scheduled together** so that goods are sorted and forwarded without long waits. I developed a **network-based QAP (NET-QAP)** that linearizes the classic Koopmans–Beckmann QAP and generalizes it, then solves it with an **Extended Gilmore–Lawler Bound (EGLB)** inside branch-and-bound.
-
-{% include gallery id="gallery_qap" layout="half" caption="**Wu**, Lu, Wu & Zhou (2021), *Transportation Research Part B*." %}
-
-**Insight:** viewing synchronization as an *assignment of services to timeslots* turns a hard scheduling problem into a QAP with a network structure, and that structure yields tight bounds and an efficient exact search.
-
-- **Wu, X.**, Lu, J., Wu, S., Zhou, X.S. (2021). Synchronizing time-dependent transportation services: Reformulation and solution algorithm using quadratic assignment problem. *Transportation Research Part B*, 152, 140–179. [DOI](https://doi.org/10.1016/j.trb.2021.08.008)
-
-## 5. Large-Scale Decomposition Algorithms
-
-Real systems have thousands of trains, flights, vehicles and passengers. My algorithms break them into tractable pieces: **Lagrangian relaxation/substitution**, **ADMM** (cross-system and cross-agent), and **bound-driven branch-and-bound**.
-
-{% include gallery id="gallery_decomp" layout="half" caption="ADMM decomposition for intermodal timetabling (Ke, **Wu** et al., 2024, *TR-C*) and a large-scale logistics network (**Wu** et al., 2021, *TR-B*)." %}
-
+- **Wu, X.**, Nie, L., Xu, M. (2017). Designing an integrated distribution system for catering services for high-speed railways: A three-echelon location routing model with tight time windows and time deadlines. *Transportation Research Part C*, 74, 212–244. [DOI](https://doi.org/10.1016/j.trc.2016.11.006)
 - Jiang, Y., **Wu, X.**, Chen, Y. (2020). Designing a flexible catering system for high-speed railway considering departure time selection and time deadline constraints. *IEEE Access*, 8, 44300–44317. [DOI](https://doi.org/10.1109/ACCESS.2020.2978180)
-- Jiang, Y., He, T., Xiong, J., **Wu, X.**, Chen, Y. (2020). Parallel machine production and transportation operations' scheduling with tight time windows. *Complexity*, 2020, 1381340. [DOI](https://doi.org/10.1155/2020/1381340)
 
-## 6. Robust Fuzzy Quality Function Deployment (QFD)
+### 1.3 Service design & quality function deployment (QFD)
 
-To choose service stations and DC locations, customer requirements are translated into technical decisions under **fuzziness and randomness**, using a two-phase robust fuzzy QFD based on the mean-end-chain concept.
+For **service design**, such as choosing service stations and DC locations, customer requirements are translated into technical decisions under **fuzziness and randomness**, using a two-phase robust fuzzy QFD based on the mean-end-chain concept.
 
 {% include gallery id="gallery_qfd" layout="half" caption="**Wu**, Nie & Xu (2017), *European Journal of Operational Research*." %}
 
