@@ -149,7 +149,7 @@ A **market-based equity policy**: agencies earn credits by surpassing equity tar
 
 <figure class="figure-stack">
   <a href="{{ '/assets/images/research/transit/tec_poster_presenting.jpg' | relative_url }}" class="image-popup" title="Presenting the Tradable Equity Credits research"><img src="{{ '/assets/images/research/transit/tec_poster_presenting.jpg' | relative_url }}" alt="Xin (Bruce) Wu presenting the Tradable Equity Credits poster"></a>
-  <figcaption>Presenting the Tradable Equity Credits (TECs) research: a nonlinear programming model for promoting equitable public transit services.</figcaption>
+  <figcaption>Presenting the Tradable Equity Credits (TECs) research at the TRB Annual Meeting: a nonlinear programming model for promoting equitable public transit services.</figcaption>
 </figure>
 
 **From models to pilots.** In the FTA-funded project *Enhancing Mobility Innovation: Software-Based Solutions for Smart and Equitable Travel Demand Management* (with the University of Maryland Build America Center), TECs became **Transit Affordability Credits** and **Transit Carbon Credits**, served through public APIs and the incenTrip and SmartRides apps. Case studies cover **Sioux Falls, Philadelphia and the Washington D.C. region**, and pilot tests ran in **College Park, MD and Lafayette, IN** (52 testers, 281 trips, 1,444 miles, Feb–Mar 2025).

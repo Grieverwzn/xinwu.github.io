@@ -12,7 +12,7 @@ Our new *Transportation Research Part E* paper extends the **Tradable Equity Cre
 
 <figure class="figure-stack figure-stack--small">
   <img src="{{ '/assets/images/personal/tec_poster_portrait.jpg' | relative_url }}" alt="Presenting the Tradable Equity Credits poster">
-  <figcaption>Presenting the Tradable Equity Credits research.</figcaption>
+  <figcaption>Presenting the Tradable Equity Credits (TECs) research at the TRB Annual Meeting.</figcaption>
 </figure>
 
 {% include figure image_path="/assets/images/research/transit/tec_concept.jpg" alt="The TEC market among government, transit agencies and travelers." caption="The TEC market among government, transit agencies and travelers." popup=true %}
