@@ -6,7 +6,7 @@ author_profile: true
 toc: true
 toc_sticky: true
 toc_label: "Research Threads"
-excerpt: "Computational graphs, interpretable & physics-informed machine learning, multi-resolution modeling, and emerging mobility data (LBS, satellite imagery) from the U.S. to Africa."
+excerpt: "Interpretable AI on computational graphs, physics-informed machine learning, multi-resolution modeling, and emerging mobility data (LBS, satellite imagery) from the U.S. to Africa."
 header:
   overlay_image: /assets/images/research/banner_mobility.jpg
   overlay_filter: 0.55
@@ -91,10 +91,14 @@ gallery_africa:
 > **One idea runs through this work:** treat a transportation system as a *differentiable computational graph*, so that classic travel-behavior and traffic-flow theory can be learned directly from big data, while every parameter keeps its physical and economic meaning.
 
 <div class="notice--primary" markdown="1">
-**At a glance:** layered computational graphs (CG) for travel demand · interpretable ML for policy analysis · physics-informed traffic state estimation & prediction · multi-resolution modeling (MRM) · LBS, mobile-phone & satellite data for disasters and public health in the U.S., Nigeria and South Africa.
+**At a glance:** interpretable AI on layered computational graphs (CG): travel demand learning and policy analysis · physics-informed traffic state estimation & prediction · multi-resolution modeling (MRM) · LBS, mobile-phone & satellite data for disasters and public health in the U.S., Nigeria and South Africa.
 </div>
 
-## 1. Computational-Graph Travel Demand Modeling
+## 1. Interpretable AI on Computational Graphs
+
+Deep learning predicts well but rarely explains. My approach to **interpretable AI** builds the neural network *from* transportation theory: each layer of a computational graph is a modeling step (trip generation, distribution, route/line choice, assignment), and each learned weight is a behavioral or physical parameter. The model is trained like deep learning, yet every output can be read and explained.
+
+### 1.1 Computational-graph travel demand learning
 
 The classic four-step model (trip generation → distribution → route choice → assignment) is rebuilt as a **layered computational graph**. Forward propagation reproduces the model; **backpropagation** calibrates all layers at once against household surveys, mobile-phone data, floating-car data and link counts.
 
@@ -104,13 +108,12 @@ The classic four-step model (trip generation → distribution → route choice �
 
 {% include figure image_path="/assets/images/research/mobility/cg_policy_beijing.jpg" alt="Beijing subnetwork results" caption="Estimated travel demand, path flows and link flows on the Beijing subnetwork (Sun, Guo, **Wu** et al., 2019, *Sensors*)." popup=true %}
 
-**Representative papers**
 - **Wu, X.**, Guo, J., Xian, K., Zhou, X. (2018). Hierarchical travel demand estimation using multiple data sources: A forward and backward propagation algorithmic framework on a layered computational graph. *Transportation Research Part C*, 96, 321–346. [DOI](https://doi.org/10.1016/j.trc.2018.09.021)
 - Wang, X., Fu, H., **Wu, X.** (corresponding), Liu, Y., Kim, T. (2025). Multilayered railway passenger demand estimation considering nested choices: A computational graph-based learning framework. *Urban Rail Transit*, 11(3), 250–266. [DOI](https://doi.org/10.1007/s40864-025-00245-9)
 
-## 2. Interpretable Machine Learning
+### 1.2 Interpretable behavioral sensitivities & policy analysis
 
-Deep learning predicts well but rarely explains. Embedding behavioral structure (logit choice, flow conservation, capacity constraints) inside the network makes every learned weight an **interpretable sensitivity**, e.g., how strongly passengers on each OD pair respond to frequency versus travel time.
+Embedding behavioral structure (logit choice, flow conservation, capacity constraints) inside the network makes every learned weight an **interpretable sensitivity**, e.g., how strongly passengers on each OD pair respond to frequency versus travel time.
 
 {% include gallery id="gallery_iml" layout="half" caption="Left: explainable NN framework for congestion-mitigation policy (Sun, Guo, **Wu** et al., 2019, *Sensors*). Right: OD-level behavioral sensitivities from a constrained CG (**Wu** et al., 2025, *TR-E*)." %}
 
@@ -119,7 +122,7 @@ Deep learning predicts well but rarely explains. Embedding behavioral structure 
 - **Wu, X.**, Wang, X., Kim, T., Saleh, K., Fu, H., Xiong, C. (2025). Simultaneous estimation of induced, diverted, and ex-post demand for railway passengers: an interpretable machine learning framework based on constrained computational graphs. *Transportation Research Part E*, 202, 104283. [DOI](https://doi.org/10.1016/j.tre.2025.104283)
 - Sun, J., Guo, J., **Wu, X.**, Zhu, Q., Wu, D., Xian, K., Zhou, X. (2019). Analyzing the impact of traffic congestion mitigation: from an explainable neural network learning framework to marginal effect analyses. *Sensors*, 19(10), 2254. [DOI](https://doi.org/10.3390/s19102254)
 
-## 3. Physics-Informed Deep Learning & Traffic State Estimation
+## 2. Physics-Informed Deep Learning & Traffic State Estimation
 
 Sparse, heterogeneous sensors (loop detectors, probe vehicles, Bluetooth, video) are fused into a continuous space–time traffic state. **Traffic-flow physics** (fluid queue models, fundamental diagrams) acts as a regularizer, so estimates stay physically plausible even with missing data.
 
@@ -131,7 +134,7 @@ Sparse, heterogeneous sensors (loop detectors, probe vehicles, Bluetooth, video)
 - Lu, J., Li, C., **Wu, X.**, Zhou, X.S. (2023). Physics-informed neural networks for integrated traffic state and queue profile estimation: A differentiable programming approach on layered computational graphs. *Transportation Research Part C*, 153, 104224. [DOI](https://doi.org/10.1016/j.trc.2023.104224)
 - Cheng, Q., Liu, Z., Guo, J., **Wu, X.**, Pendyala, R., Belezamo, B., Zhou, X.S. (2022). Estimating key traffic state parameters through parsimonious spatial queue models. *Transportation Research Part C*, 137, 103596. [DOI](https://doi.org/10.1016/j.trc.2022.103596)
 
-## 4. Multi-Resolution Modeling (MRM)
+## 3. Multi-Resolution Modeling (MRM)
 
 Planning models (macro), dynamic traffic assignment (meso) and queue dynamics (micro) are connected through **queue-based performance functions**. The inflow demand-to-capacity ratio drives congestion duration, speed drop and delay, which bridges the polynomial arrival queue model and volume-delay functions.
 
@@ -143,7 +146,7 @@ Planning models (macro), dynamic traffic assignment (meso) and queue dynamics (m
 - **Wu, X.**, Dutta, A., Zhang, W., Zhu, H., Livshits, V., Zhou, X.S. (2021). Characterization and calibration of volume-to-capacity ratio in volume-delay functions on freeways based on a queue analysis approach. *Proceedings of the 100th TRB Annual Meeting*, Washington, D.C.
 - Belezamo, B., **Wu, X.**, Avcı, C., Zhou, X. (2019). Kinematic wave-oriented Markov chain model to capture the spatiotemporal correlations of coupled traffic states. *IEEE ITSC 2019*, 2343–2348.
 
-## 5. Emerging Data: LBS, Satellite Imagery & Global Health {#emerging-data}
+## 4. Emerging Data: LBS, Satellite Imagery & Global Health {#emerging-data}
 
 With the Villanova team, I use **location-based service (LBS) data, mobile-phone sightings and satellite imagery** to measure how people move during disasters and epidemics, in the U.S. Gulf Coast, Lagos (Nigeria) and South Africa.
 
