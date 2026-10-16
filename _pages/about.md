@@ -8,8 +8,8 @@ toc_sticky: true
 toc_label: "Contents"
 ---
 
-<figure class="profile-card profile-card--portrait">
-  <img src="{{ '/assets/images/profile_portrait_bw.jpg' | relative_url }}" alt="Portrait of Xin (Bruce) Wu">
+<figure class="profile-card">
+  <a href="{{ '/assets/images/profile_poster.jpg' | relative_url }}" class="image-popup" title="Xin (Bruce) Wu, transportation researcher"><img src="{{ '/assets/images/profile_poster.jpg' | relative_url }}" alt="Profile poster of Xin (Bruce) Wu"></a>
 </figure>
 
 I am **Xin (Bruce) Wu**, a transportation researcher in the **Department of Civil and Environmental Engineering, Villanova University**. I specialize in transportation modeling and logistics management. My work develops operations research models, interpretable and physics-informed machine learning methods, and large-scale optimization algorithms for transportation systems, mobility services, public transit and railways, supply chains, and logistics operations.
