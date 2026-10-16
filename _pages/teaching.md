@@ -24,6 +24,11 @@ gallery_inform:
 
 ## University Courses
 
+<figure class="figure-stack campus-strip">
+  <img src="{{ '/assets/images/teaching/campus.jpg' | relative_url }}" alt="Villanova University campus">
+  <figcaption>Villanova University, where I teach Transportation System Design.</figcaption>
+</figure>
+
 ### Transportation System Design
 *Independent Instructor, Department of Civil and Environmental Engineering, Villanova University, 2026*
 
