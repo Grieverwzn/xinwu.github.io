@@ -333,3 +333,54 @@ $navy-text: #c9d4e3;
 .poster__name { font-size: 3.3em; }
 .tile__area { display: inline-block; font-size: 0.62em; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
   background: rgba(255, 255, 255, 0.92); color: $ink; padding: 0.2em 0.55em; border-radius: 4px; margin-bottom: 0.4em; }
+
+/* ===================================================================
+   Refined, editorial finish: flatter surfaces, hairlines instead of
+   shadows, small radii, quiet hover (replaces the "plastic" look)
+   =================================================================== */
+$hair: rgba($ink, 0.12);
+
+.poster { border-radius: 6px; box-shadow: none; border: 1px solid $hair; }
+
+.reach { border-radius: 6px; padding: 2em 1.6em 1.6em; }
+.reach .stats { gap: 0; margin-bottom: 1.6em; }
+.reach .stat {
+  background: transparent; border: 0; border-radius: 0; box-shadow: none; padding: 0.4em 0.6em;
+  border-left: 1px solid rgba(255, 255, 255, 0.18);
+  &:first-child { border-left: 0; }
+  &:hover { transform: none; box-shadow: none; }
+  .stat__num { font-size: 2.3em; font-weight: 500; }
+  .stat__label { font-size: 0.72em; text-transform: uppercase; letter-spacing: 0.1em; }
+}
+.reach__map { border-radius: 3px; }
+
+.tile {
+  border-radius: 4px; box-shadow: none; border: 1px solid $hair;
+  background-size: cover; transition: background-size 0.6s ease, filter 0.4s ease;
+  &::before { background: linear-gradient(180deg, rgba($ink, 0) 45%, rgba($ink, 0.82) 100%); }
+  &:hover { transform: none; box-shadow: none; filter: saturate(1.08); }
+}
+.tile__area { border-radius: 2px; background: transparent; color: #fff; padding: 0; border-bottom: 1px solid rgba(255,255,255,0.7); }
+
+.card {
+  border-radius: 4px; box-shadow: none; border: 1px solid $hair; background: #fff;
+  &:hover { transform: none; box-shadow: none; border-color: rgba($ink, 0.35); }
+  .card__img { transition: transform 0.6s ease; }
+  &:hover .card__img { transform: scale(1.03); }
+}
+.card__img { border-bottom: 1px solid $hair; }
+
+.featured { border-radius: 6px; }
+
+.entries-grid .grid__item {
+  border-radius: 4px; box-shadow: none; border: 1px solid $hair;
+  &:hover { transform: none; box-shadow: none; border-color: rgba($ink, 0.35); }
+}
+
+.btn { border-radius: 3px; padding: 0.6em 1.2em; letter-spacing: 0.02em; }
+
+.figure-stack img { border-radius: 3px; box-shadow: none; }
+.figure-stack a:hover img { transform: none; box-shadow: none; }
+.notice--primary, .notice--info { border-radius: 2px; box-shadow: none; }
+table { border-radius: 2px; box-shadow: none; border: 1px solid $hair; }
+.profile-card img { border-radius: 4px; box-shadow: none; border: 1px solid $hair; }
