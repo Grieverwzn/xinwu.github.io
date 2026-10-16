@@ -6,54 +6,86 @@ title: "Xin (Bruce) Wu"
 excerpt: "Interpretable AI and optimization models for transportation, tested on real networks from Los Angeles to Lagos."
 entries_layout: grid
 field_cases:
-  - title: "Los Angeles"
+  - area: "Mobility"
+    title: "Los Angeles"
     sub: "150 freeway sensors · physics-informed prediction"
     image: /assets/images/home/tile_la.jpg
-    url: /data-traffic-modeling/
-  - title: "Beijing"
+    url: /data-traffic-modeling/#12-computational-graph-based-interpretable-traffic-state-estimation
+  - area: "Mobility"
+    title: "Beijing"
     sub: "2,502-node network · travel demand learning"
     image: /assets/images/home/tile_beijing.jpg
-    url: /data-traffic-modeling/
-  - title: "Phoenix"
+    url: /data-traffic-modeling/#11-computational-graph-travel-demand-learning--economic-analysis
+  - area: "Mobility"
+    title: "Phoenix"
     sub: "21,945-node MAG network · I-10 corridor"
     image: /assets/images/home/tile_phoenix.jpg
-    url: /data-traffic-modeling/
-  - title: "Melbourne"
+    url: /data-traffic-modeling/#3-transportation-multi-resolution-modeling-mrm--world-models
+  - area: "Mobility"
+    title: "Melbourne"
     sub: "24,160 OD pairs · event-day traffic"
     image: /assets/images/home/tile_melbourne.jpg
-    url: /data-traffic-modeling/
-  - title: "Lagos"
-    sub: "6.67 billion LBS sightings · floods & COVID-19"
+    url: /data-traffic-modeling/#11-computational-graph-travel-demand-learning--economic-analysis
+  - area: "Mobility"
+    title: "Lagos & Nigeria"
+    sub: "LBS sightings · satellite floods · COVID-19"
     image: /assets/images/home/tile_lagos.jpg
-    url: /data-traffic-modeling/#emerging-data
-  - title: "Nigeria"
-    sub: "Flooding by local government area"
-    image: /assets/images/home/tile_nigeria.jpg
-    url: /data-traffic-modeling/#emerging-data
-  - title: "South Africa"
+    url: /data-traffic-modeling/#22-climate-data-satellite-flood-mapping-and-precipitation
+  - area: "Mobility"
+    title: "South Africa"
     sub: "9 provinces · travel & SARS-CoV-2"
     image: /assets/images/home/tile_south_africa.jpg
-    url: /data-traffic-modeling/#emerging-data
-  - title: "Louisiana & Texas"
+    url: /data-traffic-modeling/#23-health-data-mobility-and-sars-cov-2-transmission-south-africa-and-lagos
+  - area: "Mobility"
+    title: "Louisiana & Texas"
     sub: "Hurricane Laura evacuation & mobility"
     image: /assets/images/home/tile_gulf.jpg
-    url: /data-traffic-modeling/#emerging-data
-  - title: "Beijing–Shanghai HSR"
-    sub: "Railway demand learning · line planning"
-    image: /assets/images/home/tile_hsr.jpg
-    url: /public-transit-railway/
-  - title: "Philadelphia"
+    url: /data-traffic-modeling/#21-lbs-data-human-mobility-during-extreme-events
+  - area: "Transit"
+    title: "Philadelphia"
     sub: "Transit accessibility & equity credits"
     image: /assets/images/home/tile_philadelphia.jpg
-    url: /public-transit-railway/
-  - title: "Sioux Falls"
+    url: /public-transit-railway/#11-tradable-equity-credits-tecs
+  - area: "Transit"
+    title: "Washington D.C.–Maryland–Virginia"
+    sub: "Regional mode-shift simulation"
+    image: /assets/images/home/tile_dmv.jpg
+    url: /public-transit-railway/#11-tradable-equity-credits-tecs
+  - area: "Transit"
+    title: "Sioux Falls"
     sub: "Tradable equity credits case study"
     image: /assets/images/home/tile_sioux_falls.jpg
-    url: /public-transit-railway/
-  - title: "College Park & Lafayette"
+    url: /public-transit-railway/#11-tradable-equity-credits-tecs
+  - area: "Transit"
+    title: "College Park & Lafayette"
     sub: "incenTrip / SmartRides pilots"
     image: /assets/images/home/tile_pilots.jpg
-    url: /public-transit-railway/
+    url: /public-transit-railway/#11-tradable-equity-credits-tecs
+  - area: "Railway"
+    title: "Beijing–Shanghai HSR"
+    sub: "Railway demand learning · line planning"
+    image: /assets/images/home/tile_hsr.jpg
+    url: /public-transit-railway/#22-railway-demand-forecasting-with-ai-computational-graphs
+  - area: "Railway"
+    title: "Beijing–Guangzhou HSR & Zhengding Airport"
+    sub: "Air–rail timetable synchronization"
+    image: /assets/images/home/tile_airrail.jpg
+    url: /public-transit-railway/#24-timetabling--airrail-integration
+  - area: "Logistics"
+    title: "China HSR catering network"
+    sub: "1,130 trains · 85 stations · 33 candidate DCs"
+    image: /assets/images/home/tile_catering_china.jpg
+    url: /supply-chain-logistics/#11-perishable-supply-chains--multi-echelon-distribution-location
+  - area: "Logistics"
+    title: "Beijing–Shanghai catering supply chain"
+    sub: "246 trains · perishable food distribution"
+    image: /assets/images/home/tile_catering_bjsh.jpg
+    url: /supply-chain-logistics/#11-perishable-supply-chains--multi-echelon-distribution-location
+  - area: "Logistics"
+    title: "JD Logistics e-commerce"
+    sub: "16 warehouses · 12 DCs · 20 pick-up stations"
+    image: /assets/images/home/tile_jd.jpg
+    url: /supply-chain-logistics/#12-synchronized-service-network-design--decomposition-algorithms
 research_cards:
   - label: "Interpretable AI · Emerging data"
     title: "Mobility Data & Traffic System Modeling"
@@ -105,7 +137,7 @@ research_cards:
   <div class="tiles">
     {% for t in page.field_cases %}
     <a class="tile" href="{{ t.url | relative_url }}" style="background-image: url('{{ t.image | relative_url }}');">
-      <span class="tile__text"><span class="tile__title">{{ t.title }}</span><span class="tile__sub">{{ t.sub }}</span></span>
+      <span class="tile__text"><span class="tile__area">{{ t.area }}</span><span class="tile__title">{{ t.title }}</span><span class="tile__sub">{{ t.sub }}</span></span>
     </a>
     {% endfor %}
   </div>

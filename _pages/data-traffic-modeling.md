@@ -108,7 +108,9 @@ gallery_africa:
 | **Melbourne**, Australia | Large urban network with regular, POI and stadium-event days | 2,077 nodes · 4,223 links · 416 centroids · 24,160 OD pairs | Shao, Wu et al. (under review, 2026) |
 | **Lagos State**, Nigeria | Mobile-device LBS sightings, Sentinel-1 flood imagery, serology data | 6.67 billion sightings → about 13 million OD trips; 5,367 geohash cells across 20 LGAs | Zhang et al. 2026 *IJDRR*; Liu, Wu et al. (under review, 2026) |
 | **New York**, NY | Midtown Manhattan – JFK Airport corridor | Freeway bottleneck queue analysis | Cheng et al. 2022 *TR-C* |
-| **U.S. Gulf Coast and South Africa** | Mobile-device LBS data, Sentinel-1 imagery, ERA5, public-health data | County-, POI- and province-level panels | Liu et al. 2025; Zhang et al. 2026; Luo et al. 2025 |
+| **Louisiana & Texas** (U.S. Gulf Coast) | Hurricane Laura (2020): mobile-device LBS data, evacuation orders, COVID-19 cases | County-level daily panel across the affected region | Liu, Wu et al. 2025 *JTG* |
+| **South Africa** | Inter-regional travel and SARS-CoV-2 variants: mobile-phone sightings | 9 provinces · 52 districts | Luo, Wu et al. 2025 *PLOS ONE* |
+| **7 African countries** | Mobility and non-communicable diseases (diabetes, CVD): ongoing NIH pilot | Nigeria, South Africa, Ghana, Botswana, Gabon, Congo, Ethiopia | Ongoing |
 
 ## 1. Interpretable AI in Transportation Modeling
 

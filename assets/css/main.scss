@@ -331,3 +331,5 @@ $navy-text: #c9d4e3;
 .poster { grid-template-columns: 1.9fr 1fr; min-height: 340px; padding-top: 2em; }
 .poster__photo { justify-self: end; max-width: 330px; width: 100%; }
 .poster__name { font-size: 3.3em; }
+.tile__area { display: inline-block; font-size: 0.62em; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.92); color: $ink; padding: 0.2em 0.55em; border-radius: 4px; margin-bottom: 0.4em; }
