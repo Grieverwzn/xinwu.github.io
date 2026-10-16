@@ -27,14 +27,10 @@ gallery_iml:
   - image_path: /assets/images/research/mobility/cg_marginal_effects.jpg
     title: "(d) Marginal-effect analysis of six strategies: change in link flows and travel time"
 gallery_mtcg:
-  - image_path: /assets/images/research/mobility/mtcg_architecture.jpg
-    title: "(f) Multi-template computational graph: each template is an interpretable archetype (OD → path → link layers); attention fuses them with time-varying weights"
   - image_path: /assets/images/research/mobility/mtcg_melbourne_network.jpg
-    title: "(g) Melbourne network: 2,077 nodes, 4,223 links, 416 centroids and 24,160 OD pairs"
+    title: "Melbourne, Australia: 2,077 nodes, 4,223 links, 416 centroids and 24,160 OD pairs"
   - image_path: /assets/images/research/mobility/mtcg_melbourne_events.jpg
-    title: "(h) Melbourne: error reduction and flow change from event templates on stadium-event days vs. regular days"
-  - image_path: /assets/images/research/mobility/mtcg_attention_weights.jpg
-    title: "(i) Learned attention weights reveal which archetype is active by day type and time step"
+    title: "Melbourne: link-flow error reduction and flow changes on stadium-event days vs. regular days"
 gallery_phoenix:
   - image_path: /assets/images/research/mobility/mrm_maricopa_network.jpg
     title: "Phoenix metropolitan region (MAG travel demand model network: 21,945 nodes, 52,846 directional links): observed link volume and speed profile"
@@ -84,6 +80,11 @@ gallery_sat:
     title: "Nigeria (all local government areas, LGAs): flooded area per LGA, May 16–31, 2020"
   - image_path: /assets/images/research/mobility/sat_lagos_framework.jpg
     title: "Lagos: Sentinel-1 imagery + ERA5 precipitation + LBS POI visits + OpenStreetMap feed a synthetic difference-in-differences causal framework"
+gallery_lagos_abm:
+  - image_path: /assets/images/research/mobility/lagos_lbs_sightings.jpg
+    title: "Lagos State, Nigeria: raw location-based-service sightings, January–October 2020 (6.67 billion sightings → about 13 million OD trips)"
+  - image_path: /assets/images/research/mobility/lagos_infection_hotspots.jpg
+    title: "Lagos State, Nigeria: estimated COVID-19 infections by geohash cell on June 1, 2020 (5,367 cells across 20 LGAs)"
 gallery_africa:
   - image_path: /assets/images/research/mobility/africa_sa_mobility.jpg
     title: "South Africa (9 provinces, 52 districts): three types of inter-regional travel flows from mobile-phone data during SARS-CoV-2 expansion"
@@ -105,8 +106,9 @@ gallery_africa:
 | **Beijing**, China | Regional travel demand subnetwork (Beijing Transport Institute data); West 3rd Ring Road freeway bottleneck | 2,502 nodes · 5,397 links · 236 zones · 14,967 OD pairs · 40,494 paths | Wu et al. 2018 *TR-C*; Sun et al. 2019 *Sensors*; Cheng et al. 2022 *TR-C* |
 | **Phoenix** (Maricopa County), AZ | MAG regional travel demand model; ADOT freeway detectors on I-10 | 21,945 nodes · 52,846 directional links; I-10 corridor, 365 days of 2016 | Wu et al. 2021 *TRB*; Belezamo, Wu et al. 2019 *IEEE ITSC*; Zhou, Cheng, Wu et al. 2022 *Multimodal Transportation* |
 | **Melbourne**, Australia | Large urban network with regular, POI and stadium-event days | 2,077 nodes · 4,223 links · 416 centroids · 24,160 OD pairs | Shao, Wu et al. (under review, 2026) |
+| **Lagos State**, Nigeria | Mobile-device LBS sightings, Sentinel-1 flood imagery, serology data | 6.67 billion sightings → about 13 million OD trips; 5,367 geohash cells across 20 LGAs | Zhang et al. 2026 *IJDRR*; Liu, Wu et al. (under review, 2026) |
 | **New York**, NY | Midtown Manhattan – JFK Airport corridor | Freeway bottleneck queue analysis | Cheng et al. 2022 *TR-C* |
-| **U.S. Gulf Coast, Lagos, South Africa** | Mobile-device LBS data, Sentinel-1 imagery, ERA5, public-health data | County-, POI- and province-level panels | Liu et al. 2025; Zhang et al. 2026; Luo et al. 2025 |
+| **U.S. Gulf Coast and South Africa** | Mobile-device LBS data, Sentinel-1 imagery, ERA5, public-health data | County-, POI- and province-level panels | Liu et al. 2025; Zhang et al. 2026; Luo et al. 2025 |
 
 ## 1. Interpretable AI in Transportation Modeling
 
@@ -124,9 +126,9 @@ The same graph supports **economic analysis**: each policy is a lever on a node 
 
 {% include figure_stack id="gallery_iml" caption="Sun, Guo, **Wu**, Zhu, Wu, Xian & Zhou (2019), *Sensors*." %}
 
-**New (under review): contextual archetypes.** Daily traffic mixes regular commuting, major events and tourist attractions. A **multi-template computational graph** represents each context as an interpretable template with its own routes and value of time, and an **attention mechanism** fuses the templates with time-varying weights. On the Melbourne network, the estimated value of time is within 3% of its benchmark.
+**New (under review): Melbourne, Australia.** Daily traffic mixes regular commuting, major events and tourist attractions. A computational-graph model learns these contexts from data on the full Melbourne network, including days with POI activities and stadium events, and recovers the value of time within 3% of its benchmark.
 
-{% include figure_stack id="gallery_mtcg" caption="Shao, **Wu** (corresponding), Zhao, Shao & Lam, *Can contextual archetypes explain daily traffic variation? A multi-template computational graph with attention-based fusion*, manuscript under review (2026)." %}
+{% include figure_stack id="gallery_mtcg" caption="Shao, **Wu** (corresponding), Zhao, Shao & Lam, manuscript under review (2026)." %}
 
 **Insight:** interpretability comes from *where* theory sits in the graph. Agencies can ask "what if" questions with the same model that fits the data.
 
@@ -158,10 +160,14 @@ With the Villanova team, I combine **location-based service (LBS) data, climate 
 
 {% include figure_stack id="gallery_sat" caption="Zhang, **Wu** et al. (2026), *International Journal of Disaster Risk Reduction*; Liu, **Wu** et al. (2024), *IEEE GHTC*." %}
 
-### 2.3 Health data: mobility and SARS-CoV-2 transmission
+### 2.3 Health data: mobility and SARS-CoV-2 transmission (South Africa and Lagos)
 **Field case: South Africa (all 9 provinces).** Panel mobile-phone sighting data reveal how inter-regional travel shaped the spread of SARS-CoV-2 variants.
 
 {% include figure_stack id="gallery_africa" caption="Luo, **Wu** et al. (2025), *PLOS ONE*, INFORM Africa research hub." %}
+
+**Field case: Lagos State, Nigeria (2020, under review).** Billions of mobile-device sightings are turned into city-wide daily mobility for the population of Lagos State and linked with serology data to estimate how mobility restrictions changed COVID-19 spread.
+
+{% include figure_stack id="gallery_lagos_abm" caption="Liu, **Wu** (co-first author), Xiong et al., manuscript under review (2026), INFORM Africa research hub." %}
 
 **Insight:** mobility is the missing link between hazards and health outcomes. Shifting the unit of analysis (e.g., from places to facility types) makes causal inference possible even when no unaffected control region exists.
 
