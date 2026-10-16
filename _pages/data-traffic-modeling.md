@@ -205,7 +205,7 @@ Planning models (macro), dynamic traffic assignment (meso) and queue dynamics (m
 - Zhou, X.S., Cheng, Q., **Wu, X.** (corresponding), Li, P., Belezamo, B., Lu, J., Abbasi, M. (2022). A meso-to-macro cross-resolution performance approach for connecting polynomial arrival queue model to volume-delay function with inflow demand-to-capacity ratio. *Multimodal Transportation*, 1(2), 100017. [DOI](https://doi.org/10.1016/j.multra.2022.100017)
 - **Wu, X.**, Dutta, A., Zhang, W., Zhu, H., Livshits, V., Zhou, X.S. (2021). Characterization and calibration of volume-to-capacity ratio in volume-delay functions on freeways based on a queue analysis approach. *Proceedings of the 100th TRB Annual Meeting*, Washington, D.C.
 - Cheng, Q., Liu, Z., Guo, J., **Wu, X.**, Pendyala, R., Belezamo, B., Zhou, X.S. (2022). Estimating key traffic state parameters through parsimonious spatial queue models. *Transportation Research Part C*, 137, 103596. [DOI](https://doi.org/10.1016/j.trc.2022.103596)
-- Belezamo, B., **Wu, X.**, Avcı, C., Zhou, X. (2019). Kinematic wave-oriented Markov chain model to capture the spatiotemporal correlations of coupled traffic states. *IEEE ITSC 2019*, 2343–2348.
+- Belezamo, B., **Wu, X.** (corresponding), Avcı, C., Zhou, X. (2019). Kinematic wave-oriented Markov chain model to capture the spatiotemporal correlations of coupled traffic states. *IEEE ITSC 2019*, 2343–2348.
 - Zhuge, L., Li, W., Guo, J., Xian, K., **Wu, X.**, Zhou, X. (2018). A tree-based reoptimization framework for solving traffic assignment problem in rapid decision making applications. *CICTP 2018*, 205–214.
 
 
