@@ -9,7 +9,7 @@ toc_label: "Research Threads"
 excerpt: "Supply chain research: perishable supply chains and multi-echelon location, synchronized service network design and decomposition algorithms, and service design with QFD."
 header:
   overlay_image: /assets/images/research/banner_logistics.jpg
-  overlay_filter: 0.5
+  overlay_filter: "linear-gradient(120deg, rgba(22, 33, 58, 0.78), rgba(14, 124, 134, 0.30))"
   caption: "Profit surfaces of a perishable food supply chain under a variational inequality model (Wu et al., 2018, TR-E)"
 gallery_qap:
   - image_path: /assets/images/research/logistics/qap_timespace.jpg

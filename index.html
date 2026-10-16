@@ -1,40 +1,74 @@
 ---
 layout: home
 author_profile: true
-research_areas:
+title: "Xin (Bruce) Wu"
+excerpt: "Transportation modeling · interpretable AI for mobility data · public transit & railways · supply chain optimization<br><small>Postdoctoral Researcher, Department of Civil and Environmental Engineering, Villanova University</small>"
+header:
+  overlay_image: /assets/images/research/banner_home.jpg
+  overlay_filter: "linear-gradient(120deg, rgba(22, 33, 58, 0.82), rgba(14, 124, 134, 0.35))"
+  caption: "Learned railway OD demand on the Beijing–Shanghai high-speed corridor"
+  actions:
+    - label: "About & Publications"
+      url: "/about/"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=Mr9DVhsAAAAJ&hl=en"
+research_1:
   - image_path: /assets/images/research/banner_mobility.jpg
     alt: "Mobility data and traffic system modeling"
     title: "Mobility Data & Traffic System Modeling"
-    excerpt: "Interpretable AI in transportation modeling · emerging data (LBS, climate, health) · multi-resolution modeling & world models"
+    excerpt: "Interpretable AI on computational graphs · emerging data (LBS, climate, health) · multi-resolution modeling & world models. Case studies in Los Angeles, Beijing, Phoenix, Melbourne, Lagos and South Africa."
     url: /data-traffic-modeling/
     btn_label: "Explore"
     btn_class: "btn--primary"
+research_2:
   - image_path: /assets/images/research/banner_transit.jpg
     alt: "Public transit and railway management"
     title: "Public Transit & Railway Management"
-    excerpt: "Transit revenue management (TECs, seat allocation) · railway network analysis · AI demand forecasting · line planning · timetabling & air–rail · UAM"
+    excerpt: "Tradable equity credits and seat allocation for transit revenue management · railway network analysis, AI demand forecasting, line planning, timetabling, air–rail integration and urban air mobility."
     url: /public-transit-railway/
     btn_label: "Explore"
     btn_class: "btn--primary"
+research_3:
   - image_path: /assets/images/research/banner_logistics.jpg
     alt: "Supply chain and logistics optimization"
     title: "Supply Chain & Logistics Optimization"
-    excerpt: "Perishable supply chains & multi-echelon location · synchronized service network design & decomposition · service design & QFD"
+    excerpt: "Perishable supply chains and multi-echelon location · synchronized service network design with JD Logistics · decomposition algorithms · service design with fuzzy QFD."
     url: /supply-chain-logistics/
     btn_label: "Explore"
     btn_class: "btn--primary"
 ---
 
-<p><strong>Xin (Bruce) Wu</strong> is a postdoctoral researcher in Civil and Environmental Engineering at <strong>Villanova University</strong>, working on transportation modeling, machine learning for mobility data, public transit and railway operations, and supply chain optimization.</p>
-
-<div class="notice--primary">
-  <p><strong>993</strong> citations · h-index <strong>17</strong> · i10-index <strong>21</strong> (Google Scholar, Oct 2026) · <strong>40</strong> peer-reviewed publications · 100 completed peer reviews · Guest Editor, <em>Mathematics</em> &amp; <em>Future Internet</em> · 2022 Best Article Award, <em>Multimodal Transportation</em></p>
+<div class="stats">
+  <div class="stat"><span class="stat__num">993</span><span class="stat__label">Google Scholar citations</span></div>
+  <div class="stat"><span class="stat__num">17</span><span class="stat__label">h-index</span></div>
+  <div class="stat"><span class="stat__num">40</span><span class="stat__label">peer-reviewed publications</span></div>
+  <div class="stat"><span class="stat__num">100</span><span class="stat__label">completed peer reviews</span></div>
+  <div class="stat"><span class="stat__num">2</span><span class="stat__label">journal guest editorships</span></div>
 </div>
 
-{% include feature_row id="research_areas" %}
+<h2>Research</h2>
+
+{% include feature_row id="research_1" type="left" %}
+{% include feature_row id="research_2" type="right" %}
+{% include feature_row id="research_3" type="left" %}
+
+<h2>Field cases</h2>
+
+<div class="chips">
+  <span class="chip">Los Angeles, CA</span>
+  <span class="chip">Phoenix, AZ</span>
+  <span class="chip">Philadelphia, PA</span>
+  <span class="chip">Washington D.C.–Maryland</span>
+  <span class="chip">Sioux Falls, SD</span>
+  <span class="chip">Lafayette, IN</span>
+  <span class="chip">Louisiana &amp; Texas Gulf Coast</span>
+  <span class="chip">Beijing–Shanghai HSR corridor</span>
+  <span class="chip">Melbourne, Australia</span>
+  <span class="chip">Lagos, Nigeria</span>
+  <span class="chip">South Africa</span>
+</div>
 
 <p>
-  <a href="{{ '/about/' | relative_url }}" class="btn btn--info">About &amp; Publications</a>
   <a href="{{ '/teaching/' | relative_url }}" class="btn btn--success">Teaching &amp; INFORM Africa</a>
-  <a href="https://scholar.google.com/citations?user=Mr9DVhsAAAAJ&amp;hl=en" class="btn btn--inverse">Google Scholar</a>
+  <a href="{{ '/about/' | relative_url }}#publications" class="btn btn--info">Full publication list</a>
 </p>

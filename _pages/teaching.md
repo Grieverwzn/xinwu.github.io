@@ -9,7 +9,7 @@ toc_label: "Contents"
 excerpt: "University courses and the INFORM Africa training program on human mobility and infectious disease dynamics."
 header:
   overlay_image: /assets/images/teaching/banner_teaching.jpg
-  overlay_filter: 0.5
+  overlay_filter: "linear-gradient(120deg, rgba(22, 33, 58, 0.78), rgba(14, 124, 134, 0.30))"
   caption: "Photo: INFORM Africa training workshop (inform-africa.org)"
 gallery_inform:
   - url: /assets/images/teaching/inform_africa_training.jpg

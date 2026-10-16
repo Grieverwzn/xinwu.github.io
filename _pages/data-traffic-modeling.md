@@ -9,7 +9,7 @@ toc_label: "Research Threads"
 excerpt: "Interpretable AI in transportation modeling, emerging data (LBS, climate, health), and transportation multi-resolution modeling & world models."
 header:
   overlay_image: /assets/images/research/banner_mobility.jpg
-  overlay_filter: 0.55
+  overlay_filter: "linear-gradient(120deg, rgba(22, 33, 58, 0.78), rgba(14, 124, 134, 0.30))"
   caption: "Network-wide speed–flow prediction errors on Los Angeles freeways (Shao et al., 2025, TR-C)"
 gallery_cases:
   - image_path: /assets/images/research/mobility/piml_la_map.jpg
