@@ -6,6 +6,8 @@ main:
   - title: '<span class="nav-long">Supply Chain &amp; Logistics</span><span class="nav-short">Supply Chain</span>'
     url: /supply-chain-logistics/
   - title: "About"
+    url: /
+  - title: "CV"
     url: /about/
   - title: "Teaching"
     url: /teaching/

@@ -17,4 +17,4 @@ The research pages have been rebuilt with figures from case studies across the t
 - Judge, INFORMS Railway Applications Section (RAS) Student Paper Competition, 2026
 - 100 completed peer reviews for 16 journals and conferences
 
-More on the [About & Publications]({{ '/about/' | relative_url }}) page.
+More on the [CV & Publications]({{ '/about/' | relative_url }}) page.

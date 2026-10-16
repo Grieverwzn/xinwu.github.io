@@ -19,4 +19,4 @@ My research covers three areas:
 - [Public Transit & Railway Management]({{ '/public-transit-railway/' | relative_url }})
 - [Supply Chain & Logistics Optimization]({{ '/supply-chain-logistics/' | relative_url }})
 
-See [About & Publications]({{ '/about/' | relative_url }}) for my full publication list.
+See [CV & Publications]({{ '/about/' | relative_url }}) for my full publication list.

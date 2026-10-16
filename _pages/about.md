@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "About Me"
+title: "CV & Publications"
 permalink: /about/
 author_profile: true
 toc: true
