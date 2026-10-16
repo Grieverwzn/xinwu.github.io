@@ -405,3 +405,4 @@ table { border-radius: 2px; box-shadow: none; border: 1px solid $hair; }
 .author__avatar { padding: 6px; overflow: visible; }
 .author__avatar img { box-shadow: none; border: 2px solid #fff; outline: 2px solid $teal; outline-offset: 0; }
 .sidebar, .author__avatar, .sidebar__right { overflow: visible; }
+@media (min-width: 64em) { .author__avatar { margin-left: 12px; } }
