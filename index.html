@@ -1,14 +1,40 @@
 ---
 layout: home
 author_profile: true
+research_areas:
+  - image_path: /assets/images/research/banner_mobility.jpg
+    alt: "Mobility data and traffic system modeling"
+    title: "Mobility Data & Traffic System Modeling"
+    excerpt: "Computational graphs · interpretable & physics-informed ML · multi-resolution modeling · LBS & satellite data"
+    url: /data-traffic-modeling/
+    btn_label: "Explore"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/research/banner_transit.jpg
+    alt: "Public transit and railway management"
+    title: "Public Transit & Railway Management"
+    excerpt: "Tradable equity credits · railway demand learning · line planning · timetabling · air–rail · urban air mobility"
+    url: /public-transit-railway/
+    btn_label: "Explore"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/research/banner_logistics.jpg
+    alt: "Supply chain and logistics optimization"
+    title: "Supply Chain & Logistics Optimization"
+    excerpt: "Time-critical supply chains · variational inequalities · QAP-based synchronization · decomposition algorithms"
+    url: /supply-chain-logistics/
+    btn_label: "Explore"
+    btn_class: "btn--primary"
 ---
 
-<h2>Recent Posts</h2>
-<ul>
-  {% for post in site.posts limit:5 %}
-    <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      <span>{{ post.date | date: "%B %d, %Y" }}</span>
-    </li>
-  {% endfor %}
-</ul>
+<p><strong>Xin (Bruce) Wu</strong> is a postdoctoral researcher in Civil and Environmental Engineering at <strong>Villanova University</strong>, working on transportation modeling, machine learning for mobility data, public transit and railway operations, and supply chain optimization.</p>
+
+<div class="notice--primary">
+  <p><strong>993</strong> citations · h-index <strong>17</strong> · i10-index <strong>21</strong> (Google Scholar, Oct 2026) · <strong>40</strong> peer-reviewed publications · 100 completed peer reviews · Guest Editor, <em>Mathematics</em> &amp; <em>Future Internet</em> · 2022 Best Article Award, <em>Multimodal Transportation</em></p>
+</div>
+
+{% include feature_row id="research_areas" %}
+
+<p>
+  <a href="{{ '/about/' | relative_url }}" class="btn btn--info">About &amp; Publications</a>
+  <a href="{{ '/teaching/' | relative_url }}" class="btn btn--success">Teaching &amp; INFORM Africa</a>
+  <a href="https://scholar.google.com/citations?user=Mr9DVhsAAAAJ&amp;hl=en" class="btn btn--inverse">Google Scholar</a>
+</p>

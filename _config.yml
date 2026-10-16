@@ -33,7 +33,7 @@ breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
-copyright_url            : # "copyright" URL, defaults to site.url
+copyright_url            : "https://grieverwzn.github.io/xinwu.github.io/" # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -133,16 +133,23 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/xin-wu-147a05202/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=Mr9DVhsAAAAJ&hl=en"
     - label: "GitHub"
-      icon: "https://github.com/Grieverwzn"
-      # url: "https://github.com/"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Grieverwzn"
 
 
 # Site Footer
 footer:
   links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=Mr9DVhsAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
+      url: "https://github.com/Grieverwzn"
 
 # Navigation links
 navigation:
@@ -150,8 +157,8 @@ navigation:
     url: /
   - title: "About"
     url: /about/
-  - title: "Traffic System & Network Modeling"
-    url: /traffic-network-modeling/
+  - title: "Mobility Data & Traffic System Modeling"
+    url: /data-traffic-modeling/
   - title: "Public Transit & Railway Management"
     url: /public-transit-railway/
   - title: "Supply Chain & Logistics Optimization"
@@ -226,7 +233,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
@@ -316,7 +323,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: post
+      layout: single
       author_profile: true
       read_time: true
       comments: # true

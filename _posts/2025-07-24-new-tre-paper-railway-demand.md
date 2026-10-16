@@ -1,13 +1,12 @@
 ---
-layout: post
-title: News- Excited to share our latest publication on Transportation Research Part E
-date: 2025-01-20 12:00:00 +0000
+layout: single
+title: "New TR-E paper: induced, diverted & ex-post railway demand"
+date: 2025-07-24 12:00:00 +0000
 categories: research updates
 tags: [transportation, big data]
 author: Xin (Bruce) Wu
 ---
 
-## News- Excited to share our latest publication on Transportation Research Part E
 Our paper titled “***Simultaneous Estimation of Induced, Diverted, and Ex-Post Demand for Railway Passengers: An Interpretable Machine Learning Framework Based on Constrained Computational Graphs***” is now officially published and available online:
 
  🔗 https://lnkd.in/ehF7ZhE4
@@ -26,5 +25,7 @@ This work offers practical insights for demand forecasting, network optimization
 
 
 
-<img width="699" height="720" alt="image" src="https://github.com/user-attachments/assets/26664e63-c9da-436e-8a61-d92b36352963" />
+{% include figure image_path="/assets/images/research/transit/rail_demand_map.jpg" alt="Estimated railway demand on the Beijing–Shanghai corridor" caption="Learned boarding, alighting and OD demand on the Beijing–Shanghai HSR corridor." popup=true %}
+
+More on the [Public Transit & Railway Management]({{ '/public-transit-railway/' | relative_url }}) page.
 
