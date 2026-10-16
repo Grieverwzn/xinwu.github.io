@@ -11,7 +11,7 @@ header:
 
 Welcome to my research website.
 
-I am a postdoctoral researcher in the Department of Civil and Environmental Engineering at Villanova University. I received my doctoral degree from the School of Traffic and Transportation, Beijing Jiaotong University, where I was recognized as an outstanding doctoral graduate, and my bachelor's degree from Dalian Maritime University. Before joining Villanova, I was a postdoctoral researcher at the University of Maryland and Arizona State University, working on projects funded by FHWA, ADOT, MAG, MDOT and NVTA. Before coming to the United States, I worked at the Beijing Transport Institute on large-scale transportation modeling and policy analysis.
+I am a transportation researcher in the Department of Civil and Environmental Engineering at Villanova University. I received my doctoral degree from the School of Traffic and Transportation, Beijing Jiaotong University, where I was recognized as an outstanding doctoral graduate, and my bachelor's degree from Dalian Maritime University. Before joining Villanova, I conducted research at the University of Maryland and Arizona State University, working on projects funded by FHWA, ADOT, MAG, MDOT and NVTA. Before coming to the United States, I worked at the Beijing Transport Institute on large-scale transportation modeling and policy analysis.
 
 My research covers three areas:
 

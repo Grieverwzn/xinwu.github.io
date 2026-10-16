@@ -12,9 +12,9 @@ toc_label: "Contents"
   <a href="{{ '/assets/images/profile_poster.jpg' | relative_url }}" class="image-popup" title="Xin (Bruce) Wu, transportation researcher"><img src="{{ '/assets/images/profile_poster.jpg' | relative_url }}" alt="Profile poster of Xin (Bruce) Wu"></a>
 </figure>
 
-I am **Xin (Bruce) Wu**, a postdoctoral researcher in the **Department of Civil and Environmental Engineering, Villanova University**. I specialize in transportation modeling and logistics management. My work develops operations research models, interpretable and physics-informed machine learning methods, and large-scale optimization algorithms for transportation systems, mobility services, public transit and railways, supply chains, and logistics operations.
+I am **Xin (Bruce) Wu**, a transportation researcher in the **Department of Civil and Environmental Engineering, Villanova University**. I specialize in transportation modeling and logistics management. My work develops operations research models, interpretable and physics-informed machine learning methods, and large-scale optimization algorithms for transportation systems, mobility services, public transit and railways, supply chains, and logistics operations.
 
-I received my doctoral degree from the School of Traffic and Transportation, Beijing Jiaotong University, where I was recognized as an outstanding doctoral graduate. Before Villanova, I was a postdoctoral researcher at the **University of Maryland** and **Arizona State University**, contributing to projects funded by the Federal Transit Administration (FTA), Federal Highway Administration (FHWA), National Institutes of Health (NIH), Arizona Department of Transportation (ADOT), Maricopa Association of Governments (MAG), Maryland Department of Transportation (MDOT), and Northern Virginia Transportation Authority (NVTA). Earlier, I worked at the Beijing Transport Institute on large-scale transportation modeling and policy analysis.
+I received my doctoral degree from the School of Traffic and Transportation, Beijing Jiaotong University, where I was recognized as an outstanding doctoral graduate. Before Villanova, I conducted research at the **University of Maryland** and **Arizona State University**, contributing to projects funded by the Federal Transit Administration (FTA), Federal Highway Administration (FHWA), National Institutes of Health (NIH), Arizona Department of Transportation (ADOT), Maricopa Association of Governments (MAG), Maryland Department of Transportation (MDOT), and Northern Virginia Transportation Authority (NVTA). Earlier, I worked at the Beijing Transport Institute on large-scale transportation modeling and policy analysis.
 
 <div class="notice--primary" markdown="1">
 **Research impact (Google Scholar, October 2026):** **993** citations · h-index **17** · i10-index **21** · **40** peer-reviewed publications (31 journal articles and 9 conference papers) in venues including *Transportation Research Parts B, C, and E* and the *European Journal of Operational Research*. [Google Scholar profile](https://scholar.google.com/citations?user=Mr9DVhsAAAAJ&hl=en)
@@ -33,9 +33,9 @@ I received my doctoral degree from the School of Traffic and Transportation, Bei
 - B.Eng., Dalian Maritime University, Liaoning, China, 2009
 
 ## Employment
-- 2023 – present: Postdoc, Department of Civil and Environmental Engineering, Villanova University, Villanova, PA
-- 2022 – 2023: Postdoc, Maryland Transportation Institute, University of Maryland, College Park, MD
-- 2018 – 2022: Postdoc, School of Sustainable Engineering and the Built Environment, Arizona State University, Tempe, AZ
+- 2023 – present: Department of Civil and Environmental Engineering, Villanova University, Villanova, PA
+- 2022 – 2023: Maryland Transportation Institute, University of Maryland, College Park, MD
+- 2018 – 2022: School of Sustainable Engineering and the Built Environment, Arizona State University, Tempe, AZ
 - 2018: Intern, Beijing Transport Institute, Beijing, China
 - 2010 – 2018: Graduate Research Assistant, School of Traffic and Transportation, Beijing Jiaotong University, Beijing, China
 
