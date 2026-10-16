@@ -28,7 +28,7 @@ I grew up in **Kunming**, the "Spring City" of Yunnan, next to the former campus
 
 <div class="photo-row photo-row--2">
   <figure><img src="{{ '/assets/images/personal/dali_wenmiao_gate.jpg' | relative_url }}" alt="Dali Confucian Temple"><figcaption>Dali Confucian Temple (大理文庙)</figcaption></figure>
-  <figure><img src="{{ '/assets/images/personal/dali_wenmiao_sculptures.jpg' | relative_url }}" alt="Sculptures at Dali Confucian Temple"><figcaption>Sculptures at Dali Confucian Temple (大理文庙)</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/xishan_arhats.jpg' | relative_url }}" alt="Arhat sculptures in the Western Hills, Kunming"><figcaption>Arhat sculptures (罗汉) in the Western Hills, Kunming</figcaption></figure>
 </div>
 
 ## Landscapes
