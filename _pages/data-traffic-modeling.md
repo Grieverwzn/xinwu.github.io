@@ -36,12 +36,10 @@ gallery_phoenix:
     title: "Phoenix metropolitan region (MAG travel demand model network: 21,945 nodes, 52,846 directional links): observed link volume and speed profile"
   - image_path: /assets/images/research/mobility/mrm_vc_calibration.jpg
     title: "Queue-based (QBM) vs. density-based (DBM) and volume-based (VBM) estimates of period capacity on Phoenix freeways"
-  - image_path: /assets/images/research/mobility/mrm_phoenix_i10.jpg
-    title: "Phoenix I-10 freeway corridor (4.59 miles) and ADOT detector locations"
-  - image_path: /assets/images/research/mobility/mrm_markov_graph.jpg
-    title: "Kinematic-wave-oriented Markov chain: space–time probabilistic graph for forward and backward waves"
-  - image_path: /assets/images/research/mobility/mrm_markov_heatmaps.jpg
-    title: "Estimated vs. historical speed and density on the I-10 corridor (full year 2016)"
+  - image_path: /assets/images/research/mobility/mrm_phoenix_i10_corridor.jpg
+    title: "Phoenix I-10 freeway corridor and its four loop detectors (137, 78, 84, 139)"
+  - image_path: /assets/images/research/mobility/mrm_cumulative_queue.jpg
+    title: "Queue-based view of a bottleneck: arrival rate above capacity builds a queue; cumulative arrival and discharge curves give the queue length, waiting time and total delay (shaded)"
 gallery_piml:
   - url: /assets/images/research/mobility/pinn_concept.jpg
     image_path: /assets/images/research/mobility/pinn_concept.jpg
@@ -194,9 +192,9 @@ With the Villanova team, I combine **location-based service (LBS) data, climate 
 
 Planning models (macro), dynamic traffic assignment (meso) and queue dynamics (micro) are connected through **queue-based performance functions**. The inflow demand-to-capacity ratio drives congestion duration, speed drop and delay, bridging the polynomial arrival queue model and volume-delay functions. This line also covers my work on traffic assignment and dynamic traffic assignment for FHWA, ADOT, MAG and NVTA.
 
-**Phoenix case: regional network and freeway corridor.** For the Maricopa Association of Governments (MAG), I calibrated queue-based V/C ratios across the full regional network, and on the ADOT I-10 corridor a kinematic-wave-oriented Markov chain model captures the spatiotemporal correlation of traffic states.
+**Phoenix case: regional network and freeway corridor.** For the Maricopa Association of Governments (MAG), I calibrated queue-based V/C ratios across the full regional network, and on the ADOT I-10 corridor, cumulative arrival and discharge curves turn detector counts into queue length, delay and congestion duration.
 
-{% include figure_stack id="gallery_phoenix" caption="Regional network and V/C calibration: **Wu**, Dutta, Zhang, Zhu, Livshits & Zhou (2021), TRB Annual Meeting. I-10 Markov chain model: Belezamo, **Wu**, Avcı & Zhou (2019), *IEEE ITSC*." %}
+{% include figure_stack id="gallery_phoenix" caption="Regional network and V/C calibration: **Wu**, Dutta, Zhang, Zhu, Livshits & Zhou (2021), TRB Annual Meeting. I-10 corridor and cumulative-curve queue model: Zhou, Cheng, **Wu** (corresponding) et al. (2022), *Multimodal Transportation*." %}
 
 {% include figure_stack id="gallery_mrm" caption="Meso-to-macro cross-resolution approach (Zhou, Cheng, **Wu** et al., 2022, *Multimodal Transportation*, **2022 Best Article Award**) and queue-based V/C calibration (**Wu** et al., TRB 2021, cited by an FHWA handbook)." %}
 
