@@ -6,26 +6,26 @@ author_profile: true
 excerpt: "Family, the places I come from in Yunnan, and the landscapes that stay with me."
 ---
 
-I grew up in **Kunming**, the "Spring City" of Yunnan, next to the former campus of National Southwest Associated University. My family's roots are in **Heijing**, an old salt town in central Yunnan. I studied by the sea in Dalian and in Beijing before moving to the United States, where my own family has grown.
+I grew up in **Kunming (昆明)**, the "Spring City" of Yunnan (云南), next to the former campus of National Southwest Associated University. My family's roots are in **Heijing (黑井)**, an old salt town in central Yunnan. I studied by the sea in Dalian and in Beijing before moving to the United States, where my own family has grown.
 
 ## Family
 
 <div class="photo-row photo-row--2">
   <figure><img src="{{ '/assets/images/personal/family_arizona.jpg' | relative_url }}" alt="With my child at sunset in Arizona"><figcaption>With my child at sunset, Arizona</figcaption></figure>
-  <figure><img src="{{ '/assets/images/personal/family_kunming.jpg' | relative_url }}" alt="With my wife in the Western Hills above Kunming"><figcaption>With my wife in the Western Hills above Kunming and Dianchi Lake</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/family_kunming.jpg' | relative_url }}" alt="With my wife in the Western Hills above Kunming"><figcaption>With my wife in the Western Hills (西山) above Kunming (昆明) and Dianchi Lake (滇池)</figcaption></figure>
 </div>
 
-## Roots in Yunnan
+## Roots in Yunnan (云南)
 
 <div class="photo-row photo-row--4">
-  <figure><img src="{{ '/assets/images/personal/kunming.jpg' | relative_url }}" alt="Kunming and Dianchi Lake from the Western Hills"><figcaption>Home: Kunming and Dianchi Lake, seen from the Western Hills</figcaption></figure>
-  <figure><img src="{{ '/assets/images/personal/lianda.jpg' | relative_url }}" alt="Former site of National Southwest Associated University"><figcaption>The former site of National Southwest Associated University (国立西南联合大学) in Kunming, where I grew up</figcaption></figure>
-  <figure><img src="{{ '/assets/images/personal/heijing_wu_compound.jpg' | relative_url }}" alt="Wu family compound in Heijing"><figcaption>The Wu family compound (武家大院) in Heijing: my ancestral home</figcaption></figure>
-  <figure><img src="{{ '/assets/images/personal/lijiang.jpg' | relative_url }}" alt="Lijiang Old Town"><figcaption>Lijiang Old Town, Yunnan</figcaption></figure>
-  <figure><img src="{{ '/assets/images/personal/dali_wenmiao_gate.jpg' | relative_url }}" alt="Dali Confucian Temple"><figcaption>Dali Confucian Temple (大理文庙)</figcaption></figure>
-  <figure><img src="{{ '/assets/images/personal/xishan_arhats.jpg' | relative_url }}" alt="Arhat sculptures in the Western Hills, Kunming"><figcaption>Arhat sculptures (罗汉) in the Western Hills, Kunming</figcaption></figure>
-  <figure><img src="{{ '/assets/images/personal/xishuangbanna.jpg' | relative_url }}" alt="Dai-style pavilion in Xishuangbanna"><figcaption>Xishuangbanna, Yunnan</figcaption></figure>
-  <figure><img src="{{ '/assets/images/personal/meili.jpg' | relative_url }}" alt="Meili Snow Mountain at sunrise"><figcaption>Meili Snow Mountain, Yunnan</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/kunming.jpg' | relative_url }}" alt="Kunming and Dianchi Lake from the Western Hills"><figcaption>Home: Kunming (昆明) and Dianchi Lake (滇池), seen from the Western Hills (西山)</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/lianda.jpg' | relative_url }}" alt="Former site of National Southwest Associated University"><figcaption>The former site of National Southwest Associated University (西南联大) in Kunming (昆明), where I grew up</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/heijing_wu_compound.jpg' | relative_url }}" alt="Wu family compound in Heijing"><figcaption>The Wu family compound (武家大院) in Heijing (黑井): my ancestral home</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/lijiang.jpg' | relative_url }}" alt="Lijiang Old Town"><figcaption>Lijiang Old Town (丽江古城), Yunnan</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/dali_wenmiao_gate.jpg' | relative_url }}" alt="Dali Confucian Temple"><figcaption>Dali (大理) Confucian Temple (文庙)</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/xishan_arhats.jpg' | relative_url }}" alt="Arhat sculptures in the Western Hills, Kunming"><figcaption>Arhat sculptures (罗汉) in the Western Hills (西山), Kunming (昆明)</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/xishuangbanna.jpg' | relative_url }}" alt="Dai-style pavilion in Xishuangbanna"><figcaption>Xishuangbanna (西双版纳), Yunnan</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/meili.jpg' | relative_url }}" alt="Meili Snow Mountain at sunrise"><figcaption>Meili Snow Mountain (梅里雪山), Yunnan</figcaption></figure>
 </div>
 
 ## Places in the U.S.
