@@ -400,3 +400,8 @@ table { border-radius: 2px; box-shadow: none; border: 1px solid $hair; }
 .btn--success:hover { color: #fff !important; background: $ink !important; }
 .beyond__lead a { font-weight: 600; }
 .profile-card--portrait { width: 260px; }
+
+/* Keep the avatar ring fully visible (the sidebar clips box-shadows on the left) */
+.author__avatar { padding: 6px; overflow: visible; }
+.author__avatar img { box-shadow: none; border: 2px solid #fff; outline: 2px solid $teal; outline-offset: 0; }
+.sidebar, .author__avatar, .sidebar__right { overflow: visible; }
