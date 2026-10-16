@@ -54,14 +54,14 @@ gallery_piml:
     alt: "PIML architecture with MGCN, LSTM and S3 traffic stream model"
     title: "PIML architecture: MGCN + LSTM learners regulated by the S3 traffic stream model"
 gallery_mrm:
-  - url: /assets/images/research/mobility/mrm_virtual_queue.jpg
-    image_path: /assets/images/research/mobility/mrm_virtual_queue.jpg
-    alt: "Virtual queue and spatial queue profile at a bottleneck"
-    title: "Virtual vs. spatial queue at a bottleneck"
-  - url: /assets/images/research/mobility/mrm_i405.jpg
-    image_path: /assets/images/research/mobility/mrm_i405.jpg
-    alt: "I-405 northbound bottleneck and speed profile"
-    title: "I-405 Northbound bottleneck: observed space–time congestion"
+  - image_path: /assets/images/research/mobility/mrm_speed_arrival.jpg
+    title: "(a) During congestion (t0 to t3), speed drops below the cut-off speed while the arrival rate exceeds the discharge rate"
+  - image_path: /assets/images/research/mobility/mrm_virtual_queue.jpg
+    title: "(b) Virtual queue at the bottleneck vs. the physical spatial queue along the road"
+  - image_path: /assets/images/research/mobility/mrm_trajectories.jpg
+    title: "(c) Mesoscopic vehicle trajectories through the bottleneck: travel time = free-flow time + queue waiting time w(t)"
+  - image_path: /assets/images/research/mobility/mrm_i405.jpg
+    title: "(d) Los Angeles I-405 Northbound bottleneck: observed space–time congestion"
 gallery_lbs:
   - image_path: /assets/images/research/mobility/lbs_hurricane_laura.jpg
     title: "U.S. Gulf Coast (Louisiana, Texas, Arkansas, Mississippi): Hurricane Laura track and affected counties, August 26–27, 2020"
@@ -195,6 +195,11 @@ Planning models (macro), dynamic traffic assignment (meso) and queue dynamics (m
 **Phoenix case: regional network and freeway corridor.** For the Maricopa Association of Governments (MAG), I calibrated queue-based V/C ratios across the full regional network, and on the ADOT I-10 corridor, cumulative arrival and discharge curves turn detector counts into queue length, delay and congestion duration.
 
 {% include figure_stack id="gallery_phoenix" caption="Regional network and V/C calibration: **Wu**, Dutta, Zhang, Zhu, Livshits & Zhou (2021), TRB Annual Meeting. I-10 corridor and cumulative-curve queue model: Zhou, Cheng, **Wu** (corresponding) et al. (2022), *Multimodal Transportation*." %}
+
+<figure class="figure-stack figure-stack--small mrm-steps">
+  <a href="{{ '/assets/images/research/mobility/mrm_qvdf_steps.jpg' | relative_url }}" class="image-popup" title="Steps from inflow demand to link performance"><img src="{{ '/assets/images/research/mobility/mrm_qvdf_steps.jpg' | relative_url }}" alt="Steps of the queue-based volume-delay function"></a>
+  <figcaption>From inflow demand to link performance: demand-to-capacity ratio → congestion duration → queued delay and speed reduction → time-dependent queue → macro (average) and meso (time-dependent) performance.</figcaption>
+</figure>
 
 {% include figure_stack id="gallery_mrm" caption="Meso-to-macro cross-resolution approach (Zhou, Cheng, **Wu** et al., 2022, *Multimodal Transportation*, **2022 Best Article Award**) and queue-based V/C calibration (**Wu** et al., TRB 2021, cited by an FHWA handbook)." %}
 
