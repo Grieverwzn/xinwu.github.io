@@ -17,19 +17,19 @@ I grew up in **Kunming**, the "Spring City" of Yunnan, next to the former campus
 
 ## Roots in Yunnan
 
-<div class="photo-row photo-row--3">
+<div class="photo-row photo-row--4">
   <figure><img src="{{ '/assets/images/personal/kunming.jpg' | relative_url }}" alt="Kunming and Dianchi Lake from the Western Hills"><figcaption>Home: Kunming and Dianchi Lake, seen from the Western Hills</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/lianda.jpg' | relative_url }}" alt="Former site of National Southwest Associated University"><figcaption>The former site of National Southwest Associated University (国立西南联合大学) in Kunming, where I grew up</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/heijing_wu_compound.jpg' | relative_url }}" alt="Wu family compound in Heijing"><figcaption>The Wu family compound (武家大院) in Heijing: my ancestral home</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/lijiang.jpg' | relative_url }}" alt="Lijiang Old Town"><figcaption>Lijiang Old Town, Yunnan</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/dali_wenmiao_gate.jpg' | relative_url }}" alt="Dali Confucian Temple"><figcaption>Dali Confucian Temple (大理文庙)</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/xishan_arhats.jpg' | relative_url }}" alt="Arhat sculptures in the Western Hills, Kunming"><figcaption>Arhat sculptures (罗汉) in the Western Hills, Kunming</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/meili.jpg' | relative_url }}" alt="Meili Snow Mountain at sunrise"><figcaption>Meili Snow Mountain, Yunnan</figcaption></figure>
 </div>
 
-## Landscapes
+## Landscapes in the U.S.
 
-<div class="photo-row photo-row--3">
-  <figure><img src="{{ '/assets/images/personal/meili.jpg' | relative_url }}" alt="Meili Snow Mountain at sunrise"><figcaption>Meili Snow Mountain, Yunnan</figcaption></figure>
+<div class="photo-row photo-row--2">
   <figure><img src="{{ '/assets/images/personal/grand_canyon.jpg' | relative_url }}" alt="Grand Canyon at sunset"><figcaption>Grand Canyon at sunset, Arizona</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/tempe_sunset.jpg' | relative_url }}" alt="Sunset in Tempe, Arizona"><figcaption>Evening sky in Tempe, Arizona</figcaption></figure>
 </div>
