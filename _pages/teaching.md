@@ -16,10 +16,6 @@ gallery_inform:
     image_path: /assets/images/teaching/inform_africa_training.jpg
     alt: "Hands-on human mobility training session"
     title: "Presenting the hands-on human mobility training session for INFORM Africa researchers"
-  - url: /assets/images/teaching/inform_africa_workshop_nigeria.jpg
-    image_path: /assets/images/teaching/inform_africa_workshop_nigeria.jpg
-    alt: "In-person INFORM Africa workshop at the IHVN campus in Nigeria"
-    title: "In-person workshop on geospatial analysis and modeling of personal trip data at the Institute of Human Virology Nigeria (IHVN) campus, June 2024, co-facilitated with Dr. Chenfeng Xiong"
 ---
 
 ## University Courses
@@ -63,6 +59,12 @@ Together with Dr. Xiong, I developed and presented a **six-lecture training pack
 The package is open to researchers, public health professionals, epidemiologists and policymakers.
 
 {% include figure_stack id="gallery_inform" caption="Photos: [inform-africa.org](https://inform-africa.org/) and @INFORMAfricaHub." %}
+
+<div class="photo-row photo-row--2">
+  <figure><img src="{{ '/assets/images/teaching/inform_workshop_presenting.jpg' | relative_url }}" alt="Presenting mobility data analysis at the IHVN workshop"><figcaption>Presenting geospatial analysis of personal trip data</figcaption></figure>
+  <figure><img src="{{ '/assets/images/teaching/inform_workshop_participants.jpg' | relative_url }}" alt="Working with workshop participants"><figcaption>Hands-on modeling with workshop participants</figcaption></figure>
+</div>
+<p class="figure-stack__source"><small>In-person workshop at the Institute of Human Virology Nigeria (IHVN) campus, June 2024, co-facilitated with Dr. Chenfeng Xiong. Photos: @INFORMAfricaHub.</small></p>
 
 **Resources**
 
