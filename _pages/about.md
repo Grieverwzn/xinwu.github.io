@@ -8,6 +8,10 @@ toc_sticky: true
 toc_label: "Contents"
 ---
 
+<figure class="profile-card">
+  <a href="{{ '/assets/images/profile_poster.jpg' | relative_url }}" class="image-popup" title="Xin (Bruce) Wu, transportation researcher"><img src="{{ '/assets/images/profile_poster.jpg' | relative_url }}" alt="Profile poster of Xin (Bruce) Wu"></a>
+</figure>
+
 I am **Xin (Bruce) Wu**, a postdoctoral researcher in the **Department of Civil and Environmental Engineering, Villanova University**. I specialize in transportation modeling and logistics management. My work develops operations research models, interpretable and physics-informed machine learning methods, and large-scale optimization algorithms for transportation systems, mobility services, public transit and railways, supply chains, and logistics operations.
 
 I received my doctoral degree from the School of Traffic and Transportation, Beijing Jiaotong University, where I was recognized as an outstanding doctoral graduate. Before Villanova, I was a postdoctoral researcher at the **University of Maryland** and **Arizona State University**, contributing to projects funded by the Federal Transit Administration (FTA), Federal Highway Administration (FHWA), National Institutes of Health (NIH), Arizona Department of Transportation (ADOT), Maricopa Association of Governments (MAG), Maryland Department of Transportation (MDOT), and Northern Virginia Transportation Authority (NVTA). Earlier, I worked at the Beijing Transport Institute on large-scale transportation modeling and policy analysis.
