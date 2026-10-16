@@ -18,6 +18,8 @@ gallery_qap:
     title: "(b) Inbound and outbound timeslots linked by transshipment edges"
   - image_path: /assets/images/research/logistics/qap_bnb.jpg
     title: "(c) Branch-and-bound search guided by the Extended Gilmore–Lawler Bound (EGLB)"
+  - image_path: /assets/images/research/logistics/qap_jd_network.jpg
+    title: "(d) JD Logistics e-commerce case: physical network of 16 warehouses, 12 distribution centers and 20 pick-up stations"
 gallery_lot:
   - image_path: /assets/images/research/logistics/lotsizing_decisions.jpg
     title: "(a) Three decisions: where to produce, which DC serves which train, and how much to replenish on board"
@@ -76,6 +78,8 @@ A **variational inequality (VI)** model captures the equilibrium of a perishable
 ### 1.2 Synchronized service network design & decomposition algorithms
 
 In a transshipment hub, **inbound and outbound services must be scheduled together** so that goods are sorted and forwarded without long waits. I developed a **network-based QAP (NET-QAP)** that linearizes the classic Koopmans–Beckmann QAP and generalizes it, then solves it with an **Extended Gilmore–Lawler Bound (EGLB)** inside branch-and-bound.
+
+This work was done **with JD Logistics (Jingdong)**, and it is tested on two industry settings: a **rail-to-truck transshipment terminal**, and an **e-commerce "second-wave" delivery network** with 16 warehouses, 20 pick-up stations and 12 distribution centers, where orders placed before the afternoon cutoff are delivered by the next morning.
 
 {% include figure_stack id="gallery_qap" caption="**Wu**, Lu, Wu & Zhou (2021), *Transportation Research Part B*." %}
 
