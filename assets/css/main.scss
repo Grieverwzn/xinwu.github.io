@@ -277,3 +277,37 @@ tbody tr:nth-child(even) { background: rgba($teal, 0.04); }
 .section-title { text-transform: uppercase; letter-spacing: 0.08em; font-size: 1.45em; }
 .section-title::after { content: ""; display: block; width: 46px; height: 4px; background: $teal; margin-top: 0.35em; }
 .stat .stat__num { font-weight: 600; }
+
+/* ===================================================================
+   Option C: light page with navy bands (masthead, stats/map band,
+   "published in" band, footer) — mirrors the poster's navy lower half
+   =================================================================== */
+$navy: $ink;
+$navy-2: #1b3460;
+$navy-text: #c9d4e3;
+
+.masthead { background: $navy !important; border-bottom: 0; backdrop-filter: none; }
+.masthead .site-title { color: #fff; }
+.greedy-nav { background: transparent; }
+.greedy-nav .visible-links a { color: #fff; &:hover { color: $amber; } }
+.greedy-nav .visible-links a::before { background: $amber; }
+.greedy-nav button .navicon, .greedy-nav button .navicon::before, .greedy-nav button .navicon::after { background: #fff; }
+.greedy-nav .hidden-links a { color: $ink; }                       // dropdown stays light
+
+.reach {
+  background: $navy; border-radius: 18px; padding: 1.4em;
+  .stat { background: $navy-2; border-top-color: $amber; box-shadow: none;
+    &:nth-child(2n) { border-top-color: $teal; } }
+  .stat__num { color: #fff; }
+  .stat__label { color: $navy-text; }
+  .reach__map { border-radius: 12px; }
+}
+
+.featured {
+  background: $navy; border: 0; border-radius: 18px; padding: 1.8em 1.2em 0.6em;
+  .featured__head { color: #9fb3cf; }
+  .featured__row span { color: #eef2f8; }
+}
+
+.page__footer { background: $navy; color: $navy-text; border-top: 0;
+  a { color: #fff; } .page__footer-follow .social-icons .svg-inline--fa, .fas, .fab { color: #fff; } }
