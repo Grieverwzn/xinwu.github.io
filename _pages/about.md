@@ -38,7 +38,7 @@ I received my doctoral degree from the School of Traffic and Transportation, Bei
 
 <div class="photo-row photo-row--2">
   <figure><img src="{{ '/assets/images/cv/bjtu_ming_lake.jpg' | relative_url }}" alt="Ming Lake, Beijing Jiaotong University"><figcaption>Ming Lake (明湖), Beijing Jiaotong University: doctoral training</figcaption></figure>
-  <figure><img src="{{ '/assets/images/cv/dmu.jpg' | relative_url }}" alt="Dalian Maritime University"><figcaption>West Teaching Building No. 2 (西教二), Dalian Maritime University: bachelor's degree</figcaption></figure>
+  <figure><img src="{{ '/assets/images/cv/dalian.jpg' | relative_url }}" alt="Xinghai Bay Bridge at sunset, Dalian"><figcaption>Dalian, where I studied at Dalian Maritime University: Xinghai Bay Bridge at sunset. Photo: JesseW900, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Xinghai_Bay_Cross-Sea_Bridge.JPG">Wikimedia Commons</a>.</figcaption></figure>
 </div>
 - D.Eng./M.Eng., School of Traffic and Transportation, Beijing Jiaotong University, Beijing, China, 2018
 - B.Eng., Dalian Maritime University, Liaoning, China, 2009
