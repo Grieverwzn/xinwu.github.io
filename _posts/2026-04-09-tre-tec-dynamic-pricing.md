@@ -4,6 +4,8 @@ title: "New paper in TR-E: Tradable Equity Credits with dynamic pricing"
 date: 2026-04-09 12:00:00 +0000
 categories: research updates
 author: Xin (Bruce) Wu
+header:
+  teaser: /assets/images/home/tile_tec.jpg
 ---
 
 Our new *Transportation Research Part E* paper extends the **Tradable Equity Credit (TEC)** scheme with a dynamic pricing approach for heterogeneous travelers. Agencies earn credits by surpassing equity targets, incur debts when they fall short, and trade credits in an open market, balancing equity and farebox revenue.

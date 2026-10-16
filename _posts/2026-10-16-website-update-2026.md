@@ -4,6 +4,8 @@ title: "Website update: research pages, publications and service"
 date: 2026-10-16 00:00:00 -0400
 categories: research updates
 author: Xin (Bruce) Wu
+header:
+  teaser: /assets/images/home/card_logistics.jpg
 ---
 
 The research pages have been rebuilt with figures from case studies across the three research areas, and the publication list is updated (40 peer-reviewed publications; 993 Google Scholar citations, h-index 17, as of October 2026).

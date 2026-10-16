@@ -4,6 +4,8 @@ title: "New paper in TR-C: physics-informed speed-flow prediction"
 date: 2025-10-03 12:00:00 +0000
 categories: research updates
 author: Xin (Bruce) Wu
+header:
+  teaser: /assets/images/home/tile_la.jpg
 ---
 
 We embed a calibratable S-shaped three-parameter (S3) traffic stream model into a deep learning framework (multi-graph convolution + LSTM) on a unified computational graph, so network-wide speed and flow predictions stay consistent with traffic flow theory even with missing data.

@@ -4,6 +4,8 @@ title: "New paper in TR-D: carbon credits in travel demand management"
 date: 2025-11-25 12:00:00 +0000
 categories: research updates
 author: Xin (Bruce) Wu
+header:
+  teaser: /assets/images/home/card_transit.jpg
 ---
 
 We propose an incentive-based travel demand management framework that uses carbon credits to reward travelers for emission-reducing choices.

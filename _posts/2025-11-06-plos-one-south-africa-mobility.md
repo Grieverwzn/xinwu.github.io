@@ -4,6 +4,8 @@ title: "New paper in PLOS ONE: inter-regional travel and SARS-CoV-2 in South Afr
 date: 2025-11-06 12:00:00 +0000
 categories: research updates
 author: Xin (Bruce) Wu
+header:
+  teaser: /assets/images/home/tile_south_africa.jpg
 ---
 
 Part of the NIH-funded INFORM Africa research hub: mobile-phone sighting data reveal how three types of inter-regional travel shaped SARS-CoV-2 expansion across South African provinces.

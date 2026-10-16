@@ -1,74 +1,138 @@
 ---
 layout: home
-author_profile: true
+author_profile: false
+classes: wide
 title: "Xin (Bruce) Wu"
-excerpt: "Transportation modeling · interpretable AI for mobility data · public transit & railways · supply chain optimization<br><small>Postdoctoral Researcher, Department of Civil and Environmental Engineering, Villanova University</small>"
-header:
-  overlay_image: /assets/images/research/banner_home.jpg
-  overlay_filter: "linear-gradient(120deg, rgba(22, 33, 58, 0.82), rgba(14, 124, 134, 0.35))"
-  caption: "Learned railway OD demand on the Beijing–Shanghai high-speed corridor"
-  actions:
-    - label: "About & Publications"
-      url: "/about/"
-    - label: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=Mr9DVhsAAAAJ&hl=en"
-research_1:
-  - image_path: /assets/images/research/banner_mobility.jpg
-    alt: "Mobility data and traffic system modeling"
-    title: "Mobility Data & Traffic System Modeling"
-    excerpt: "Interpretable AI on computational graphs · emerging data (LBS, climate, health) · multi-resolution modeling & world models. Case studies in Los Angeles, Beijing, Phoenix, Melbourne, Lagos and South Africa."
+excerpt: "Interpretable AI and optimization models for transportation, tested on real networks from Los Angeles to Lagos."
+entries_layout: grid
+field_cases:
+  - title: "Los Angeles"
+    sub: "150 freeway sensors · physics-informed prediction"
+    image: /assets/images/home/tile_la.jpg
     url: /data-traffic-modeling/
-    btn_label: "Explore"
-    btn_class: "btn--primary"
-research_2:
-  - image_path: /assets/images/research/banner_transit.jpg
-    alt: "Public transit and railway management"
-    title: "Public Transit & Railway Management"
-    excerpt: "Tradable equity credits and seat allocation for transit revenue management · railway network analysis, AI demand forecasting, line planning, timetabling, air–rail integration and urban air mobility."
+  - title: "Beijing"
+    sub: "2,502-node network · travel demand learning"
+    image: /assets/images/home/tile_beijing.jpg
+    url: /data-traffic-modeling/
+  - title: "Phoenix"
+    sub: "21,945-node MAG network · I-10 corridor"
+    image: /assets/images/home/tile_phoenix.jpg
+    url: /data-traffic-modeling/
+  - title: "Melbourne"
+    sub: "24,160 OD pairs · event-day traffic"
+    image: /assets/images/home/tile_melbourne.jpg
+    url: /data-traffic-modeling/
+  - title: "Lagos"
+    sub: "6.67 billion LBS sightings · floods & COVID-19"
+    image: /assets/images/home/tile_lagos.jpg
+    url: /data-traffic-modeling/#emerging-data
+  - title: "Nigeria"
+    sub: "Flooding by local government area"
+    image: /assets/images/home/tile_nigeria.jpg
+    url: /data-traffic-modeling/#emerging-data
+  - title: "South Africa"
+    sub: "9 provinces · travel & SARS-CoV-2"
+    image: /assets/images/home/tile_south_africa.jpg
+    url: /data-traffic-modeling/#emerging-data
+  - title: "Louisiana & Texas"
+    sub: "Hurricane Laura evacuation & mobility"
+    image: /assets/images/home/tile_gulf.jpg
+    url: /data-traffic-modeling/#emerging-data
+  - title: "Beijing–Shanghai HSR"
+    sub: "Railway demand learning · line planning"
+    image: /assets/images/home/tile_hsr.jpg
     url: /public-transit-railway/
-    btn_label: "Explore"
-    btn_class: "btn--primary"
-research_3:
-  - image_path: /assets/images/research/banner_logistics.jpg
-    alt: "Supply chain and logistics optimization"
+  - title: "Philadelphia"
+    sub: "Transit accessibility & equity credits"
+    image: /assets/images/home/tile_philadelphia.jpg
+    url: /public-transit-railway/
+  - title: "Sioux Falls"
+    sub: "Tradable equity credits case study"
+    image: /assets/images/home/tile_sioux_falls.jpg
+    url: /public-transit-railway/
+  - title: "College Park & Lafayette"
+    sub: "incenTrip / SmartRides pilots"
+    image: /assets/images/home/tile_pilots.jpg
+    url: /public-transit-railway/
+research_cards:
+  - label: "Interpretable AI · Emerging data"
+    title: "Mobility Data & Traffic System Modeling"
+    sub: "Computational-graph learning, physics-informed traffic estimation, LBS / climate / health data, multi-resolution modeling & world models."
+    image: /assets/images/home/card_mobility.jpg
+    url: /data-traffic-modeling/
+  - label: "Revenue management · Railways"
+    title: "Public Transit & Railway Management"
+    sub: "Tradable equity credits, seat allocation, network analysis, AI demand forecasting, line planning, timetabling, air–rail and urban air mobility."
+    image: /assets/images/home/card_transit.jpg
+    url: /public-transit-railway/
+  - label: "Optimization · Logistics"
     title: "Supply Chain & Logistics Optimization"
-    excerpt: "Perishable supply chains and multi-echelon location · synchronized service network design with JD Logistics · decomposition algorithms · service design with fuzzy QFD."
+    sub: "Perishable supply chains, multi-echelon location, synchronized service network design with JD Logistics, decomposition algorithms, fuzzy QFD."
+    image: /assets/images/home/card_logistics.jpg
     url: /supply-chain-logistics/
-    btn_label: "Explore"
-    btn_class: "btn--primary"
 ---
 
-<div class="stats">
-  <div class="stat"><span class="stat__num">993</span><span class="stat__label">Google Scholar citations</span></div>
-  <div class="stat"><span class="stat__num">17</span><span class="stat__label">h-index</span></div>
-  <div class="stat"><span class="stat__num">40</span><span class="stat__label">peer-reviewed publications</span></div>
-  <div class="stat"><span class="stat__num">100</span><span class="stat__label">completed peer reviews</span></div>
-  <div class="stat"><span class="stat__num">2</span><span class="stat__label">journal guest editorships</span></div>
-</div>
+<section class="intro">
+  <img class="intro__photo" src="{{ '/assets/images/portrait.jpg' | relative_url }}" alt="Xin (Bruce) Wu">
+  <div class="intro__text">
+    <p class="intro__hello">Hi, I'm Xin (Bruce) Wu.</p>
+    <h1 class="intro__headline">I build <strong>interpretable AI</strong> and <strong>optimization</strong> models for transportation, and test them on real networks from Los Angeles to Lagos.</h1>
+    <p class="intro__role">Postdoctoral Researcher · Department of Civil and Environmental Engineering · Villanova University</p>
+    <p class="intro__actions">
+      <a href="{{ '/about/' | relative_url }}" class="btn btn--primary">About &amp; Publications</a>
+      <a href="https://scholar.google.com/citations?user=Mr9DVhsAAAAJ&amp;hl=en" class="btn btn--info">Google Scholar</a>
+      <a href="{{ '/teaching/' | relative_url }}" class="btn btn--success">Teaching &amp; INFORM Africa</a>
+    </p>
+  </div>
+</section>
 
-<h2>Research</h2>
+<section class="reach">
+  <div class="stats">
+    <div class="stat"><span class="stat__num">993</span><span class="stat__label">citations</span></div>
+    <div class="stat"><span class="stat__num">17</span><span class="stat__label">h-index</span></div>
+    <div class="stat"><span class="stat__num">40</span><span class="stat__label">peer-reviewed publications</span></div>
+    <div class="stat"><span class="stat__num">100</span><span class="stat__label">peer reviews</span></div>
+    <div class="stat"><span class="stat__num">13</span><span class="stat__label">field locations, 4 continents</span></div>
+  </div>
+  <img class="reach__map" src="{{ '/assets/images/home/world_cases.png' | relative_url }}" alt="World map of case-study locations">
+</section>
 
-{% include feature_row id="research_1" type="left" %}
-{% include feature_row id="research_2" type="right" %}
-{% include feature_row id="research_3" type="left" %}
+<section>
+  <h2 class="section-title">Explore by field case</h2>
+  <div class="tiles">
+    {% for t in page.field_cases %}
+    <a class="tile" href="{{ t.url | relative_url }}" style="background-image: url('{{ t.image | relative_url }}');">
+      <span class="tile__text"><span class="tile__title">{{ t.title }}</span><span class="tile__sub">{{ t.sub }}</span></span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
 
-<h2>Field cases</h2>
+<section>
+  <h2 class="section-title">Research</h2>
+  <div class="cards">
+    {% for c in page.research_cards %}
+    <a class="card" href="{{ c.url | relative_url }}">
+      <span class="card__img" style="background-image: url('{{ c.image | relative_url }}');"></span>
+      <span class="card__body">
+        <span class="card__label">{{ c.label }}</span>
+        <span class="card__title">{{ c.title }}</span>
+        <span class="card__sub">{{ c.sub }}</span>
+      </span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
 
-<div class="chips">
-  <span class="chip">Los Angeles, CA</span>
-  <span class="chip">Phoenix, AZ</span>
-  <span class="chip">Philadelphia, PA</span>
-  <span class="chip">Washington D.C.–Maryland</span>
-  <span class="chip">Sioux Falls, SD</span>
-  <span class="chip">Lafayette, IN</span>
-  <span class="chip">Louisiana &amp; Texas Gulf Coast</span>
-  <span class="chip">Beijing–Shanghai HSR corridor</span>
-  <span class="chip">Melbourne, Australia</span>
-  <span class="chip">Lagos, Nigeria</span>
-  <span class="chip">South Africa</span>
-</div>
+<section class="featured">
+  <p class="featured__head">Published in</p>
+  <p class="featured__row">
+    <span>Transportation Research Part B</span><span>Part C</span><span>Part E</span><span>Part A</span><span>Part D</span>
+    <span>European Journal of Operational Research</span><span>Transportmetrica A</span><span>Computer-Aided Civil and Infrastructure Engineering</span>
+  </p>
+  <p class="featured__head">Research supported by</p>
+  <p class="featured__row">
+    <span>NIH</span><span>FTA</span><span>FHWA</span><span>ADOT</span><span>MAG</span><span>MDOT</span><span>NVTA</span><span>China Railway</span>
+  </p>
+</section>
 
-<p>
-  <a href="{{ '/teaching/' | relative_url }}" class="btn btn--success">Teaching &amp; INFORM Africa</a>
-  <a href="{{ '/about/' | relative_url }}#publications" class="btn btn--info">Full publication list</a>
-</p>

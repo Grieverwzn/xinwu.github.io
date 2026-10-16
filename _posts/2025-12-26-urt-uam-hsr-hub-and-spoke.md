@@ -4,6 +4,8 @@ title: "Accepted in Urban Rail Transit: integrating urban air mobility with high
 date: 2025-12-26 12:00:00 +0000
 categories: research updates
 author: Xin (Bruce) Wu
+header:
+  teaser: /assets/images/home/tile_uam.jpg
 ---
 
 Our paper on **hub-and-spoke network design integrating urban air mobility (UAM) and high-speed rail (HSR)** has been accepted. Vertiport-station assignments are captured by a semi-quadratic assignment model, and we compare linearizations that exploit the special UAM-HSR network structure.

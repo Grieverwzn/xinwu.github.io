@@ -4,6 +4,8 @@ title: "New paper in Journal of Transport Geography: hurricanes, mobility and CO
 date: 2025-09-26 12:00:00 +0000
 categories: research updates
 author: Xin (Bruce) Wu
+header:
+  teaser: /assets/images/home/tile_gulf.jpg
 ---
 
 Using mobile-device location data, we show how Hurricane Laura and the related evacuation changed human mobility and, in turn, the spread of COVID-19 across Gulf Coast counties.

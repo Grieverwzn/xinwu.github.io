@@ -4,6 +4,8 @@ title: "New paper in IJDRR: satellite imagery, mobility data and urban flooding 
 date: 2026-01-06 12:00:00 +0000
 categories: research updates
 author: Xin (Bruce) Wu
+header:
+  teaser: /assets/images/home/tile_nigeria.jpg
 ---
 
 We combine Sentinel-1 satellite flood mapping, ERA5 precipitation, LBS point-of-interest visits and OpenStreetMap in a diagnostic causal-inference framework (synthetic control + difference-in-differences) for seasonal flooding in Lagos, Nigeria.
