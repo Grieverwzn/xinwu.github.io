@@ -29,3 +29,9 @@ body {
 h1, h2, h3 {
   font-size: 18px;  /* 标题调整 */
 }
+/* Stacked full-width research figures (_includes/figure_stack) */
+.figure-stack { display: block; margin: 1.5em 0 0.5em; }
+.figure-stack img { display: block; width: 100%; height: auto; border: 1px solid #eee; border-radius: 4px; }
+.figure-stack figcaption { margin-top: 0.4em; font-size: 0.8em; text-align: center; color: #555; }
+.figure-stack--small img { max-width: 380px; margin: 0 auto; }
+.figure-stack__source { text-align: center; color: #777; margin-top: 0.2em; }

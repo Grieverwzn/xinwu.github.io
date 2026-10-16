@@ -12,23 +12,17 @@ header:
   overlay_filter: 0.55
   caption: "Network-wide speed–flow prediction errors on Los Angeles freeways (Shao et al., 2025, TR-C)"
 gallery_cg:
-  - url: /assets/images/research/mobility/cg_framework.jpg
-    image_path: /assets/images/research/mobility/cg_framework.jpg
-    alt: "Big-data-driven layered computational graph for hierarchical travel demand estimation"
-    title: "Layered computational graph for hierarchical travel demand estimation"
-  - url: /assets/images/research/mobility/cg_beijing_network.jpg
-    image_path: /assets/images/research/mobility/cg_beijing_network.jpg
-    alt: "Beijing regional network used in the case study"
-    title: "Beijing case study network"
+  - image_path: /assets/images/research/mobility/cg_layered_graph.jpg
+    title: "(a) Four-step model as a layered computational graph: trip generation, distribution, path flow and link flow layers, calibrated by backpropagation against survey, mobile-phone, floating-car and sensor data"
+  - image_path: /assets/images/research/mobility/cg_node_graph.jpg
+    title: "(b) Node-level view: forward values and partial derivatives of a logit choice model on the computational graph"
 gallery_iml:
-  - url: /assets/images/research/mobility/iml_framework.jpg
-    image_path: /assets/images/research/mobility/iml_framework.jpg
-    alt: "Three-layer explainable framework: demand models, data, and policies"
-    title: "Explainable neural-network framework linking demand models, data streams, and policies"
-  - url: /assets/images/research/mobility/iml_pvalues.jpg
-    image_path: /assets/images/research/mobility/iml_pvalues.jpg
-    alt: "Statistical significance of frequency and travel-time coefficients by OD pair"
-    title: "Interpretable output: significance of frequency vs. travel-time sensitivities for each OD pair"
+  - image_path: /assets/images/research/mobility/cg_policy_levers.jpg
+    title: "(c) Congestion-mitigation strategies as levers on the graph: pricing, workplace relocation, population transfer, infrastructure and information"
+  - image_path: /assets/images/research/mobility/cg_marginal_effects.jpg
+    title: "(d) Marginal-effect analysis of six strategies: change in link flows and travel time"
+  - image_path: /assets/images/research/mobility/cg_policy_beijing.jpg
+    title: "(e) Beijing subnetwork: estimated travel demand, path flows and link flows"
 gallery_piml:
   - url: /assets/images/research/mobility/pinn_concept.jpg
     image_path: /assets/images/research/mobility/pinn_concept.jpg
@@ -100,28 +94,24 @@ Deep learning predicts well but rarely explains. My approach to **interpretable 
 
 ### 1.1 Computational-graph travel demand learning & economic analysis
 
-The classic four-step model (trip generation → distribution → route/line choice → assignment) is rebuilt as a **layered computational graph**. Forward propagation reproduces the model; **backpropagation** calibrates all layers at once against household surveys, mobile-phone data, floating-car data, link counts and ticketing data.
+The classic four-step model (trip generation → distribution → route/line choice → assignment) is rebuilt as a **layered computational graph**. Forward propagation reproduces the model; **backpropagation** calibrates all layers at once against household surveys, mobile-phone data, floating-car data and link counts.
 
-{% include gallery id="gallery_cg" layout="half" caption="Wu, Guo, Xian & Zhou (2018), *Transportation Research Part C*: an end-to-end forward/backward propagation framework for hierarchical travel demand estimation." %}
+{% include figure_stack id="gallery_cg" caption="(a) **Wu**, Guo, Xian & Zhou (2018), *Transportation Research Part C*; (b) Sun, Guo, **Wu** et al. (2019), *Sensors*." %}
 
-The same graph supports **economic analysis**: marginal effects of policies (pricing, frequency, workplace relocation), and behavioral sensitivities for every OD pair, e.g., how strongly rail passengers respond to frequency versus travel time, and how much ridership is induced, diverted or ex-post.
+The same graph supports **economic analysis**: each policy is a lever on a node of the graph, and its **marginal effect** on link flows and travel time follows directly from the gradients, e.g., pricing, workplace relocation, population transfer, and mode shift.
 
-{% include figure image_path="/assets/images/research/mobility/cg_policy_beijing.jpg" alt="Beijing subnetwork results" caption="Estimated travel demand, path flows and link flows on the Beijing subnetwork (Sun, Guo, **Wu** et al., 2019, *Sensors*)." popup=true %}
-
-{% include gallery id="gallery_iml" layout="half" caption="Left: explainable NN framework for congestion-mitigation policy (Sun, Guo, **Wu** et al., 2019, *Sensors*). Right: OD-level behavioral sensitivities from a constrained CG (**Wu** et al., 2025, *TR-E*)." %}
+{% include figure_stack id="gallery_iml" caption="Sun, Guo, **Wu**, Zhu, Wu, Xian & Zhou (2019), *Sensors*." %}
 
 **Insight:** interpretability comes from *where* theory sits in the graph. Agencies can ask "what if" questions with the same model that fits the data.
 
 - **Wu, X.**, Guo, J., Xian, K., Zhou, X. (2018). Hierarchical travel demand estimation using multiple data sources: A forward and backward propagation algorithmic framework on a layered computational graph. *Transportation Research Part C*, 96, 321–346. [DOI](https://doi.org/10.1016/j.trc.2018.09.021)
-- **Wu, X.**, Wang, X., Kim, T., Saleh, K., Fu, H., Xiong, C. (2025). Simultaneous estimation of induced, diverted, and ex-post demand for railway passengers: an interpretable machine learning framework based on constrained computational graphs. *Transportation Research Part E*, 202, 104283. [DOI](https://doi.org/10.1016/j.tre.2025.104283)
 - Sun, J., Guo, J., **Wu, X.**, Zhu, Q., Wu, D., Xian, K., Zhou, X. (2019). Analyzing the impact of traffic congestion mitigation: from an explainable neural network learning framework to marginal effect analyses. *Sensors*, 19(10), 2254. [DOI](https://doi.org/10.3390/s19102254)
-- Wang, X., Fu, H., **Wu, X.** (corresponding), Liu, Y., Kim, T. (2025). Multilayered railway passenger demand estimation considering nested choices: A computational graph-based learning framework. *Urban Rail Transit*, 11(3), 250–266. [DOI](https://doi.org/10.1007/s40864-025-00245-9)
 
 ### 1.2 Interpretable traffic state estimation
 
 Sparse, heterogeneous sensors (loop detectors, probe vehicles, Bluetooth, video) are fused into a continuous space–time traffic state. **Traffic-flow physics**, such as fluid queue models and the calibratable S-shaped three-parameter (S3) traffic stream model, is embedded in the network, so estimates and predictions stay physically meaningful even with missing data.
 
-{% include gallery id="gallery_piml" layout="half" caption="Top: PINN-based traffic state & queue profile estimation (Lu, Li, **Wu** & Zhou, 2023, *TR-C*). Bottom: PIML speed–flow prediction with MGCN + LSTM + S3 model on Los Angeles freeways (Shao, Shao, **Wu**, Cheng & Lam, 2025, *TR-C*)." %}
+{% include figure_stack id="gallery_piml" caption="Figures (a)–(b): Lu, Li, **Wu** & Zhou (2023), *TR-C*. Figures (c)–(d): Shao, Shao, **Wu**, Cheng & Lam (2025), *TR-C*." %}
 
 **Insight:** the physics layer recovers congestion shockwaves that pure data smoothing misses, and keeps predicted speed–flow pairs on a calibrated fundamental diagram.
 
@@ -133,13 +123,13 @@ Sparse, heterogeneous sensors (loop detectors, probe vehicles, Bluetooth, video)
 With the Villanova team, I combine **location-based service (LBS) data, climate and satellite data, and public-health data** to measure how people move during disasters and epidemics, in the U.S. Gulf Coast, Lagos (Nigeria) and South Africa.
 
 ### 2.1 LBS data: human mobility during extreme events
-{% include gallery id="gallery_lbs" layout="half" caption="Two-stage model: hurricane → mobility → COVID-19 (Liu, **Wu** et al., 2025, *Journal of Transport Geography*)." %}
+{% include figure_stack id="gallery_lbs" caption="Two-stage model: hurricane → mobility → COVID-19 (Liu, **Wu** et al., 2025, *Journal of Transport Geography*)." %}
 
 ### 2.2 Climate data: satellite flood mapping and precipitation
-{% include gallery id="gallery_sat" layout="half" caption="Sentinel-1 flood extents, ERA5 precipitation and device-level POI visits feed a synthetic difference-in-differences estimator (Zhang, **Wu** et al., 2026, *IJDRR*)." %}
+{% include figure_stack id="gallery_sat" caption="Sentinel-1 flood extents, ERA5 precipitation and device-level POI visits feed a synthetic difference-in-differences estimator (Zhang, **Wu** et al., 2026, *IJDRR*)." %}
 
 ### 2.3 Health data: mobility and SARS-CoV-2 transmission
-{% include gallery id="gallery_africa" layout="half" caption="Mobile-phone mobility metrics and structural equation modeling across South African provinces (Luo, **Wu** et al., 2025, *PLOS ONE*)." %}
+{% include figure_stack id="gallery_africa" caption="Mobile-phone mobility metrics and structural equation modeling across South African provinces (Luo, **Wu** et al., 2025, *PLOS ONE*)." %}
 
 **Insight:** mobility is the missing link between hazards and health outcomes. Shifting the unit of analysis (e.g., from places to facility types) makes causal inference possible even when no unaffected control region exists.
 
@@ -157,7 +147,7 @@ With the Villanova team, I combine **location-based service (LBS) data, climate 
 
 Planning models (macro), dynamic traffic assignment (meso) and queue dynamics (micro) are connected through **queue-based performance functions**. The inflow demand-to-capacity ratio drives congestion duration, speed drop and delay, bridging the polynomial arrival queue model and volume-delay functions. This line also covers my work on traffic assignment and dynamic traffic assignment for FHWA, ADOT, MAG and NVTA.
 
-{% include gallery id="gallery_mrm" layout="third" caption="Meso-to-macro cross-resolution approach (Zhou, Cheng, **Wu** et al., 2022, *Multimodal Transportation*, **2022 Best Article Award**) and queue-based V/C calibration (**Wu** et al., TRB 2021, cited by an FHWA handbook)." %}
+{% include figure_stack id="gallery_mrm" caption="Meso-to-macro cross-resolution approach (Zhou, Cheng, **Wu** et al., 2022, *Multimodal Transportation*, **2022 Best Article Award**) and queue-based V/C calibration (**Wu** et al., TRB 2021, cited by an FHWA handbook)." %}
 
 **Insight:** a queue-based V/C ratio gives capacity estimates that stay consistent across resolutions, so one calibrated network can serve regional planning models (FHWA, ADOT, MAG) as well as dynamic traffic assignment.
 

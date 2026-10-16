@@ -38,6 +38,10 @@ gallery_rail:
     image_path: /assets/images/research/transit/rail_cg_layers.jpg
     alt: "Five-layer constrained computational graph"
     title: "Constrained CG: boarding → OD → train-line → alighting → line-segment layers"
+  - url: /assets/images/research/mobility/iml_pvalues.jpg
+    image_path: /assets/images/research/mobility/iml_pvalues.jpg
+    alt: "Statistical significance of frequency and travel-time coefficients by OD pair"
+    title: "Interpretable output: significance of frequency vs. travel-time sensitivities for each OD pair on the Beijing–Shanghai HSR"
 gallery_seat:
   - url: /assets/images/research/transit/seat_inventory.jpg
     image_path: /assets/images/research/transit/seat_inventory.jpg
@@ -111,9 +115,9 @@ Revenue management in public transit must balance farebox revenue with **equity*
 
 A **market-based equity policy**: agencies earn credits by surpassing equity targets and incur debts when they fall short; credits are priced and traded. Nonlinear programming models let agencies maximize farebox revenue *and* meet equity goals, with **dynamic pricing for heterogeneous travelers**.
 
-{% include gallery id="gallery_tec" layout="half" caption="The TEC baseline-and-credit mechanism (**Wu** et al., 2026, *TR-E*; **Wu** et al., 2025, *Transportmetrica A*)." %}
+{% include figure_stack id="gallery_tec" caption="The TEC baseline-and-credit mechanism (**Wu** et al., 2026, *TR-E*; **Wu** et al., 2025, *Transportmetrica A*)." %}
 
-{% include gallery id="gallery_tec_case" layout="half" caption="Case study: equity-aware subsidy and pricing across census tracts with different population groups." %}
+{% include figure_stack id="gallery_tec_case" caption="Case study: equity-aware subsidy and pricing across census tracts with different population groups." %}
 
 **Insight:** unlike fixed subsidies, TECs reward *measurable* equity improvement and let agencies trade. The TEC price converges to an equilibrium, and inequality indices fall without sacrificing revenue.
 
@@ -126,7 +130,7 @@ A **market-based equity policy**: agencies earn credits by surpassing equity tar
 
 Railway seats are network resources shared by many OD products. Dynamic **bid-price** control decides, in real time, whether to sell a ticket, including **transfer itineraries** across trains.
 
-{% include gallery id="gallery_seat" layout="half" caption="Yuan, Nie, **Wu** & Fu (2018), *PLOS ONE*." %}
+{% include figure_stack id="gallery_seat" caption="Yuan, Nie, **Wu** & Fu (2018), *PLOS ONE*." %}
 
 - Yuan, W., Nie, L., **Wu, X.**, Fu, H. (2018). A dynamic bid price approach for the seat inventory control problem in railway networks with consideration of passenger transfer. *PLOS ONE*, 13(8), e0201718. [DOI](https://doi.org/10.1371/journal.pone.0201718)
 - Yuan, W., Nie, L., **Wu, X.** (2018). A dynamic bid price approach for the seat inventory control problem in high-speed railway networks considering passenger transfer service. *TRB 97th Annual Meeting*. [TRID](https://trid.trb.org/View/1494499)
@@ -138,7 +142,7 @@ Railway seats are network resources shared by many OD products. Dynamic **bid-pr
 
 Treating the Chinese railway system as a weighted complex network reveals its scale-free degree distribution, the dominance of urban agglomerations, and a clear core–periphery structure, which provides the structural basis for demand, line and timetable planning.
 
-{% include gallery id="gallery_cn" layout="half" caption="Wang, Cai, Du, **Wu** et al. (2020), *Chaos, Solitons & Fractals*: scale-free and core–periphery structure of the Chinese railway system." %}
+{% include figure_stack id="gallery_cn" caption="Wang, Cai, Du, **Wu** et al. (2020), *Chaos, Solitons & Fractals*: scale-free and core–periphery structure of the Chinese railway system." %}
 
 - Wang, W., Cai, K., Du, W., **Wu, X.**, Tong, L.C., Zhu, X., Cao, X. (2020). Analysis of the Chinese railway system as a complex network. *Chaos, Solitons & Fractals*, 130, 109408. [DOI](https://doi.org/10.1016/j.chaos.2019.109408)
 
@@ -146,7 +150,7 @@ Treating the Chinese railway system as a weighted complex network reveals its sc
 
 Ridership changes for three reasons: **diverted** demand (travelers switch lines), **induced** demand (better service creates new trips), and **ex-post** demand (seat limits force second choices). A constrained computational graph estimates all three at once, together with boarding/alighting, OD trips and train-line loads.
 
-{% include gallery id="gallery_rail" layout="half" caption="**Wu**, Wang, Kim, Saleh, Fu & Xiong (2025), *Transportation Research Part E*." %}
+{% include figure_stack id="gallery_rail" caption="**Wu**, Wang, Kim, Saleh, Fu & Xiong (2025), *Transportation Research Part E*." %}
 
 {% include figure image_path="/assets/images/research/transit/rail_demand_map.jpg" alt="Estimated boarding, alighting and OD demand on Beijing–Shanghai HSR" caption="Learned boarding, alighting and OD demand on the Beijing–Shanghai high-speed rail corridor." popup=true %}
 
@@ -159,7 +163,7 @@ Ridership changes for three reasons: **diverted** demand (travelers switch lines
 
 Which trains run, and where do they stop? Line-planning models balance **direct service for diverse OD demand** against operating cost on large HSR networks, from daily to **weekly** plans.
 
-{% include gallery id="gallery_line" layout="half" caption="Zhang, Nie, **Wu** & Ke (2020), *Networks and Spatial Economics*: flexible stopping patterns on the Beijing–Shanghai HSR." %}
+{% include figure_stack id="gallery_line" caption="Zhang, Nie, **Wu** & Ke (2020), *Networks and Spatial Economics*: flexible stopping patterns on the Beijing–Shanghai HSR." %}
 
 - Zhang, X., Nie, L., **Wu, X.**, Ke, Y. (2020). How to optimize train stops under diverse passenger demand: a new line planning method for large-scale high-speed rail networks. *Networks and Spatial Economics*, 20(4), 963–988. [DOI](https://doi.org/10.1007/s11067-020-09506-5)
 - Nie, B., Nie, L., Fu, H., **Wu, X.** (2023). Weekly line planning to improve the match between rail supply and passenger demand. *Computer-Aided Civil and Infrastructure Engineering*, 38(13), 1810–1833. [DOI](https://doi.org/10.1111/mice.12941)
@@ -168,7 +172,7 @@ Which trains run, and where do they stop? Line-planning models balance **direct 
 
 Passengers connect from high-speed trains to flights through shuttle buses and walking. Integrated **time–space network** models synchronize *train, aircraft, shuttle and passenger* flows, solved by **ADMM** decomposition.
 
-{% include gallery id="gallery_airrail" layout="half" caption="Ke, **Wu**, Nie, Yao & Chen (2024), *TR-C*; Ke, Nie, Liebchen, Yuan & **Wu** (2020), *Journal of Advanced Transportation*." %}
+{% include figure_stack id="gallery_airrail" caption="Ke, **Wu**, Nie, Yao & Chen (2024), *TR-C*; Ke, Nie, Liebchen, Yuan & **Wu** (2020), *Journal of Advanced Transportation*." %}
 
 **Insight:** small, coordinated timetable shifts on rail produce many more valid air–rail connections; adding shuttle-bus capacity sharply reduces the number of unrouted passengers.
 
@@ -179,7 +183,7 @@ Passengers connect from high-speed trains to flights through shuttle buses and w
 
 Electric VTOL air taxis can feed HSR stations. A **hub-and-spoke network design** model assigns vertiports to stations via a **semi-quadratic assignment** formulation, made tractable by exploiting the special UAM–HSR network structure in its linearization.
 
-{% include gallery id="gallery_uam" layout="third" caption="**Wu**, Huo, Wen & Xing (2026), *Urban Rail Transit*: case studies in the Beijing–Tianjin–Hebei and Yangtze River Delta regions." %}
+{% include figure_stack id="gallery_uam" caption="**Wu**, Huo, Wen & Xing (2026), *Urban Rail Transit*: case studies in the Beijing–Tianjin–Hebei and Yangtze River Delta regions." %}
 
 - **Wu, X.**, Huo, Y., Wen, Y., Xing, J. (2026). Multimodal hub-and-spoke network design problems to integrate urban air mobility and high-speed rail services: A semi-quadratic assignment formulation and its linearization. *Urban Rail Transit*. [DOI](https://doi.org/10.1007/s40864-026-00270-2)
 

@@ -1,0 +1,15 @@
+{% comment %}
+  Stacked full-width figures: same front-matter data as the theme's gallery include,
+  but one image per row so labels stay readable. Click an image to enlarge it.
+  Usage: {% include figure_stack id="gallery_x" caption="Source note" %}
+{% endcomment %}
+{% assign stack = page[include.id] %}
+{% for img in stack %}
+<figure class="figure-stack">
+  <a href="{{ img.url | default: img.image_path | relative_url }}" class="image-popup" title="{{ img.title | strip_html }}">
+    <img src="{{ img.image_path | relative_url }}" alt="{{ img.alt | default: img.title | strip_html }}">
+  </a>
+  {% if img.title %}<figcaption>{{ img.title | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>{% endif %}
+</figure>
+{% endfor %}
+{% if include.caption %}<p class="figure-stack__source"><small>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</small></p>{% endif %}
