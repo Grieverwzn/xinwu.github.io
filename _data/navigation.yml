@@ -1,15 +1,15 @@
 main:
-  - title: '<span class="nav-long">Mobility &amp; Traffic Modeling</span><span class="nav-short">Mobility &amp; Traffic</span>'
-    url: /data-traffic-modeling/
-  - title: "Transit &amp; Railway"
-    url: /public-transit-railway/
-  - title: '<span class="nav-long">Supply Chain &amp; Logistics</span><span class="nav-short">Supply Chain</span>'
-    url: /supply-chain-logistics/
   - title: "About"
     url: /
   - title: "CV"
     url: /about/
+  - title: '<span class="nav-long">Mobility &amp; Traffic Modeling</span><span class="nav-short">Mobility</span>'
+    url: /data-traffic-modeling/
+  - title: '<span class="nav-long">Transit &amp; Railway</span><span class="nav-short">Transit</span>'
+    url: /public-transit-railway/
+  - title: '<span class="nav-long">Supply Chain &amp; Logistics</span><span class="nav-short">Logistics</span>'
+    url: /supply-chain-logistics/
   - title: "Teaching"
     url: /teaching/
-  - title: "Life"
+  - title: "Beyond Research"
     url: /life/

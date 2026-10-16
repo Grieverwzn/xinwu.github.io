@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Life Beyond Research"
+title: "Beyond Research"
 permalink: /life/
 author_profile: true
 excerpt: "Family, the places I come from in Yunnan, and the landscapes that stay with me."
