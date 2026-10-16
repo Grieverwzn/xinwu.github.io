@@ -103,6 +103,12 @@ I received my doctoral degree from the School of Traffic and Transportation, Bei
 39. <span class="badge">CICTP</span> Leng, N., Nie, L., **Wu, X.**, 2015. A practical method of passenger flow forecasting for Nanning–Guangzhou and Guiyang–Guangzhou high-speed rail. *CICTP 2015*, 3528–3538.
 40. <span class="badge">MEIC</span> Leng, N., Nie, L., Guo, G., **Wu, X.**, 2015. Passenger flow forecasting for Chinese high speed rail network. *2015 International Conference on Mechatronics, Electronic, Industrial and Control Engineering (MEIC)*.
 
+## Professional Service
+- **Peer reviewer:** 100 completed reviews (2018–2026) for 16 journals and conferences, including *Transportation Science*; *Transportation Research Part B*; *Transportation Research Part C*; *Transportation Research Part E*; *IEEE Transactions on Intelligent Transportation Systems*; *IEEE Intelligent Transportation Systems Magazine*; *Transportmetrica A* and *B*; *Transportation Research Record*; *Journal of Transport Geography*; and the TRB Annual Meeting.
+- **Guest Editor**, Special Issue "Applied Mathematics and Optimization Methods in Transport Planning and Management," *Mathematics* (MDPI), 2025–present
+- **Guest Editor**, Special Issue "Next-Generation Intelligent Transportation Systems," *Future Internet* (MDPI), 2025–present
+- **Judge**, INFORMS Railway Applications Section (RAS) Student Paper Competition, 2026
+
 ## Research Projects
 
 #### Villanova University
@@ -132,9 +138,3 @@ I received my doctoral degree from the School of Traffic and Transportation, Bei
 - Passenger management and service technologies for high-speed railway: extended service design and quality assurance (CRC), 2014–2015
 - Management of catering services on EMU trains (CRC), 2010–2011
 - Key techniques and systems for optimizing high-speed railway transport organization plans (CRC), 2010–2011
-
-## Professional Service
-- **Peer reviewer:** 100 completed reviews (2018–2026) for 16 journals and conferences, including *Transportation Science*; *Transportation Research Part B*; *Transportation Research Part C*; *Transportation Research Part E*; *IEEE Transactions on Intelligent Transportation Systems*; *IEEE Intelligent Transportation Systems Magazine*; *Transportmetrica A* and *B*; *Transportation Research Record*; *Journal of Transport Geography*; and the TRB Annual Meeting.
-- **Guest Editor**, Special Issue "Applied Mathematics and Optimization Methods in Transport Planning and Management," *Mathematics* (MDPI), 2025–present
-- **Guest Editor**, Special Issue "Next-Generation Intelligent Transportation Systems," *Future Internet* (MDPI), 2025–present
-- **Judge**, INFORMS Railway Applications Section (RAS) Student Paper Competition, 2026
