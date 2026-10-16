@@ -6,17 +6,17 @@ search: false
 @charset "utf-8";
 
 /* ------------------------------------------------------------------
-   Personal palette (taken from the research figures):
-   ink for text, teal for links/accents, amber for highlights
+   Personal palette taken from the profile poster:
+   navy for text/headings, steel blue for links/accents, light steel blue for highlights
    ------------------------------------------------------------------ */
-$ink: #16213a;
-$teal: #0e7c86;
-$teal-dark: #0a5c64;
-$amber: #d98b1f;
-$paper: #fbfaf7;
+$ink: #13274a;
+$teal: #2c66b0;
+$teal-dark: #1d4a86;
+$amber: #7fa7d8;
+$paper: #f5f2ec;
 
 $global-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-$header-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+$header-font-family: "Oswald", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
 $primary-color: $teal;
 $link-color: $teal;
 $link-color-hover: $teal-dark;
@@ -36,7 +36,8 @@ body { background: $paper; color: $text-color; }
 h1, h2, h3, h4, .page__title, .archive__item-title, .feature__item h2 {
   font-family: $header-font-family;
   color: $ink;
-  letter-spacing: -0.01em;
+  font-weight: 600;
+  letter-spacing: 0.005em;
 }
 .page__content h2 {
   font-size: 1.55em;
@@ -94,7 +95,7 @@ tbody tr:nth-child(even) { background: rgba($teal, 0.04); }
 
 .btn--primary { background: $teal; &:hover { background: $teal-dark; } }
 .btn--info { background: $ink; &:hover { background: mix(#000, $ink, 20%); } }
-.btn--success { background: $amber; &:hover { background: mix(#000, $amber, 15%); } }
+.btn--success { background: transparent; color: $ink; box-shadow: inset 0 0 0 2px $ink; &:hover { background: $ink; color: #fff; } }
 .btn { border-radius: 999px; padding: 0.55em 1.3em; font-weight: 600; }
 
 /* Venue / role badges in publication lists */
@@ -210,7 +211,7 @@ tbody tr:nth-child(even) { background: rgba($teal, 0.04); }
 }
 .card__img { display: block; aspect-ratio: 16 / 9; background-size: cover; background-position: center; }
 .card__body { display: block; padding: 1.1em 1.2em 1.3em; }
-.card__label { display: block; font-size: 0.72em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: $amber; }
+.card__label { display: block; font-size: 0.72em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: $teal; }
 .card__title { display: block; font-family: $header-font-family; font-weight: 700; font-size: 1.25em; color: $ink; margin: 0.35em 0; line-height: 1.25; }
 .card__sub { display: block; font-size: 0.86em; color: #4d5668; line-height: 1.5; }
 
@@ -239,3 +240,40 @@ tbody tr:nth-child(even) { background: rgba($teal, 0.04); }
   img { border-radius: 12px; box-shadow: 0 10px 28px rgba($ink, 0.18); display: block; }
   @media (max-width: 700px) { float: none; width: 70%; margin: 0 auto 1.5em; } }
 .campus-strip img { max-height: 230px; object-fit: cover; }
+
+/* ===================================================================
+   Poster-style home intro (after the profile poster)
+   =================================================================== */
+.poster {
+  position: relative; display: grid; grid-template-columns: 1.25fr 1fr; align-items: end;
+  background: #f2ede8; border-radius: 18px; overflow: hidden; margin: 1em 0 2.6em;
+  padding: 2.4em 0 0 2.6em; min-height: 420px;
+  box-shadow: 0 10px 34px rgba($ink, 0.12);
+  // dot grid in the top-right corner
+  &::before { content: ""; position: absolute; top: 18px; right: 22px; width: 120px; height: 64px;
+    background-image: radial-gradient(rgba($ink, 0.35) 1.4px, transparent 1.6px); background-size: 12px 12px; }
+  // diagonal blue band along the bottom (highway stripes on the poster)
+  &::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 64px;
+    background: linear-gradient(100deg, rgba($teal, 0.85) 0%, rgba($teal, 0.55) 45%, rgba($ink, 0.0) 46%),
+                linear-gradient(100deg, transparent 50%, rgba($ink, 0.9) 50.2%);
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0 100%); }
+}
+.poster__text { position: relative; z-index: 2; padding-bottom: 5.2em; }
+.poster__kicker { font-family: $header-font-family; text-transform: uppercase; letter-spacing: 0.22em; font-size: 0.9em; color: $ink; margin: 0 0 0.2em; }
+.poster__name { font-family: $header-font-family; font-weight: 600; font-size: 3.6em; line-height: 1.02; color: $ink; margin: 0; letter-spacing: 0.01em; }
+.poster__dash { display: block; width: 46px; height: 4px; background: $teal; margin: 0.9em 0 0.8em; }
+.poster__tagline { font-style: italic; color: #3c4a66; line-height: 1.45; margin: 0 0 1em; }
+.poster__lead { font-size: 1.08em; color: $ink; max-width: 34em; margin: 0 0 0.6em; strong { color: $teal; } }
+.poster__role { font-size: 0.85em; color: #5b6476; margin: 0 0 1.1em; }
+.poster__actions .btn { margin: 0 0.4em 0.5em 0; }
+.poster__photo { position: relative; z-index: 1; align-self: end; img { display: block; width: 100%; height: auto;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 22%); mask-image: linear-gradient(90deg, transparent 0%, #000 22%); } }
+@media (max-width: 760px) {
+  .poster { grid-template-columns: 1fr; padding: 1.8em 1.4em 0; }
+  .poster__name { font-size: 2.6em; }
+  .poster__text { padding-bottom: 1em; }
+  .poster__photo img { max-width: 320px; margin: 0 auto; }
+}
+.section-title { text-transform: uppercase; letter-spacing: 0.08em; font-size: 1.45em; }
+.section-title::after { content: ""; display: block; width: 46px; height: 4px; background: $teal; margin-top: 0.35em; }
+.stat .stat__num { font-weight: 600; }

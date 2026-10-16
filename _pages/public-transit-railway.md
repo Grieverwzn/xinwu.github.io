@@ -9,7 +9,7 @@ toc_label: "Research Threads"
 excerpt: "New revenue management in public transit (tradable equity credits, seat allocation) and railway management: network analysis, AI demand forecasting, line planning, timetabling, air–rail integration, and urban air mobility."
 header:
   overlay_image: /assets/images/research/banner_transit.jpg
-  overlay_filter: "linear-gradient(120deg, rgba(22, 33, 58, 0.78), rgba(14, 124, 134, 0.30))"
+  overlay_filter: "linear-gradient(120deg, rgba(19, 39, 74, 0.80), rgba(44, 102, 176, 0.35))"
   caption: "Estimated boarding, alighting and OD demand on the Beijing–Shanghai high-speed rail corridor (Wu et al., 2025, TR-E)"
 gallery_tec:
   - url: /assets/images/research/transit/tec_concept.jpg
