@@ -17,16 +17,11 @@ I grew up in **Kunming**, the "Spring City" of Yunnan, next to the former campus
 
 ## Roots in Yunnan
 
-<div class="photo-row photo-row--2">
+<div class="photo-row photo-row--3">
   <figure><img src="{{ '/assets/images/personal/kunming.jpg' | relative_url }}" alt="Kunming and Dianchi Lake from the Western Hills"><figcaption>Home: Kunming and Dianchi Lake, seen from the Western Hills</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/lianda.jpg' | relative_url }}" alt="Former site of National Southwest Associated University"><figcaption>The former site of National Southwest Associated University (国立西南联合大学) in Kunming, where I grew up</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/heijing_wu_compound.jpg' | relative_url }}" alt="Wu family compound in Heijing"><figcaption>The Wu family compound (武家大院) in Heijing: my ancestral home</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/lijiang.jpg' | relative_url }}" alt="Lijiang Old Town"><figcaption>Lijiang Old Town, Yunnan</figcaption></figure>
-</div>
-
-## Faith
-
-<div class="photo-row photo-row--2">
   <figure><img src="{{ '/assets/images/personal/dali_wenmiao_gate.jpg' | relative_url }}" alt="Dali Confucian Temple"><figcaption>Dali Confucian Temple (大理文庙)</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/xishan_arhats.jpg' | relative_url }}" alt="Arhat sculptures in the Western Hills, Kunming"><figcaption>Arhat sculptures (罗汉) in the Western Hills, Kunming</figcaption></figure>
 </div>
