@@ -235,7 +235,7 @@ tbody tr:nth-child(even) { background: rgba($teal, 0.04); }
 /* Personal photo styling */
 .intro__photo { box-shadow: 0 0 0 5px #fff, 0 0 0 8px $teal, 0 12px 30px rgba($ink, 0.22); }
 .author__avatar img { box-shadow: 0 0 0 3px #fff, 0 0 0 5px $teal; border: 0; }
-.profile-card { float: right; width: 250px; margin: 0.2em 0 1.2em 1.8em;
+.profile-card { float: right; width: 340px; margin: 0.2em 0 1.2em 1.8em;
   img { border-radius: 12px; box-shadow: 0 10px 28px rgba($ink, 0.18); display: block; }
   @media (max-width: 700px) { float: none; width: 70%; margin: 0 auto 1.5em; } }
 .campus-strip img { max-height: 230px; object-fit: cover; }
