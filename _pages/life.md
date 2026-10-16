@@ -12,13 +12,13 @@ I grew up in **Kunming (昆明)**, the "Spring City" of Yunnan (云南), next to
 
 <div class="photo-row photo-row--2">
   <figure><img src="{{ '/assets/images/personal/family_arizona.jpg' | relative_url }}" alt="With my child at sunset in Arizona"><figcaption>With my child at sunset, Arizona</figcaption></figure>
-  <figure><img src="{{ '/assets/images/personal/family_kunming.jpg' | relative_url }}" alt="With my wife in the Western Hills above Kunming"><figcaption>With my wife in the Western Hills (西山) above Kunming and Dianchi Lake (滇池)</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/family_kunming.jpg' | relative_url }}" alt="With my wife in the Western Hills above Kunming"><figcaption>With my wife in the Western Hills above Kunming and Dianchi Lake</figcaption></figure>
 </div>
 
-## Roots in Yunnan
+## Roots in Yunnan (云南)
 
 <div class="photo-row photo-row--4">
-  <figure><img src="{{ '/assets/images/personal/kunming.jpg' | relative_url }}" alt="Kunming and Dianchi Lake from the Western Hills"><figcaption>Home: Kunming and Dianchi Lake, seen from the Western Hills</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/kunming.jpg' | relative_url }}" alt="Kunming and Dianchi Lake from the Western Hills"><figcaption>Home: Kunming and Dianchi Lake (滇池), seen from the Western Hills (西山)</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/lianda.jpg' | relative_url }}" alt="Former site of National Southwest Associated University"><figcaption>The former site of National Southwest Associated University in Kunming, where I grew up</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/heijing_wu_compound.jpg' | relative_url }}" alt="Wu family compound in Heijing"><figcaption>The Wu family compound (武家大院) in Heijing: my ancestral home</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/lijiang.jpg' | relative_url }}" alt="Lijiang Old Town"><figcaption>Lijiang Old Town (丽江古城), Yunnan</figcaption></figure>
