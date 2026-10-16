@@ -33,10 +33,11 @@ I grew up in **Kunming**, the "Spring City" of Yunnan, next to the former campus
 
 ## Landscapes
 
-<figure class="figure-stack figure-stack--small">
-  <img src="{{ '/assets/images/personal/meili.jpg' | relative_url }}" alt="Meili Snow Mountain at sunrise">
-  <figcaption>Meili Snow Mountain, Yunnan</figcaption>
-</figure>
+<div class="photo-row photo-row--3">
+  <figure><img src="{{ '/assets/images/personal/meili.jpg' | relative_url }}" alt="Meili Snow Mountain at sunrise"><figcaption>Meili Snow Mountain, Yunnan</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/grand_canyon.jpg' | relative_url }}" alt="Grand Canyon at sunset"><figcaption>Grand Canyon at sunset, Arizona</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/tempe_sunset.jpg' | relative_url }}" alt="Sunset in Tempe, Arizona"><figcaption>Evening sky in Tempe, Arizona</figcaption></figure>
+</div>
 
 <figure class="figure-stack">
   <a href="{{ '/assets/images/personal/us_impressions.jpg' | relative_url }}" class="image-popup" title="Places across the United States"><img src="{{ '/assets/images/personal/us_impressions.jpg' | relative_url }}" alt="Impressionist-style collage of landscapes across the United States"></a>
