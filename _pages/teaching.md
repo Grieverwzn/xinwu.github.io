@@ -15,11 +15,7 @@ gallery_inform:
   - url: /assets/images/teaching/inform_africa_training.jpg
     image_path: /assets/images/teaching/inform_africa_training.jpg
     alt: "Hands-on human mobility training session"
-    title: "Hands-on mobility-data training session (photo: INFORM Africa)"
-  - url: /assets/images/teaching/inform_africa_hub_meeting.jpg
-    image_path: /assets/images/teaching/inform_africa_hub_meeting.jpg
-    alt: "INFORM Africa research hub meeting"
-    title: "INFORM Africa research hub meeting (photo: INFORM Africa)"
+    title: "Presenting the hands-on human mobility training session for INFORM Africa researchers"
 ---
 
 ## University Courses
@@ -57,7 +53,7 @@ Together with Dr. Xiong, I developed and presented a **six-lecture training pack
 
 The package is open to researchers, public health professionals, epidemiologists and policymakers.
 
-{% include gallery id="gallery_inform" layout="half" caption="INFORM Africa training and research hub activities. Photos courtesy of [inform-africa.org](https://inform-africa.org/)." %}
+{% include figure_stack id="gallery_inform" caption="Photo courtesy of [inform-africa.org](https://inform-africa.org/)." %}
 
 **Resources**
 

@@ -11,6 +11,11 @@ header:
   overlay_image: /assets/images/research/banner_mobility.jpg
   overlay_filter: 0.55
   caption: "Network-wide speed–flow prediction errors on Los Angeles freeways (Shao et al., 2025, TR-C)"
+gallery_cases:
+  - image_path: /assets/images/research/mobility/piml_la_map.jpg
+    title: "Los Angeles, CA: network-wide speed–flow prediction on 150 Caltrans District 7 freeway sensors (physics-informed computational graph)"
+  - image_path: /assets/images/research/mobility/cg_policy_beijing.jpg
+    title: "Beijing, China: travel demand, path flows and link flows on a subnetwork with 2,502 nodes, 5,397 links, 236 zones and 14,967 OD pairs"
 gallery_cg:
   - image_path: /assets/images/research/mobility/cg_layered_graph.jpg
     title: "(a) Four-step model as a layered computational graph: trip generation, distribution, path flow and link flow layers, calibrated by backpropagation against survey, mobile-phone, floating-car and sensor data"
@@ -21,8 +26,26 @@ gallery_iml:
     title: "(c) Congestion-mitigation strategies as levers on the graph: pricing, workplace relocation, population transfer, infrastructure and information"
   - image_path: /assets/images/research/mobility/cg_marginal_effects.jpg
     title: "(d) Marginal-effect analysis of six strategies: change in link flows and travel time"
-  - image_path: /assets/images/research/mobility/cg_policy_beijing.jpg
-    title: "(e) Beijing subnetwork: estimated travel demand, path flows and link flows"
+gallery_mtcg:
+  - image_path: /assets/images/research/mobility/mtcg_architecture.jpg
+    title: "(f) Multi-template computational graph: each template is an interpretable archetype (OD → path → link layers); attention fuses them with time-varying weights"
+  - image_path: /assets/images/research/mobility/mtcg_melbourne_network.jpg
+    title: "(g) Melbourne network: 2,077 nodes, 4,223 links, 416 centroids and 24,160 OD pairs"
+  - image_path: /assets/images/research/mobility/mtcg_melbourne_events.jpg
+    title: "(h) Melbourne: error reduction and flow change from event templates on stadium-event days vs. regular days"
+  - image_path: /assets/images/research/mobility/mtcg_attention_weights.jpg
+    title: "(i) Learned attention weights reveal which archetype is active by day type and time step"
+gallery_phoenix:
+  - image_path: /assets/images/research/mobility/mrm_maricopa_network.jpg
+    title: "Phoenix metropolitan region (MAG travel demand model network: 21,945 nodes, 52,846 directional links): observed link volume and speed profile"
+  - image_path: /assets/images/research/mobility/mrm_vc_calibration.jpg
+    title: "Queue-based (QBM) vs. density-based (DBM) and volume-based (VBM) estimates of period capacity on Phoenix freeways"
+  - image_path: /assets/images/research/mobility/mrm_phoenix_i10.jpg
+    title: "Phoenix I-10 freeway corridor (4.59 miles) and ADOT detector locations"
+  - image_path: /assets/images/research/mobility/mrm_markov_graph.jpg
+    title: "Kinematic-wave-oriented Markov chain: space–time probabilistic graph for forward and backward waves"
+  - image_path: /assets/images/research/mobility/mrm_markov_heatmaps.jpg
+    title: "Estimated vs. historical speed and density on the I-10 corridor (full year 2016)"
 gallery_piml:
   - url: /assets/images/research/mobility/pinn_concept.jpg
     image_path: /assets/images/research/mobility/pinn_concept.jpg
@@ -36,10 +59,6 @@ gallery_piml:
     image_path: /assets/images/research/mobility/piml_architecture.jpg
     alt: "PIML architecture with MGCN, LSTM and S3 traffic stream model"
     title: "PIML architecture: MGCN + LSTM learners regulated by the S3 traffic stream model"
-  - url: /assets/images/research/mobility/piml_la_map.jpg
-    image_path: /assets/images/research/mobility/piml_la_map.jpg
-    alt: "Prediction error map on Los Angeles freeway sensors"
-    title: "Network-wide prediction errors on Los Angeles freeway sensors"
 gallery_mrm:
   - url: /assets/images/research/mobility/mrm_virtual_queue.jpg
     image_path: /assets/images/research/mobility/mrm_virtual_queue.jpg
@@ -49,37 +68,27 @@ gallery_mrm:
     image_path: /assets/images/research/mobility/mrm_i405.jpg
     alt: "I-405 northbound bottleneck and speed profile"
     title: "I-405 Northbound bottleneck: observed space–time congestion"
-  - url: /assets/images/research/mobility/mrm_vc_calibration.jpg
-    image_path: /assets/images/research/mobility/mrm_vc_calibration.jpg
-    alt: "Queue-based vs. density- and volume-based capacity estimates"
-    title: "Queue-based (QBM) vs. density-based (DBM) and volume-based (VBM) V/C calibration"
 gallery_lbs:
-  - url: /assets/images/research/mobility/lbs_hurricane_laura.jpg
-    image_path: /assets/images/research/mobility/lbs_hurricane_laura.jpg
-    alt: "Counties affected by Hurricane Laura"
-    title: "Hurricane Laura (2020): affected counties"
-  - url: /assets/images/research/mobility/lbs_laura_results.jpg
-    image_path: /assets/images/research/mobility/lbs_laura_results.jpg
-    alt: "Estimated effect on new COVID-19 cases"
-    title: "Estimated impact of evacuation-driven mobility on new COVID-19 cases"
+  - image_path: /assets/images/research/mobility/lbs_hurricane_laura.jpg
+    title: "U.S. Gulf Coast (Louisiana, Texas, Arkansas, Mississippi): Hurricane Laura track and affected counties, August 26–27, 2020"
+  - image_path: /assets/images/research/mobility/lbs_evacuation_orders.jpg
+    title: "Louisiana and Texas: county-level mandatory and voluntary evacuation orders with issue dates"
+  - image_path: /assets/images/research/mobility/lbs_laura_results.jpg
+    title: "Louisiana and Texas: estimated change in new COVID-19 cases from hurricane- and evacuation-driven mobility"
 gallery_sat:
-  - url: /assets/images/research/mobility/sat_lagos_flood.jpg
-    image_path: /assets/images/research/mobility/sat_lagos_flood.jpg
-    alt: "Sentinel-1 flood mapping in Lagos, Nigeria"
-    title: "Sentinel-1 satellite flood mapping overlaid with POIs in Lagos, Nigeria"
-  - url: /assets/images/research/mobility/sat_lagos_framework.jpg
-    image_path: /assets/images/research/mobility/sat_lagos_framework.jpg
-    alt: "Diagnostic causal-inference framework"
-    title: "Satellite + ERA5 + LBS + OpenStreetMap → synthetic DiD causal framework"
+  - image_path: /assets/images/research/mobility/sat_lagos_nigeria.jpg
+    title: "Nigeria: location of the Lagos State study area (orange)"
+  - image_path: /assets/images/research/mobility/sat_lagos_flood.jpg
+    title: "Lagos State, Nigeria: Sentinel-1 satellite flood extents, permanent water, urban area and POIs across the 2020 rainy season"
+  - image_path: /assets/images/research/mobility/climate_nigeria_floods.jpg
+    title: "Nigeria (all local government areas, LGAs): flooded area per LGA, May 16–31, 2020"
+  - image_path: /assets/images/research/mobility/sat_lagos_framework.jpg
+    title: "Lagos: Sentinel-1 imagery + ERA5 precipitation + LBS POI visits + OpenStreetMap feed a synthetic difference-in-differences causal framework"
 gallery_africa:
-  - url: /assets/images/research/mobility/africa_sa_pipeline.jpg
-    image_path: /assets/images/research/mobility/africa_sa_pipeline.jpg
-    alt: "Mobile phone sighting data pipeline for South Africa"
-    title: "From raw mobile-phone sightings to province-level mobility metrics"
-  - url: /assets/images/research/mobility/africa_sa_mobility.jpg
-    image_path: /assets/images/research/mobility/africa_sa_mobility.jpg
-    alt: "Inter-regional travel flows in South Africa"
-    title: "Inter-regional travel flows during SARS-CoV-2 expansion in South Africa"
+  - image_path: /assets/images/research/mobility/africa_sa_mobility.jpg
+    title: "South Africa (9 provinces, 52 districts): three types of inter-regional travel flows from mobile-phone data during SARS-CoV-2 expansion"
+  - image_path: /assets/images/research/mobility/africa_sa_pipeline.jpg
+    title: "South Africa: from raw mobile-phone sightings to province-level mobility metrics and a structural equation model of daily COVID-19 cases"
 ---
 
 > **One idea runs through this work:** treat a transportation system as a *differentiable computational graph*, so that classic travel-behavior and traffic-flow theory can be learned directly from big data, while every parameter keeps its physical and economic meaning.
@@ -88,9 +97,22 @@ gallery_africa:
 **At a glance:** (1) interpretable AI in transportation modeling: computational-graph travel demand learning & economic analysis, interpretable traffic state estimation · (2) emerging data: LBS, climate and health data in the U.S., Nigeria and South Africa · (3) transportation multi-resolution modeling (MRM) & world models.
 </div>
 
+## Real-World Case Studies at Scale
+
+| City / region | Network and data | Scale | Papers |
+|---|---|---|---|
+| **Los Angeles**, CA | Caltrans District 7 freeway sensors (PeMS); I-405 bottleneck | 150 sensors network-wide; 22 detectors on a 6-mile corridor, 4 months | Shao, Wu et al. 2025 *TR-C*; Zhou et al. 2022; Cheng et al. 2022 |
+| **Beijing**, China | Regional travel demand subnetwork (Beijing Transport Institute data); West 3rd Ring Road freeway bottleneck | 2,502 nodes · 5,397 links · 236 zones · 14,967 OD pairs · 40,494 paths | Wu et al. 2018 *TR-C*; Sun et al. 2019 *Sensors*; Cheng et al. 2022 *TR-C* |
+| **Phoenix** (Maricopa County), AZ | MAG regional travel demand model; ADOT freeway detectors on I-10 | 21,945 nodes · 52,846 directional links; I-10 corridor, 365 days of 2016 | Wu et al. 2021 *TRB*; Belezamo, Wu et al. 2019 *IEEE ITSC*; Zhou, Cheng, Wu et al. 2022 *Multimodal Transportation* |
+| **Melbourne**, Australia | Large urban network with regular, POI and stadium-event days | 2,077 nodes · 4,223 links · 416 centroids · 24,160 OD pairs | Shao, Wu et al. (under review, 2026) |
+| **New York**, NY | Midtown Manhattan – JFK Airport corridor | Freeway bottleneck queue analysis | Cheng et al. 2022 *TR-C* |
+| **U.S. Gulf Coast, Lagos, South Africa** | Mobile-device LBS data, Sentinel-1 imagery, ERA5, public-health data | County-, POI- and province-level panels | Liu et al. 2025; Zhang et al. 2026; Luo et al. 2025 |
+
 ## 1. Interpretable AI in Transportation Modeling
 
 Deep learning predicts well but rarely explains. My approach to **interpretable AI** builds the network *from* transportation theory: each layer of a computational graph is a modeling step, and each learned weight is a behavioral, economic or physical parameter. The models train like deep learning, yet every output can be read and explained.
+
+{% include figure_stack id="gallery_cases" caption="Shao, Shao, **Wu**, Cheng & Lam (2025), *TR-C*; Sun, Guo, **Wu** et al. (2019), *Sensors*." %}
 
 ### 1.1 Computational-graph travel demand learning & economic analysis
 
@@ -102,16 +124,20 @@ The same graph supports **economic analysis**: each policy is a lever on a node 
 
 {% include figure_stack id="gallery_iml" caption="Sun, Guo, **Wu**, Zhu, Wu, Xian & Zhou (2019), *Sensors*." %}
 
+**New (under review): contextual archetypes.** Daily traffic mixes regular commuting, major events and tourist attractions. A **multi-template computational graph** represents each context as an interpretable template with its own routes and value of time, and an **attention mechanism** fuses the templates with time-varying weights. On the Melbourne network, the estimated value of time is within 3% of its benchmark.
+
+{% include figure_stack id="gallery_mtcg" caption="Shao, **Wu** (corresponding), Zhao, Shao & Lam, *Can contextual archetypes explain daily traffic variation? A multi-template computational graph with attention-based fusion*, manuscript under review (2026)." %}
+
 **Insight:** interpretability comes from *where* theory sits in the graph. Agencies can ask "what if" questions with the same model that fits the data.
 
 - **Wu, X.**, Guo, J., Xian, K., Zhou, X. (2018). Hierarchical travel demand estimation using multiple data sources: A forward and backward propagation algorithmic framework on a layered computational graph. *Transportation Research Part C*, 96, 321–346. [DOI](https://doi.org/10.1016/j.trc.2018.09.021)
 - Sun, J., Guo, J., **Wu, X.**, Zhu, Q., Wu, D., Xian, K., Zhou, X. (2019). Analyzing the impact of traffic congestion mitigation: from an explainable neural network learning framework to marginal effect analyses. *Sensors*, 19(10), 2254. [DOI](https://doi.org/10.3390/s19102254)
 
-### 1.2 Interpretable traffic state estimation
+### 1.2 Computational-graph-based interpretable traffic state estimation
 
 Sparse, heterogeneous sensors (loop detectors, probe vehicles, Bluetooth, video) are fused into a continuous space–time traffic state. **Traffic-flow physics**, such as fluid queue models and the calibratable S-shaped three-parameter (S3) traffic stream model, is embedded in the network, so estimates and predictions stay physically meaningful even with missing data.
 
-{% include figure_stack id="gallery_piml" caption="Figures (a)–(b): Lu, Li, **Wu** & Zhou (2023), *TR-C*. Figures (c)–(d): Shao, Shao, **Wu**, Cheng & Lam (2025), *TR-C*." %}
+{% include figure_stack id="gallery_piml" caption="Lu, Li, **Wu** & Zhou (2023), *TR-C*; Shao, Shao, **Wu**, Cheng & Lam (2025), *TR-C*." %}
 
 **Insight:** the physics layer recovers congestion shockwaves that pure data smoothing misses, and keeps predicted speed–flow pairs on a calibrated fundamental diagram.
 
@@ -123,13 +149,19 @@ Sparse, heterogeneous sensors (loop detectors, probe vehicles, Bluetooth, video)
 With the Villanova team, I combine **location-based service (LBS) data, climate and satellite data, and public-health data** to measure how people move during disasters and epidemics, in the U.S. Gulf Coast, Lagos (Nigeria) and South Africa.
 
 ### 2.1 LBS data: human mobility during extreme events
-{% include figure_stack id="gallery_lbs" caption="Two-stage model: hurricane → mobility → COVID-19 (Liu, **Wu** et al., 2025, *Journal of Transport Geography*)." %}
+**Field case: U.S. Gulf Coast, Hurricane Laura (2020).** Mobile-device location data for counties in Louisiana and Texas show how the hurricane and evacuation orders changed trips, and how those trips shaped COVID-19 spread.
+
+{% include figure_stack id="gallery_lbs" caption="Liu, **Wu**, Molnar, Hu, Zhang & Xiong (2025), *Journal of Transport Geography*." %}
 
 ### 2.2 Climate data: satellite flood mapping and precipitation
-{% include figure_stack id="gallery_sat" caption="Sentinel-1 flood extents, ERA5 precipitation and device-level POI visits feed a synthetic difference-in-differences estimator (Zhang, **Wu** et al., 2026, *IJDRR*)." %}
+**Field cases: Lagos State and Nigeria (2020 rainy season).** Sentinel-1 satellite imagery and ERA5 precipitation locate floods; LBS data on visits to points of interest measure how people responded, from Lagos neighborhoods to all of Nigeria.
+
+{% include figure_stack id="gallery_sat" caption="Zhang, **Wu** et al. (2026), *International Journal of Disaster Risk Reduction*; Liu, **Wu** et al. (2024), *IEEE GHTC*." %}
 
 ### 2.3 Health data: mobility and SARS-CoV-2 transmission
-{% include figure_stack id="gallery_africa" caption="Mobile-phone mobility metrics and structural equation modeling across South African provinces (Luo, **Wu** et al., 2025, *PLOS ONE*)." %}
+**Field case: South Africa (all 9 provinces).** Panel mobile-phone sighting data reveal how inter-regional travel shaped the spread of SARS-CoV-2 variants.
+
+{% include figure_stack id="gallery_africa" caption="Luo, **Wu** et al. (2025), *PLOS ONE*, INFORM Africa research hub." %}
 
 **Insight:** mobility is the missing link between hazards and health outcomes. Shifting the unit of analysis (e.g., from places to facility types) makes causal inference possible even when no unaffected control region exists.
 
@@ -146,6 +178,10 @@ With the Villanova team, I combine **location-based service (LBS) data, climate 
 ## 3. Transportation Multi-Resolution Modeling (MRM) & World Models
 
 Planning models (macro), dynamic traffic assignment (meso) and queue dynamics (micro) are connected through **queue-based performance functions**. The inflow demand-to-capacity ratio drives congestion duration, speed drop and delay, bridging the polynomial arrival queue model and volume-delay functions. This line also covers my work on traffic assignment and dynamic traffic assignment for FHWA, ADOT, MAG and NVTA.
+
+**Phoenix case: regional network and freeway corridor.** For the Maricopa Association of Governments (MAG), I calibrated queue-based V/C ratios across the full regional network, and on the ADOT I-10 corridor a kinematic-wave-oriented Markov chain model captures the spatiotemporal correlation of traffic states.
+
+{% include figure_stack id="gallery_phoenix" caption="Regional network and V/C calibration: **Wu**, Dutta, Zhang, Zhu, Livshits & Zhou (2021), TRB Annual Meeting. I-10 Markov chain model: Belezamo, **Wu**, Avcı & Zhou (2019), *IEEE ITSC*." %}
 
 {% include figure_stack id="gallery_mrm" caption="Meso-to-macro cross-resolution approach (Zhou, Cheng, **Wu** et al., 2022, *Multimodal Transportation*, **2022 Best Article Award**) and queue-based V/C calibration (**Wu** et al., TRB 2021, cited by an FHWA handbook)." %}
 
