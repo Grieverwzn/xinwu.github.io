@@ -384,3 +384,15 @@ $hair: rgba($ink, 0.12);
 .notice--primary, .notice--info { border-radius: 2px; box-shadow: none; }
 table { border-radius: 2px; box-shadow: none; border: 1px solid $hair; }
 .profile-card img { border-radius: 4px; box-shadow: none; border: 1px solid $hair; }
+
+/* Photo rows (CV institutions, education, beyond research) */
+.photo-row { display: grid; gap: 12px; margin: 1.2em 0 1.8em; clear: both;
+  figure { margin: 0; }
+  img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 3px; border: 1px solid rgba($ink, 0.12); }
+  figcaption { font-size: 0.78em; color: #5b6476; margin-top: 0.4em; line-height: 1.35; } }
+.photo-row--2 { grid-template-columns: repeat(2, 1fr); img { aspect-ratio: 16 / 9; } }
+.photo-row--3 { grid-template-columns: repeat(3, 1fr); }
+.photo-row--4 { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 700px) { .photo-row--3, .photo-row--4 { grid-template-columns: repeat(2, 1fr); } .photo-row--2 { grid-template-columns: 1fr; } }
+.beyond__lead { color: #4d5668; max-width: 46em; }
+.photo-row figcaption, .figure-stack figcaption { font-family: $global-font-family; }

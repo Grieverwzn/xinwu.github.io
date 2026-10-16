@@ -22,6 +22,12 @@ I received my doctoral degree from the School of Traffic and Transportation, Bei
 
 **Research areas:** [Mobility Data & Traffic System Modeling]({{ "/data-traffic-modeling/" | relative_url }}) · [Public Transit & Railway Management]({{ "/public-transit-railway/" | relative_url }}) · [Supply Chain & Logistics Optimization]({{ "/supply-chain-logistics/" | relative_url }}) · [Teaching & Training]({{ "/teaching/" | relative_url }})
 
+<div class="photo-row photo-row--3">
+  <figure><img src="{{ '/assets/images/cv/villanova.jpg' | relative_url }}" alt="Villanova University"><figcaption>Villanova University · 2023–present</figcaption></figure>
+  <figure><img src="{{ '/assets/images/cv/umd.jpg' | relative_url }}" alt="University of Maryland"><figcaption>University of Maryland · 2022–2023</figcaption></figure>
+  <figure><img src="{{ '/assets/images/cv/asu.jpg' | relative_url }}" alt="Arizona State University"><figcaption>Arizona State University · 2018–2022</figcaption></figure>
+</div>
+
 ## Contact
 * 📧 Email: xwu03@villanova.edu; xinwu8592@gmail.com
 * 📞 Phone: +1 480-410-5902
@@ -30,10 +36,10 @@ I received my doctoral degree from the School of Traffic and Transportation, Bei
 
 ## Education
 
-<figure class="figure-stack campus-strip">
-  <img src="{{ '/assets/images/cv/bjtu_ming_lake.jpg' | relative_url }}" alt="Ming Lake, Beijing Jiaotong University">
-  <figcaption>Ming Lake (明湖), Beijing Jiaotong University, where I completed my doctoral training.</figcaption>
-</figure>
+<div class="photo-row photo-row--2">
+  <figure><img src="{{ '/assets/images/cv/bjtu_ming_lake.jpg' | relative_url }}" alt="Ming Lake, Beijing Jiaotong University"><figcaption>Ming Lake (明湖), Beijing Jiaotong University: doctoral training</figcaption></figure>
+  <figure><img src="{{ '/assets/images/cv/dmu.jpg' | relative_url }}" alt="Dalian Maritime University"><figcaption>West Teaching Building No. 2 (西教二), Dalian Maritime University: bachelor's degree</figcaption></figure>
+</div>
 - D.Eng./M.Eng., School of Traffic and Transportation, Beijing Jiaotong University, Beijing, China, 2018
 - B.Eng., Dalian Maritime University, Liaoning, China, 2009
 
