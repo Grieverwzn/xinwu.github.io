@@ -169,6 +169,13 @@ With the Villanova team, I combine **location-based service (LBS) data, climate 
 
 {% include figure_stack id="gallery_lagos_abm" caption="Liu, **Wu** (co-first author), Xiong et al., manuscript under review (2026), INFORM Africa research hub." %}
 
+**Ongoing pilot: mobility and non-communicable diseases across 7 African countries.** Can mobile-phone mobility tell us about chronic disease risk? Mobility metrics (walking share, driving share, trips per day, distance from home, night trips) are compared with 2019 incidence of diabetes, cardiovascular disease, stroke and chronic respiratory disease in Nigeria, South Africa, Ghana, Botswana, Gabon, Congo and Ethiopia.
+
+<figure class="figure-stack">
+  <a href="{{ '/assets/images/research/mobility/health_ncd_mobility.jpg' | relative_url }}" class="image-popup" title="Mobility metrics vs. disease incidence across 7 African countries"><img src="{{ '/assets/images/research/mobility/health_ncd_mobility.jpg' | relative_url }}" alt="Spearman correlations between mobility metrics and disease incidence, including diabetes"></a>
+  <figcaption>7 African countries (Nigeria, South Africa, Ghana, Botswana, Gabon, Congo, Ethiopia): Spearman correlations between mobile-phone mobility metrics (2020–21) and IHME 2019 incidence of diabetes, cardiovascular disease, stroke and chronic respiratory disease. Ongoing NIH pilot study.</figcaption>
+</figure>
+
 **Insight:** mobility is the missing link between hazards and health outcomes. Shifting the unit of analysis (e.g., from places to facility types) makes causal inference possible even when no unaffected control region exists.
 
 - Liu, K., **Wu, X.**, Molnar, L., Hu, S., Zhang, L., Xiong, C. (2025). Characterizing human mobility and its impact on the spread of COVID-19 during extreme weather events: A case study of hurricane Laura. *Journal of Transport Geography*, 129, 104423. [DOI](https://doi.org/10.1016/j.jtrangeo.2025.104423)
