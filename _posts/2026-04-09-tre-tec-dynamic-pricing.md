@@ -5,10 +5,15 @@ date: 2026-04-09 12:00:00 +0000
 categories: research updates
 author: Xin (Bruce) Wu
 header:
-  teaser: /assets/images/home/tile_tec.jpg
+  teaser: /assets/images/home/tile_tec_poster.jpg
 ---
 
 Our new *Transportation Research Part E* paper extends the **Tradable Equity Credit (TEC)** scheme with a dynamic pricing approach for heterogeneous travelers. Agencies earn credits by surpassing equity targets, incur debts when they fall short, and trade credits in an open market, balancing equity and farebox revenue.
+
+<figure class="figure-stack figure-stack--small">
+  <img src="{{ '/assets/images/personal/tec_poster_portrait.jpg' | relative_url }}" alt="Presenting the Tradable Equity Credits poster">
+  <figcaption>Presenting the Tradable Equity Credits research.</figcaption>
+</figure>
 
 {% include figure image_path="/assets/images/research/transit/tec_concept.jpg" alt="The TEC market among government, transit agencies and travelers." caption="The TEC market among government, transit agencies and travelers." popup=true %}
 
