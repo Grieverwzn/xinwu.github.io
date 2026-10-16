@@ -61,6 +61,17 @@ gallery_qfd_ejor:
 **At a glance:** (1) perishable supply chains and multi-echelon distribution location · (2) synchronized service network design and large-scale decomposition algorithms · (3) service design with robust fuzzy QFD. *Click any figure to enlarge it.*
 </div>
 
+## Real-World Case Studies at Scale
+
+| Setting | Problem | Scale | Papers |
+|---|---|---|---|
+| **Beijing–Shanghai HSR corridor** | Perishable catering supply chain; lot-sizing distribution | 246 trains · 31 stations | Wu et al. 2018 *TR-E*; Wu et al. 2019 *TR-E* |
+| **China's HSR network** | Three-echelon location-routing for catering | 1,130 trains · 85 stations · 33 candidate distribution centers (plus a 156-train Beijing–Shanghai case) | Wu et al. 2017 *TR-C* |
+| **JD Logistics e-commerce network** | Synchronized "second-wave" delivery services | 16 warehouses · 12 distribution centers · 20 pick-up stations | Wu et al. 2021 *TR-B* |
+| **Rail-to-truck transshipment terminal** | Synchronized inbound / outbound services | 3 rail origins → 4 road destinations, time-expanded network | Wu et al. 2021 *TR-B* |
+| **Beijing–Shanghai corridor service stations** | Robust fuzzy QFD for service design | 33 potential service stations | Wu et al. 2017 *EJOR* |
+| **China's HSR network** | Evidence-based fuzzy QFD | 85 candidate service stations | Wu et al. 2015 *MPE* |
+
 ## 1. Supply Chain
 
 ### 1.1 Perishable supply chains & multi-echelon distribution location

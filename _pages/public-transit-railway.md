@@ -122,6 +122,19 @@ gallery_cn:
 **At a glance:** (1) new revenue management in public transit: Tradable Equity Credits (TECs) and railway seat inventory control · (2) railway management: network analysis, AI demand forecasting on computational graphs, line planning, timetabling & air–rail integration, and urban air mobility (UAM).
 </div>
 
+## Real-World Case Studies at Scale
+
+| City / region | Problem | Scale | Papers |
+|---|---|---|---|
+| **Sioux Falls**, SD | Tradable equity credits on transit and road networks | 8,898-node / 23,415-link road network · 191-node / 550-link transit network · 32 census tracts · 4 income groups | Wu et al. 2026 *TR-E*; Wu et al. 2025 *Transportmetrica A* |
+| **Philadelphia**, PA | Transit accessibility under equity credits | Citywide transit (GTFS) and road networks, census-tract accessibility | FTA EMI project |
+| **Washington D.C.–Maryland–Virginia** | Regional mode-shift simulation under affordability and carbon credits | About 5.49 million simulated vehicles in the base scenario | FTA EMI project |
+| **College Park**, MD & **Lafayette**, IN | Field pilots of incenTrip / SmartRides credits; CityBus Route 10 | 52 testers · 281 trips · 1,444 miles (Feb–Mar 2025) | FTA EMI project |
+| **Beijing–Shanghai HSR** | Railway demand learning; line planning | 1,318 km, 23 stations · 125 OD pairs analyzed · line pools up to 107 lines / 293 trains | Wu et al. 2025 *TR-E*; Zhang et al. 2020 *NETS*; Nie et al. 2023 *CACIE* |
+| **Beijing–Guangzhou HSR & Zhengding Airport** | Air–rail timetable synchronization | 14 stations, 112 trains (16 serving the airport station); 20-station network, 150 trains, 76 flights, 1,933 passengers in 638 OD pairs | Ke et al. 2020 *JAT*; Ke et al. 2024 *TR-C* |
+| **China national railway** | Complex-network analysis | 2,848 stations and 6,397 passenger trains → 255 city nodes, 1,090 edges | Wang et al. 2020 *CSF* |
+| **Beijing–Tianjin–Hebei & Yangtze River Delta** | Urban air mobility + HSR hub-and-spoke design | Candidate vertiports and HSR stations in two megaregions | Wu et al. 2026 *URT* |
+
 ## 1. New Revenue Management in Public Transit
 
 Revenue management in public transit must balance farebox revenue with **equity** and with **network-wide capacity** shared by many trips. My work develops new revenue-management mechanisms for transit agencies and railways.
