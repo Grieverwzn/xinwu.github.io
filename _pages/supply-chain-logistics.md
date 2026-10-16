@@ -48,6 +48,11 @@ gallery_qfd:
     title: "(c) Belief and plausibility measures of evidence for crisp and fuzzy sets"
   - image_path: /assets/images/research/logistics/qfd_reasoning.jpg
     title: "(d) Evidence-based approximate reasoning: rules combine facts into the conclusion for each service station"
+gallery_qfd_ejor:
+  - image_path: /assets/images/research/logistics/qfd_framework.jpg
+    title: "(e) Two-phase robust fuzzy QFD based on the mean-end-chain concept"
+  - image_path: /assets/images/research/logistics/qfd_fuzzy.jpg
+    title: "(f) Fuzzy random importance ratings and their probability distributions"
 ---
 
 > **Goal:** design supply chains and logistics services that are *on time, synchronized and solvable at real-world scale*, by pairing rigorous formulations (VI, QAP, MINLP) with decomposition algorithms that exploit network structure.
@@ -101,7 +106,9 @@ Where should each food product be produced, which DC should serve which train, a
 
 For **service design**, such as choosing service stations and DC locations, customer requirements are translated into technical decisions under **fuzziness and randomness**, using a two-phase fuzzy QFD that combines **evidence theory** with fuzzy sets, and a robust fuzzy QFD based on the mean-end-chain concept.
 
-{% include figure_stack id="gallery_qfd" caption="**Wu**, Nie & Xu (2015), *Mathematical Problems in Engineering*; extended in **Wu**, Nie & Xu (2017), *European Journal of Operational Research*." %}
+{% include figure_stack id="gallery_qfd" caption="(a)–(d) **Wu**, Nie & Xu (2015), *Mathematical Problems in Engineering*." %}
+
+{% include figure_stack id="gallery_qfd_ejor" caption="(e)–(f) **Wu**, Nie & Xu (2017), *European Journal of Operational Research*." %}
 
 - **Wu, X.**, Nie, L., Xu, M. (2017). Robust fuzzy quality function deployment based on the mean-end-chain concept: Service station evaluation problem for rail catering services. *European Journal of Operational Research*, 263(3), 974–995. [DOI](https://doi.org/10.1016/j.ejor.2017.05.036)
 - **Wu, X.**, Nie, L., Xu, M. (2015). Service station evaluation problem in catering service of the high-speed railway: a fuzzy QFD approach based on evidence theory. *Mathematical Problems in Engineering*, 2015, 404926. [DOI](https://doi.org/10.1155/2015/404926)
