@@ -24,12 +24,14 @@ I grew up in **Kunming**, the "Spring City" of Yunnan, next to the former campus
   <figure><img src="{{ '/assets/images/personal/lijiang.jpg' | relative_url }}" alt="Lijiang Old Town"><figcaption>Lijiang Old Town, Yunnan</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/dali_wenmiao_gate.jpg' | relative_url }}" alt="Dali Confucian Temple"><figcaption>Dali Confucian Temple (大理文庙)</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/xishan_arhats.jpg' | relative_url }}" alt="Arhat sculptures in the Western Hills, Kunming"><figcaption>Arhat sculptures (罗汉) in the Western Hills, Kunming</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/xishuangbanna.jpg' | relative_url }}" alt="Dai-style pavilion in Xishuangbanna"><figcaption>Xishuangbanna, Yunnan</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/meili.jpg' | relative_url }}" alt="Meili Snow Mountain at sunrise"><figcaption>Meili Snow Mountain, Yunnan</figcaption></figure>
 </div>
 
-## Landscapes in the U.S.
+## Places in the U.S.
 
-<div class="photo-row photo-row--2">
+<div class="photo-row photo-row--3">
+  <figure><img src="{{ '/assets/images/personal/philadelphia_city_hall.jpg' | relative_url }}" alt="Philadelphia City Hall"><figcaption>Philadelphia City Hall: home today</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/grand_canyon.jpg' | relative_url }}" alt="Grand Canyon at sunset"><figcaption>Grand Canyon at sunset, Arizona</figcaption></figure>
   <figure><img src="{{ '/assets/images/personal/tempe_sunset.jpg' | relative_url }}" alt="Sunset in Tempe, Arizona"><figcaption>Evening sky in Tempe, Arizona</figcaption></figure>
 </div>
