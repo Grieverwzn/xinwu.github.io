@@ -12,7 +12,7 @@ I grew up in **Kunming (昆明)**, the "Spring City" of Yunnan (云南), next to
 
 <div class="photo-row photo-row--2">
   <figure><img src="{{ '/assets/images/personal/family_arizona.jpg' | relative_url }}" alt="With my child at sunset in Arizona"><figcaption>With my child at sunset, Arizona</figcaption></figure>
-  <figure><img src="{{ '/assets/images/personal/family_kunming.jpg' | relative_url }}" alt="With my wife in the Western Hills above Kunming"><figcaption>With my wife in the Western Hills above Kunming and Dianchi Lake</figcaption></figure>
+  <figure><img src="{{ '/assets/images/personal/family_phoenix_mim.jpg' | relative_url }}" alt="With my wife at the Musical Instrument Museum in Phoenix"><figcaption>With my wife at the Musical Instrument Museum, Phoenix</figcaption></figure>
 </div>
 
 ## Roots in Yunnan (云南)
