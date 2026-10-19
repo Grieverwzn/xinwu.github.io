@@ -155,7 +155,7 @@ With the Villanova team, I combine **location-based service (LBS) data, climate 
 
 {% include figure_stack id="gallery_lbs" caption="Liu, **Wu**, Molnar, Hu, Zhang & Xiong (2025), *Journal of Transport Geography*." %}
 
-**Map-matching volatile LBS trajectories.** Raw LBS points are sparse and noisy, so they must be snapped to the road network before trips can be measured. Sup-HMM, a Bayesian-optimized hidden Markov model, keeps map-matching accurate on volatile trajectories (Li, **Wu** et al. 2026, *IEEE Transactions on Intelligent Transportation Systems*, co-first author).
+**Map-matching volatile LBS trajectories.** Raw LBS points are sparse and noisy, so they must be snapped to the road network before trips can be measured. Sup-HMM, a Bayesian-optimized hidden Markov model, keeps map-matching accurate on volatile trajectories (Li, **Wu** et al. 2026, *IEEE Transactions on Intelligent Transportation Systems*, co-first author; [DOI](https://doi.org/10.1109/TITS.2026.3740031)).
 
 ### 2.2 Climate data: satellite flood mapping and precipitation
 **Field cases: Lagos State and Nigeria (2020 rainy season).** Sentinel-1 satellite imagery and ERA5 precipitation locate floods; LBS data on visits to points of interest measure how people responded, from Lagos neighborhoods to all of Nigeria.
